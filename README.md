@@ -14,6 +14,7 @@ SplashScreenController
 ProfileController
 AirPodsProductController (Parte relativa ai prodotti Airpods)
 WatchproductController (Parte relativa ai prodotti Watch)
+PasswordLostController
 
 Model:
 Utente
@@ -31,6 +32,7 @@ SplashScreen.fxml
 ProfileOption.fxml
 Airpods Max 2/Pro 3/4 PageProduct.fxml
 Apple Watch Ultra/SE 3/Series 11 PageProduct.fxml
+PasswordUpdate.fxml
 
 GABRIELE
 

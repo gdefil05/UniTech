@@ -83,16 +83,16 @@ public class ProfileController {
     private static final String SESSO = "^[MF]$";
 
 
-    private void setFieldsEditable(boolean editable) {
-        nomeTextField.setEditable(editable);
-        cognomeTextField.setEditable(editable);
-        emailTextField.setEditable(editable);
-        sessoTextField.setEditable(editable);
-        linguaTextField.setEditable(editable);
-        datanascitaTextField.setEditable(editable);
-        indirizzoTextField.setEditable(editable);
-        cellulareTextField.setEditable(editable);
-        cittaTextField.setEditable(editable);
+    private void setFieldsEditable(boolean editabile) {
+        nomeTextField.setEditable(editabile);
+        cognomeTextField.setEditable(editabile);
+        emailTextField.setEditable(editabile);
+        sessoTextField.setEditable(editabile);
+        linguaTextField.setEditable(editabile);
+        datanascitaTextField.setEditable(editabile);
+        indirizzoTextField.setEditable(editabile);
+        cellulareTextField.setEditable(editabile);
+        cittaTextField.setEditable(editabile);
     }
 
     private boolean campiErrati() {

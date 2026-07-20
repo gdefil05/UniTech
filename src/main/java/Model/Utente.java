@@ -1,6 +1,6 @@
 package Model;
 
-//Classe Per la creazione dell'utente
+//Classe per la creazione dell'utente
 
 public class Utente {
     private int id;
