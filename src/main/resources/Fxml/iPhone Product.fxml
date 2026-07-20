@@ -445,7 +445,7 @@
                               </Label>
                               <ImageView fitHeight="88.0" fitWidth="88.0" preserveRatio="true">
                                  <image>
-                                    <Image url="@../it/uid/unitech/Images/A19%20Pro.png" />
+                                    <Image url="@../it/uid/unitech/Images/A19.png" />
                                  </image>
                               </ImageView>
                               <Label text="Chip A19">
