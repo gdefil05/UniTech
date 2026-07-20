@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" style="-fx-background-color: #C4DEFF;" styleClass="background-Home" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomeController">
+    <stylesheets>
+        <URL value="@../Style/unitech.css" />
+    </stylesheets>
+    <content>
+        <VBox alignment="TOP_CENTER" spacing="40.0" style="-fx-background-color: #C4DEFF;">
+            <padding>
+                <Insets bottom="60.0" left="20.0" right="20.0" top="40.0" />
+            </padding>
+            <children>
+
+                <HBox alignment="CENTER_LEFT" maxWidth="880.0" minHeight="54.0" prefHeight="54.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-radius: 10;" HBox.hgrow="ALWAYS">
+                    <styleClass>
+                        <String fx:value="bg-default" />
+                        <String fx:value="border-default" />
+                        <String fx:value="elevated-1" />
+                    </styleClass>
+                    <children>
+                        <ImageView fx:id="logoicon" cache="true" cacheHint="QUALITY" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../it/uid/unitech/Images/UnitechLogo.png" />
+                            </image>
+                            <HBox.margin>
+                                <Insets left="30.0" />
+                            </HBox.margin>
+                        </ImageView>
+
+                        <SplitMenuButton fx:id="iPhoneHome" cache="true" cacheHint="QUALITY" minWidth="-Infinity" mnemonicParsing="false" text="iPhone">
+                            <items>
+                                <MenuItem fx:id="iPhone17ProHome" mnemonicParsing="false" text="iPhone 17 Pro" />
+                                <MenuItem fx:id="iPhone17Home" mnemonicParsing="false" text="iPhone 17" />
+                        <MenuItem fx:id="iPhoneAirHome" mnemonicParsing="false" text="iPhone Air" />
+                            </items>
+                            <font><Font name="Segoe UI" size="18.0" /></font>
+                            <styleClass>
+                                <String fx:value="button-outlined" />
+                                <String fx:value="barra-items" />
+                                <String fx:value="flat" />
+                            </styleClass>
+                            <HBox.margin><Insets left="30.0" /></HBox.margin>
+                        </SplitMenuButton>
+
+                        <SplitMenuButton fx:id="iPadHome" cache="true" cacheHint="QUALITY" minWidth="-Infinity" mnemonicParsing="false" text="iPad">
+                            <items>
+                                <MenuItem fx:id="iPadProHome" mnemonicParsing="false" text="iPad Pro" />
+                                <MenuItem fx:id="iPadAirHome" mnemonicParsing="false" text="iPad Air" />
+                        <MenuItem fx:id="iPadBaseHome" mnemonicParsing="false" text="iPad" />
+                            </items>
+                            <font><Font name="Segoe UI" size="18.0" /></font>
+                            <styleClass>
+                                <String fx:value="button-outlined" />
+                                <String fx:value="barra-items" />
+                                <String fx:value="flat" />
+                            </styleClass>
+                            <HBox.margin><Insets left="20.0" /></HBox.margin>
+                        </SplitMenuButton>
+
+                        <SplitMenuButton fx:id="MacHome" cache="true" cacheHint="QUALITY" minWidth="-Infinity" mnemonicParsing="false" text="Mac">
+                            <items>
+                                <MenuItem fx:id="iMacHome" mnemonicParsing="false" text="iMac" />
+                        <MenuItem fx:id="MacStudioHome" mnemonicParsing="false" text="Mac Studio" />
+                                <MenuItem fx:id="MacMiniHome" mnemonicParsing="false" text="Mac Mini" />
+                            </items>
+                            <font><Font name="Segoe UI" size="18.0" /></font>
+                            <styleClass>
+                                <String fx:value="button-outlined" />
+                                <String fx:value="barra-items" />
+                                <String fx:value="flat" />
+                            </styleClass>
+                            <HBox.margin><Insets left="20.0" /></HBox.margin>
+                        </SplitMenuButton>
+
+                        <SplitMenuButton fx:id="MacBookHome" cache="true" cacheHint="QUALITY" minWidth="-Infinity" mnemonicParsing="false" text="MacBook">
+                            <items>
+                                <MenuItem fx:id="MacBookProHome" mnemonicParsing="false" text="MacBook Pro" />
+                                <MenuItem fx:id="MacBookAirHome" mnemonicParsing="false" text="MacBook Air" />
+                        <MenuItem fx:id="MacBookNeoHome" mnemonicParsing="false" text="MacBook Neo" />
+                            </items>
+                            <font><Font name="Segoe UI" size="18.0" /></font>
+                            <styleClass>
+                                <String fx:value="button-outlined" />
+                                <String fx:value="barra-items" />
+                                <String fx:value="flat" />
+                            </styleClass>
+                            <HBox.margin><Insets left="20.0" /></HBox.margin>
+                        </SplitMenuButton>
+
+                        <SplitMenuButton fx:id="WatchHome" cache="true" cacheHint="QUALITY" minWidth="-Infinity" mnemonicParsing="false" text="Watch">
+                            <items>
+                                <MenuItem fx:id="WatchUltra3Home" mnemonicParsing="false" text="Apple Watch Ultra 3" />
+                        <MenuItem fx:id="WatchSeries11Home" mnemonicParsing="false" text="Apple Watch Series 11" />
+                                <MenuItem fx:id="WatchSE3Home" mnemonicParsing="false" text="Apple Watch SE 3" />
+                            </items>
+                            <font><Font name="Segoe UI" size="18.0" /></font>
+                            <styleClass>
+                                <String fx:value="button-outlined" />
+                                <String fx:value="barra-items" />
+                                <String fx:value="flat" />
+                            </styleClass>
+                            <HBox.margin><Insets left="20.0" /></HBox.margin>
+                        </SplitMenuButton>
+
+                        <SplitMenuButton fx:id="AirPodsHome" cache="true" cacheHint="QUALITY" minWidth="-Infinity" mnemonicParsing="false" text="AirPods">
+                            <items>
+                                <MenuItem fx:id="AirPodsMax2Home" mnemonicParsing="false" text="AirPods Max 2" />
+                        <MenuItem fx:id="AirPodsPro3Home" mnemonicParsing="false" text="AirPods Pro 3" />
+                                <MenuItem fx:id="AirPods4Home" mnemonicParsing="false" text="AirPods 4" />
+                            </items>
+                            <font><Font name="Segoe UI" size="18.0" /></font>
+                            <styleClass>
+                                <String fx:value="button-outlined" />
+                                <String fx:value="barra-items" />
+                                <String fx:value="flat" />
+                            </styleClass>
+                            <HBox.margin><Insets left="20.0" /></HBox.margin>
+                        </SplitMenuButton>
+
+                        <Region HBox.hgrow="ALWAYS">
+                            <HBox.margin><Insets left="30.0" /></HBox.margin>
+                        </Region>
+
+                        <FontIcon iconColor="#1d1d1f" iconLiteral="fas-shopping-bag" iconSize="22" onMouseClicked="#apriCarrello">
+                            <HBox.margin><Insets right="24.0" /></HBox.margin>
+                        </FontIcon>
+
+                        <FontIcon fx:id="loginIcon" iconColor="#1d1d1f" iconLiteral="fas-user-alt" iconSize="22" />
+                    </children>
+                    <padding><Insets left="2.0" right="20.0" /></padding>
+                </HBox>
+
+                <VBox alignment="TOP_CENTER" maxWidth="1600.0" prefHeight="800.0" spacing="15.0" style="-fx-background-radius: 10;" VBox.vgrow="NEVER">
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="60.0" />
+                    </padding>
+                    <children>
+                        <Label text="iPhone 17">
+                            <font><Font name="Segoe UI Bold" size="64.0" /></font>
+                        </Label>
+                        <Label text="Fantasticolor">
+                            <font><Font name="Segoe UI" size="36.0" /></font>
+                        </Label>
+                        <HBox alignment="CENTER" spacing="20.0">
+                            <children>
+                                <Button fx:id="DiscoveriPhone17Home" minHeight="40.0" minWidth="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Scopri di più" textFill="WHITE">
+                                    <styleClass>
+                                        <String fx:value="button" />
+                                        <String fx:value="accent" />
+                                    </styleClass>
+                                    <font><Font name="System Bold" size="18.0" /></font>
+                                </Button>
+                            </children>
+                            <VBox.margin><Insets bottom="20.0" top="10.0" /></VBox.margin>
+                        </HBox>
+                        <ImageView cache="true" cacheHint="QUALITY" fitHeight="431.0" fitWidth="948.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../it/uid/unitech/Images/iPhone%2017%20Home.png" />
+                            </image>
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </ImageView>
+                    </children>
+                    <styleClass>
+                        <String fx:value="elevated-2" />
+                        <String fx:value="background-iPhone-Home" />
+                    </styleClass>
+                </VBox>
+
+                <VBox alignment="TOP_CENTER" maxWidth="1600.0" prefHeight="800.0" spacing="15.0" style="-fx-background-radius: 10;">
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="60.0" />
+                    </padding>
+                    <children>
+                        <Label text="iPad Air">
+                            <font><Font name="Segoe UI Bold" size="64.0" /></font>
+                        </Label>
+                        <Label text="Ora con i superpoteri di M4 ">
+                            <font><Font name="Segoe UI" size="36.0" /></font>
+                        </Label>
+                        <HBox alignment="CENTER" spacing="20.0">
+                            <children>
+                                <Button fx:id="DiscoveriPadAirHome" minHeight="40.0" minWidth="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Scopri di più" textFill="WHITE">
+                                    <styleClass>
+                                        <String fx:value="button" />
+                                        <String fx:value="accent" />
+                                    </styleClass>
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font>
+                                </Button>
+                            </children>
+                            <VBox.margin><Insets bottom="20.0" top="10.0" /></VBox.margin>
+                        </HBox>
+                        <ImageView cache="true" cacheHint="QUALITY" fitHeight="450.0" fitWidth="688.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../it/uid/unitech/Images/iPad%20Air%20Home.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                    <styleClass>
+                        <String fx:value="elevated-2" />
+                        <String fx:value="background-iPad-Home" />
+                    </styleClass>
+                </VBox>
+
+                <HBox alignment="CENTER" maxWidth="1600.0" spacing="40.0" HBox.hgrow="ALWAYS">
+                    <children>
+                        <VBox alignment="TOP_CENTER" maxWidth="780.0" minHeight="600.0" prefHeight="600.0" prefWidth="590.0" spacing="15.0" style="-fx-background-radius: 10;" HBox.hgrow="ALWAYS">
+                            <padding>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="50.0" />
+                            </padding>
+                            <children>
+                                <Label text="AirPods 4">
+                                    <font><Font name="Segoe UI Bold" size="56.0" /></font>
+                                </Label>
+                                <Label text="Super sonici">
+                                    <font><Font name="Segoe UI" size="28.0" /></font>
+                                </Label>
+                                <HBox alignment="CENTER" spacing="20.0">
+                                    <children>
+                                        <Button fx:id="DiscoverAirPods4Home" minHeight="40.0" minWidth="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Scopri di più" textFill="WHITE">
+                                            <styleClass>
+                                                <String fx:value="button" />
+                                                <String fx:value="accent" />
+                                            </styleClass>
+                                            <font><Font name="System Bold" size="18.0" /></font>
+                                        </Button>
+                                    </children>
+                                    <VBox.margin><Insets bottom="15.0" top="5.0" /></VBox.margin>
+                                </HBox>
+                                <ImageView cache="true" cacheHint="QUALITY" fitHeight="306.0" fitWidth="364.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../it/uid/unitech/Images/AirPods%204.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                            <styleClass>
+                                <String fx:value="elevated-2" />
+                                <String fx:value="background-AirPods-Home" />
+                            </styleClass>
+                        </VBox>
+
+                        <VBox alignment="TOP_CENTER" maxWidth="780.0" minHeight="600.0" spacing="15.0" style="-fx-background-radius: 10;" HBox.hgrow="ALWAYS">
+                            <padding>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="50.0" />
+                            </padding>
+                            <children>
+                                <Label text="Apple Watch Series 11">
+                                    <font><Font name="Segoe UI Bold" size="56.0" /></font>
+                                </Label>
+                                <Label text="Il meglio per monitorare la tua salute">
+                                    <font><Font name="Segoe UI" size="28.0" /></font>
+                                </Label>
+                                <HBox alignment="CENTER" spacing="20.0">
+                                    <children>
+                                        <Button fx:id="DiscoverAppleWatchSeries11Home" minHeight="40.0" minWidth="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Scopri di più" textFill="WHITE">
+                                            <styleClass>
+                                                <String fx:value="button" />
+                                                <String fx:value="accent" />
+                                            </styleClass>
+                                            <font><Font name="System Bold" size="18.0" /></font>
+                                        </Button>
+                                    </children>
+                                    <VBox.margin><Insets bottom="15.0" top="5.0" /></VBox.margin>
+                                </HBox>
+                                <ImageView cache="true" cacheHint="QUALITY" fitHeight="300.0" fitWidth="589.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../it/uid/unitech/Images/Apple%20Watch%20Series%2011%20Naturale.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                            <styleClass>
+                                <String fx:value="elevated-2" />
+                                <String fx:value="background-AppleWatchHome" />
+                            </styleClass>
+                        </VBox>
+                    </children>
+                </HBox>
+
+                <VBox alignment="TOP_CENTER" maxWidth="1600.0" prefHeight="800.0" spacing="15.0" style="-fx-background-radius: 10;">
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="60.0" />
+                    </padding>
+                    <children>
+                        <Label text="MacBook Air">
+                            <font><Font name="Segoe UI Bold" size="64.0" /></font>
+                        </Label>
+                        <Label text="La Potenza vola alto">
+                            <font><Font name="Segoe UI" size="36.0" /></font>
+                        </Label>
+                        <HBox alignment="CENTER" spacing="20.0">
+                            <children>
+                                <Button fx:id="DiscoverMacBookAirHome" minHeight="40.0" minWidth="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Scopri di più" textFill="WHITE">
+                                    <styleClass>
+                                        <String fx:value="button" />
+                                        <String fx:value="accent" />
+                                    </styleClass>
+                                    <font><Font name="System Bold" size="18.0" /></font>
+                                </Button>
+                            </children>
+                            <VBox.margin><Insets bottom="20.0" top="10.0" /></VBox.margin>
+                        </HBox>
+                        <ImageView cache="true" cacheHint="QUALITY" fitHeight="441.0" fitWidth="1039.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../it/uid/unitech/Images/MacBook%20Air%20Home.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                    <styleClass>
+                        <String fx:value="elevated-2" />
+                        <String fx:value="background-MacBookHome" />
+                    </styleClass>
+                </VBox>
+
+                <VBox alignment="TOP_CENTER" maxWidth="1600.0" prefHeight="800.0" spacing="15.0" style="-fx-background-radius: 10;">
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="60.0" />
+                    </padding>
+                    <children>
+                        <Label text="iMac">
+                            <font><Font name="Segoe UI Bold" size="64.0" /></font>
+                        </Label>
+                        <Label text="Supersottile e in nuovi colori vivaci">
+                            <font><Font name="Segoe UI" size="36.0" /></font>
+                        </Label>
+                        <HBox alignment="CENTER" spacing="20.0">
+                            <children>
+                                <Button fx:id="DiscoveriMacHome" minHeight="40.0" minWidth="160.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Scopri di più" textFill="WHITE">
+                                    <styleClass>
+                                        <String fx:value="button" />
+                                        <String fx:value="accent" />
+                                    </styleClass>
+                                    <font><Font name="System Bold" size="18.0" /></font>
+                                </Button>
+                            </children>
+                            <VBox.margin><Insets bottom="20.0" top="10.0" /></VBox.margin>
+                        </HBox>
+                        <ImageView cache="true" cacheHint="QUALITY" fitHeight="419.0" fitWidth="1526.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../it/uid/unitech/Images/iMac%20Home.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                    <styleClass>
+                        <String fx:value="elevated-2" />
+                        <String fx:value="background-iMacHome" />
+                    </styleClass>
+                </VBox>
+
+            </children>
+        </VBox>
+    </content>
+</ScrollPane>
