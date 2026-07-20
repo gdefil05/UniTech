@@ -22,7 +22,7 @@
             <children>
                 <VBox alignment="TOP_CENTER" spacing="50.0" style="-fx-background-color: #EEF2FB; -fx-background-radius: 20; -fx-border-radius: 20;" VBox.vgrow="ALWAYS">
                     <padding>
-                        <Insets bottom="50.0" left="20.0" right="20.0" top="45.0" />
+                        <Insets bottom="50.0" left="20.0" right="20.0" top="40.0" />
                     </padding>
                     <children>
                    <HBox alignment="CENTER_LEFT" maxWidth="880.0" minHeight="54.0" prefHeight="54.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-radius: 10;">
@@ -164,7 +164,7 @@
                         <Insets left="2.0" right="20.0" />
                      </padding>
                   </HBox>
-                       <Label text="Scegli il tuo modello di MacBook">
+                       <Label text="Confronta il tuo modello di MacBook">
                             <font>
                                 <Font name="System Bold" size="58.0" />
                              </font>
@@ -259,277 +259,276 @@
                                     </VBox.margin>
                                  </Label>
                                 <Separator prefWidth="1241.0" />
-                                <HBox alignment="TOP_CENTER" spacing="100.0">
-                                     <children>
-                                        <VBox alignment="TOP_CENTER" prefWidth="323.0" spacing="40.0">
-                                             <children>
-                                                <Label text="14.2&quot;">
-                                                    <font>
-                                                        <Font name="System Bold" size="64.0" />
-                                                     </font>
-                                                </Label>
-                                                 <Label text="Display Liquid Retina XDR" textAlignment="JUSTIFY">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                                <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
-                                                      <image>
-                                                        <Image url="@../it/uid/unitech/Images/Chip%20M5.png" />
-                                                     </image>
-                                                </ImageView>
-                                                 <Label text="Chip Apple M5" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                </Label>
-                                                <VBox alignment="CENTER" spacing="8.0">
-                                                    <children>
-                                                         <VBox alignment="CENTER" spacing="0.0">
-                                                            <children>
-                                                                <Label text="16GB">
-                                                                       <font>
-                                                                          <Font name="System Bold" size="64.0" />
-                                                                    </font>
-                                                                 </Label>
-                                                             </children>
-                                                        </VBox>
-                                                       <Label text="di memoria unificata" textAlignment="CENTER">
-                                                            <font>
-                                                                 <Font name="System Bold" size="18.0" />
-                                                             </font>
-                                                        </Label>
-                                                     </children>
-                                                </VBox>
-                                                <VBox alignment="CENTER" spacing="8.0">
-                                                    <children>
-                                                         <VBox alignment="CENTER" spacing="0.0">
-                                                             <children>
-                                                                <Label text="Da" textAlignment="CENTER">
-                                                                      <font>
-                                                                         <Font name="System Bold" size="16.0" />
-                                                                    </font>
-                                                                 </Label>
-                                                                 <Label text="1TB">
-                                                                    <font>
-                                                                          <Font name="System Bold" size="64.0" />
-                                                                     </font>
-                                                                </Label>
-                                                              </children>
-                                                         </VBox>
-                                                        <Label text="di archiviazione" textAlignment="CENTER">
-                                                             <font>
-                                                                <Font name="System Bold" size="18.0" />
-                                                              </font>
-                                                         </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <ImageView fitHeight="65.0" fitWidth="153.0" preserveRatio="true">
-                                                     <image>
-                                                        <Image url="@../it/uid/unitech/Images/Battery.png" />
-                                                     </image>
-                                                </ImageView>
-                                                <Label text="Fino a 24 ore di autonomia">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                                <ImageView fitHeight="91.0" fitWidth="181.0" preserveRatio="true">
-                                                   <image>
-                                                        <Image url="@../it/uid/unitech/Images/touch.png" />
-                                                     </image>
-                                                </ImageView>
-                                                 <Label text="Touch ID" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                            </children>
-                                         </VBox>
-                                        <VBox alignment="TOP_CENTER" prefWidth="323.0" spacing="40.0">
-                                           <children>
-                                                <Label text="13.6&quot;">
-                                                     <font>
-                                                        <Font name="System Bold" size="64.0" />
-                                                     </font>
-                                                </Label>
-                                                 <Label text="Display Liquid Retina" textAlignment="JUSTIFY">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                                <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
-                                                    <image>
-                                                         <Image url="@../it/uid/unitech/Images/Chip%20M5.png" />
-                                                    </image>
-                                                 </ImageView>
-                                                <Label text="Chip Apple M5" textAlignment="CENTER">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                                 <VBox alignment="CENTER" spacing="8.0">
-                                                    <children>
-                                                          <VBox alignment="CENTER" spacing="0.0">
-                                                            <children>
-                                                                  <Label text="16GB">
-                                                                    <font>
-                                                                          <Font name="System Bold" size="64.0" />
-                                                                     </font>
-                                                                </Label>
-                                                              </children>
-                                                        </VBox>
-                                                         <Label text="di memoria unificata" textAlignment="CENTER">
-                                                             <font>
-                                                                <Font name="System Bold" size="18.0" />
-                                                              </font>
-                                                        </Label>
-                                                     </children>
-                                                </VBox>
-                                                 <VBox alignment="CENTER" spacing="8.0">
-                                                     <children>
-                                                        <VBox alignment="CENTER" spacing="0.0">
-                                                            <children>
-                                                                <Label text="Da" textAlignment="CENTER">
-                                                                       <font>
-                                                                          <Font name="System Bold" size="16.0" />
-                                                                    </font>
-                                                                  </Label>
-                                                                 <Label text="512GB">
-                                                                    <font>
-                                                                           <Font name="System Bold" size="64.0" />
-                                                                       </font>
-                                                                  </Label>
-                                                            </children>
-                                                         </VBox>
-                                                        <Label text="di archiviazione" textAlignment="CENTER">
-                                                              <font>
-                                                                 <Font name="System Bold" size="18.0" />
-                                                            </font>
-                                                         </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <ImageView fitHeight="65.0" fitWidth="153.0" preserveRatio="true">
-                                                     <image>
-                                                        <Image url="@../it/uid/unitech/Images/Battery.png" />
-                                                      </image>
-                                                </ImageView>
-                                               <Label text="Fino a 18 ore di autonomia">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                </Label>
-                                                <ImageView fitHeight="91.0" fitWidth="181.0" preserveRatio="true">
-                                                     <image>
-                                                         <Image url="@../it/uid/unitech/Images/touch.png" />
-                                                    </image>
-                                                 </ImageView>
-                                                <Label text="Touch ID" textAlignment="CENTER">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                             </children>
-                                        </VBox>
-                                        <VBox alignment="TOP_CENTER" prefWidth="323.0" spacing="40.0">
-                                             <children>
-                                                <Label text="13.0&quot;">
-                                                      <font>
-                                                        <Font name="System Bold" size="64.0" />
-                                                    </font>
-                                                 </Label>
-                                                <Label text="Display Liquid Retina" textAlignment="JUSTIFY">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                                 <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
-                                                    <image>
-                                                          <Image url="@../it/uid/unitech/Images/A18%20PRO.png" />
-                                                    </image>
-                                                  </ImageView>
-                                                <Label text="Chip Apple A18 Pro" textAlignment="CENTER">
-                                                   <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-
-                                                  <VBox alignment="CENTER" spacing="8.0">
-                                                    <children>
-                                                          <VBox alignment="CENTER" spacing="0.0">
-                                                              <children>
-                                                                  <Label text="8GB">
-                                                                    <font>
-                                                                           <Font name="System Bold" size="64.0" />
-                                                                      </font>
-                                                                </Label>
-                                                               </children>
-                                                          </VBox>
-                                                        <Label text="di memoria unificata" textAlignment="CENTER">
-                                                              <font>
-                                                                <Font name="System Bold" size="18.0" />
-                                                            </font>
-                                                          </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <VBox alignment="CENTER" spacing="8.0">
-                                                     <children>
-                                                        <VBox alignment="CENTER" spacing="0.0">
-                                                               <children>
-                                                                 <Label text="Da" textAlignment="CENTER">
-                                                                    <font>
-                                                                          <Font name="System Bold" size="16.0" />
-                                                                      </font>
-                                                                </Label>
-                                                                  <Label text="256GB">
-                                                                     <font>
-                                                                        <Font name="System Bold" size="64.0" />
-                                                                      </font>
-                                                                  </Label>
-                                                            </children>
-                                                          </VBox>
-                                                        <Label text="di archiviazione" textAlignment="CENTER">
-                                                              <font>
-                                                                     <Font name="System Bold" size="18.0" />
-                                                            </font>
-                                                          </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <ImageView fitHeight="65.0" fitWidth="153.0" preserveRatio="true">
-                                                   <image>
-                                                        <Image url="@../it/uid/unitech/Images/Battery.png" />
-                                                    </image>
-                                                </ImageView>
-                                                <Label text="Fino a 16 ore di autonomia">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                                 <ImageView fitHeight="91.0" fitWidth="181.0" preserveRatio="true">
-                                                    <image>
-                                                          <Image url="@../it/uid/unitech/Images/touch.png" />
-                                                    </image>
-                                                  </ImageView>
-                                                <Label text="Touch ID&#10;(modello da 512GB)" textAlignment="CENTER">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                      </font>
-                                                </Label>
-                                              </children>
-                                        </VBox>
-                                     </children>
-                           <VBox.margin>
-                              <Insets top="10.0" />
-                           </VBox.margin>
-                                </HBox>
                             </children>
                      <VBox.margin>
                         <Insets top="10.0" />
                      </VBox.margin>
                         </VBox>
+                  <HBox alignment="TOP_CENTER" spacing="100.0">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefWidth="323.0" spacing="40.0">
+                           <children>
+                              <Label text="14.2&quot;">
+                                 <font>
+                                    <Font name="System Bold" size="64.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Display Liquid Retina XDR" textAlignment="JUSTIFY">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/Chip%20M5.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Chip Apple M5" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="8.0">
+                                 <children>
+                                    <VBox alignment="CENTER" spacing="0.0">
+                                       <children>
+                                          <Label text="16GB">
+                                             <font>
+                                                <Font name="System Bold" size="64.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Label text="di memoria unificata" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" spacing="8.0">
+                                 <children>
+                                    <VBox alignment="CENTER" spacing="0.0">
+                                       <children>
+                                          <Label text="Da" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="1TB">
+                                             <font>
+                                                <Font name="System Bold" size="64.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Label text="di archiviazione" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <ImageView fitHeight="65.0" fitWidth="153.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/Battery.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Fino a 24 ore di autonomia">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="91.0" fitWidth="181.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/touch.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Touch ID" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" prefWidth="323.0" spacing="40.0">
+                           <children>
+                              <Label text="13.6&quot;">
+                                 <font>
+                                    <Font name="System Bold" size="64.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Display Liquid Retina" textAlignment="JUSTIFY">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/Chip%20M5.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Chip Apple M5" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="8.0">
+                                 <children>
+                                    <VBox alignment="CENTER" spacing="0.0">
+                                       <children>
+                                          <Label text="16GB">
+                                             <font>
+                                                <Font name="System Bold" size="64.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Label text="di memoria unificata" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" spacing="8.0">
+                                 <children>
+                                    <VBox alignment="CENTER" spacing="0.0">
+                                       <children>
+                                          <Label text="Da" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="512GB">
+                                             <font>
+                                                <Font name="System Bold" size="64.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Label text="di archiviazione" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <ImageView fitHeight="65.0" fitWidth="153.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/Battery.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Fino a 18 ore di autonomia">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="91.0" fitWidth="181.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/touch.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Touch ID" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" prefWidth="323.0" spacing="40.0">
+                           <children>
+                              <Label text="13.0&quot;">
+                                 <font>
+                                    <Font name="System Bold" size="64.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Display Liquid Retina" textAlignment="JUSTIFY">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/A18%20PRO.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Chip Apple A18 Pro" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="8.0">
+                                 <children>
+                                    <VBox alignment="CENTER" spacing="0.0">
+                                       <children>
+                                          <Label text="8GB">
+                                             <font>
+                                                <Font name="System Bold" size="64.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Label text="di memoria unificata" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" spacing="8.0">
+                                 <children>
+                                    <VBox alignment="CENTER" spacing="0.0">
+                                       <children>
+                                          <Label text="Da" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <Label text="256GB">
+                                             <font>
+                                                <Font name="System Bold" size="64.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <Label text="di archiviazione" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <ImageView fitHeight="65.0" fitWidth="153.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/Battery.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Fino a 16 ore di autonomia">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="91.0" fitWidth="181.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/touch.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Touch ID&#10;(modello da 512GB)" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </HBox>
                      </children>
                     <VBox.margin>
-                        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+                        <Insets bottom="50.0" left="50.0" right="50.0" top="30.0" />
                     </VBox.margin>
                  </VBox>
             </children>

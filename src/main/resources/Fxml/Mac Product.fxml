@@ -22,7 +22,7 @@
             <children>
                 <VBox alignment="TOP_CENTER" spacing="50.0" style="-fx-background-color: #EEF2FB; -fx-background-radius: 20; -fx-border-radius: 20;" VBox.vgrow="ALWAYS">
                     <padding>
-                        <Insets bottom="50.0" left="20.0" right="20.0" top="45.0" />
+                        <Insets bottom="50.0" left="20.0" right="20.0" top="40.0" />
                     </padding>
                     <children>
                    <HBox alignment="CENTER_LEFT" maxWidth="880.0" minHeight="54.0" prefHeight="54.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-radius: 10;">
@@ -167,7 +167,7 @@
                          <Insets />
                      </VBox.margin>
                   </HBox>
-                        <Label text="Scegli il tuo modello di Mac">
+                        <Label text="Confronta il tuo modello di Mac">
                              <font>
                                 <Font name="System Bold" size="58.0" />
                             </font>
@@ -186,7 +186,7 @@
                                                 <Font name="System Bold" size="24.0" />
                                              </font>
                                         </Label>
-                                         <Label text="A partire da 2.029 € " textFill="#6e6e73">
+                                         <Label text="A partire da 2.029 €" textFill="#6e6e73">
                                             <font>
                                                  <Font name="System Bold" size="16.0" />
                                             </font>
@@ -211,7 +211,7 @@
                                                 <Font name="System Bold" size="24.0" />
                                              </font>
                                         </Label>
-                                        <Label text="A partire da 3.049 € " textFill="#6e6e73">
+                                        <Label text="A partire da 3.049 €" textFill="#6e6e73">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -236,7 +236,7 @@
                                                   <Font name="System Bold" size="24.0" />
                                             </font>
                                          </Label>
-                                        <Label text="A partire da 979 € " textFill="#6e6e73">
+                                        <Label text="A partire da 979 €" textFill="#6e6e73">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -262,261 +262,261 @@
                                     </VBox.margin>
                                 </Label>
                                  <Separator prefWidth="1241.0" />
-                                <HBox alignment="TOP_CENTER" spacing="100.0">
-                                    <children>
-                                         <VBox alignment="TOP_CENTER" prefWidth="323.0" spacing="40.0">
-                                            <children>
-                                                 <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
-                                                    <image>
-                                                         <Image url="@../it/uid/unitech/Images/Chip%20M4.png" />
-                                                    </image>
-                                                 </ImageView>
-                                                <Label text="Chip Apple M4" textAlignment="CENTER">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                                <VBox alignment="CENTER" spacing="0.0">
-                                                     <children>
-                                                        <Label text="8‑core">
-                                                             <font>
-                                                                <Font name="System Bold" size="64.0" />
-                                                             </font>
-                                                         </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <Label text="di CPU" textAlignment="CENTER">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                                 <VBox alignment="CENTER" spacing="0.0">
-                                                    <children>
-                                                         <Label text="8‑core">
-                                                            <font>
-                                                                  <Font name="System Bold" size="64.0" />
-                                                             </font>
-                                                        </Label>
-                                                     </children>
-                                                </VBox>
-                                                 <Label text="di GPU" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                                <VBox alignment="CENTER" spacing="0.0">
-                                                   <children>
-                                                        <Label textAlignment="CENTER">
-                                                            <font>
-                                                                 <Font name="System Bold" size="16.0" />
-                                                            </font>
-                                                         </Label>
-                                                        <Label text="16GB">
-                                                            <font>
-                                                                 <Font name="System Bold" size="64.0" />
-                                                            </font>
-                                                         </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <Label text="di memoria unificata" textAlignment="CENTER">
-                                                     <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                                <VBox alignment="CENTER" spacing="0.0">
-                                                     <children>
-                                                        <Label text="Da" textAlignment="CENTER">
-                                                              <font>
-                                                                <Font name="System Bold" size="16.0" />
-                                                             </font>
-                                                         </Label>
-                                                        <Label text="256GB">
-                                                              <font>
-                                                                <Font name="System Bold" size="64.0" />
-                                                             </font>
-                                                         </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <Label text="di archiviazione" textAlignment="CENTER">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                             </children>
-                                        </VBox>
-                                         <VBox alignment="TOP_CENTER" prefWidth="323.0" spacing="40.0">
-                                            <children>
-                                                <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
-                                                     <image>
-                                                         <Image url="@../it/uid/unitech/Images/M4_max.png" />
-                                                    </image>
-                                                 </ImageView>
-                                                <Label text="Chip Apple M4 Max" textAlignment="CENTER">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                                 <VBox alignment="CENTER" spacing="0.0">
-                                                    <children>
-                                                         <Label text="14‑core">
-                                                            <font>
-                                                                 <Font name="System Bold" size="64.0" />
-                                                             </font>
-                                                        </Label>
-                                                     </children>
-                                                </VBox>
-                                                 <Label text="di CPU" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                                <VBox alignment="CENTER" spacing="0.0">
-                                                     <children>
-                                                         <Label text="32‑core">
-                                                            <font>
-                                                                 <Font name="System Bold" size="64.0" />
-                                                            </font>
-                                                         </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <Label text="di GPU" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                                <VBox alignment="CENTER" spacing="0.0">
-                                                     <children>
-                                                        <Label textAlignment="CENTER">
-                                                              <font>
-                                                                <Font name="System Bold" size="16.0" />
-                                                             </font>
-                                                         </Label>
-                                                        <Label text="36GB">
-                                                             <font>
-                                                                <Font name="System Bold" size="64.0" />
-                                                             </font>
-                                                         </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <Label text="di memoria unificata" textAlignment="CENTER">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                                 <VBox alignment="CENTER" spacing="0.0">
-                                                    <children>
-                                                          <Label text="Da" textAlignment="CENTER">
-                                                            <font>
-                                                                 <Font name="System Bold" size="16.0" />
-                                                             </font>
-                                                        </Label>
-                                                         <Label text="512GB">
-                                                            <font>
-                                                                <Font name="System Bold" size="64.0" />
-                                                             </font>
-                                                        </Label>
-                                                     </children>
-                                                </VBox>
-                                                 <Label text="di archiviazione" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                            </children>
-                                         </VBox>
-                                        <VBox alignment="TOP_CENTER" prefWidth="323.0" spacing="40.0">
-                                           <children>
-                                                <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
-                                                     <image>
-                                                        <Image url="@../it/uid/unitech/Images/Chip%20M4.png" />
-                                                     </image>
-                                                </ImageView>
-                                                 <Label text="Chip Apple M4" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                                <VBox alignment="CENTER" spacing="0.0">
-                                                     <children>
-                                                         <Label text="8‑core">
-                                                            <font>
-                                                                 <Font name="System Bold" size="64.0" />
-                                                            </font>
-                                                         </Label>
-                                                     </children>
-                                                </VBox>
-                                                <Label text="di CPU" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                                <VBox alignment="CENTER" spacing="0.0">
-                                                     <children>
-                                                        <Label text="8‑core">
-                                                              <font>
-                                                                <Font name="System Bold" size="64.0" />
-                                                            </font>
-                                                         </Label>
-                                                    </children>
-                                                 </VBox>
-                                                <Label text="di GPU" textAlignment="CENTER">
-                                                     <font>
-                                                        <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                                 <VBox alignment="CENTER" spacing="0.0">
-                                                    <children>
-                                                         <Label textAlignment="CENTER">
-                                                             <font>
-                                                                <Font name="System Bold" size="16.0" />
-                                                             </font>
-                                                        </Label>
-                                                          <Label text="16GB">
-                                                             <font>
-                                                                <Font name="System Bold" size="64.0" />
-                                                             </font>
-                                                        </Label>
-                                                     </children>
-                                                </VBox>
-                                                 <Label text="di memoria unificata" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                     </font>
-                                                </Label>
-                                                <VBox alignment="CENTER" spacing="0.0">
-                                                    <children>
-                                                         <Label text="Da" textAlignment="CENTER">
-                                                            <font>
-                                                                 <Font name="System Bold" size="16.0" />
-                                                            </font>
-                                                         </Label>
-                                                         <Label text="256GB">
-                                                            <font>
-                                                                 <Font name="System Bold" size="64.0" />
-                                                            </font>
-                                                         </Label>
-                                                     </children>
-                                                </VBox>
-                                                 <Label text="di archiviazione" textAlignment="CENTER">
-                                                    <font>
-                                                         <Font name="System Bold" size="18.0" />
-                                                    </font>
-                                                 </Label>
-                                            </children>
-                                         </VBox>
-                                    </children>
-                           <VBox.margin>
-                              <Insets top="10.0" />
-                           </VBox.margin>
-                                </HBox>
                             </children>
                      <VBox.margin>
                         <Insets top="10.0" />
                      </VBox.margin>
                          </VBox>
+                  <HBox alignment="TOP_CENTER" spacing="100.0">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefWidth="327.0" spacing="30.0">
+                           <children>
+                              <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/Chip%20M4.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Chip Apple M4" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label text="8‑core">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di CPU" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label text="8‑core">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di GPU" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="16GB">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di memoria unificata" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label text="Da" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="256GB">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di archiviazione" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" prefWidth="327.0" spacing="30.0">
+                           <children>
+                              <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/M4_max.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Chip Apple M4 Max" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label text="14‑core">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di CPU" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label text="32‑core">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di GPU" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="36GB">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di memoria unificata" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label text="Da" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="512GB">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di archiviazione" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_CENTER" prefWidth="327.0" spacing="30.0">
+                           <children>
+                              <ImageView fitHeight="91.0" fitWidth="142.0" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../it/uid/unitech/Images/Chip%20M4.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Chip Apple M4" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label text="8‑core">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di CPU" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label text="8‑core">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di GPU" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="16GB">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di memoria unificata" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <VBox alignment="CENTER" spacing="0.0">
+                                 <children>
+                                    <Label text="Da" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="256GB">
+                                       <font>
+                                          <Font name="System Bold" size="64.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Label text="di archiviazione" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </HBox>
                     </children>
                     <VBox.margin>
-                        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+                        <Insets bottom="50.0" left="50.0" right="50.0" top="30.0" />
                      </VBox.margin>
                 </VBox>
             </children>
