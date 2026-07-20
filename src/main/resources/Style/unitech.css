@@ -1,20 +1,8 @@
 /* ==========================================================================
 
-   CUPERTINO-LIGHT
+   UNITECH
 
    ========================================================================== */
-
-/*============FONTS===========*/
-
-@font-face {
-  font-family: "Cooper Hewitt";
-  src: url("../Fonts/CooperHewitt-Bold.otf");
-}
-
-@font-face {
-  font-family: "DMSans";
-  src: url("../Fonts/DMSans-Regular.ttf");
-}
 
 /* Colori e variabili fondamentali estratti dalla radice */
 
@@ -57,13 +45,6 @@
   -fx-font-weight: bold;
   -fx-font-size: 20px;
 }
-
-
-/*
-
-      BACKGROUND ANCHOR PANE HOME
-
-*/
 
 
 .background-iPhone-Home
@@ -149,21 +130,6 @@
 }
 
 
-
-
-
-
-
-/*
-
-      BACKGROUND ANCHOR PANE IPHONE HOME
-
-*/
-
-
-
-
-
 .background-iPhone17ProHome
 
 {
@@ -179,7 +145,6 @@
  
 
 }
-
 
 
 .background-iPhoneAirHome
@@ -217,19 +182,6 @@
 }
 
 
-
-
-
-/*
-
-      BACKGROUND ANCHOR PANE IPAD HOME
-
-*/
-
-
-
-
-
 .background-iPadProHome
 
 {
@@ -247,9 +199,6 @@
 }
 
 
-
-
-
 .background-iPadAirHome
 
 {
@@ -262,12 +211,7 @@
 
   -fx-effect: dropshadow(three-pass-box, -color-shadow-default, 2px, 0.5, 0, 2);
 
- 
-
 }
-
-
-
 
 
 .background-iPadHome
@@ -282,16 +226,8 @@
 
   -fx-effect: dropshadow(three-pass-box, -color-shadow-default, 2px, 0.5, 0, 2);
 
- 
 
 }
-
-
-/*
-
-      BACKGROUND ANCHOR PANE WATCH HOME
-
-*/
 
 .background-AppleWatchUltraHome
 
@@ -340,13 +276,6 @@
  
 
 }
-
-/*
-
-      BACKGROUND ANCHOR PANE AIRPODS HOME
-
-*/
-
 
 .background-AirPodsMax2Home
 

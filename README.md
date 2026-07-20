@@ -7,7 +7,7 @@ JONATHAN:
 Unitech.java:
 Parte di lancio dell’app e di chiusura database
 
-Contoller:
+Controller:
 loginPageController
 SignUpController
 SplashScreenController
