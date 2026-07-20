@@ -183,14 +183,14 @@
                         <VBox alignment="CENTER" spacing="5" style="-fx-background-color: #EEF2FB; -fx-background-radius: 12;                                -fx-border-color: #C4DEFF; -fx-border-width: 1.5;                                -fx-border-radius: 12; -fx-padding: 10 14 10 14;">
                            <children>
                               <FontIcon iconColor="#3A7BD5" iconLiteral="fas-battery-full" iconSize="22" />
-                              <Label style="-fx-font-size: 12; -fx-font-weight: 700; -fx-text-fill: #1a1a1a;" text="8 ore" />
+                              <Label style="-fx-font-size: 12; -fx-font-weight: 700; -fx-text-fill: #1a1a1a;" text="30 ore" />
                               <Label style="-fx-font-size: 10; -fx-text-fill: #888;" text="Batteria" />
                            </children>
                         </VBox>
                         <VBox alignment="CENTER" spacing="5" style="-fx-background-color: #EEF2FB; -fx-background-radius: 12;                                -fx-border-color: #C4DEFF; -fx-border-width: 1.5;                                -fx-border-radius: 12; -fx-padding: 10 14 10 14;">
                            <children>
                               <FontIcon iconColor="#3A7BD5" iconLiteral="fas-microphone" iconSize="22" />
-                              <Label style="-fx-font-size: 12; -fx-font-weight: 700; -fx-text-fill: #1a1a1a;" text="4 Mic" />
+                              <Label style="-fx-font-size: 12; -fx-font-weight: 700; -fx-text-fill: #1a1a1a;" text="6 Mic" />
                               <Label style="-fx-font-size: 10; -fx-text-fill: #888;" text="Microfoni" />
                            </children>
                         </VBox>
@@ -221,7 +221,7 @@
                </HBox.margin>
                <children>
                   <Label style="-fx-font-size: 36; -fx-font-weight: bold; -fx-text-fill: #1a1a1a;" text="AirPods Max 2" />
-                  <Label style="-fx-font-size: 15; -fx-text-fill: #888888;" text="Gli auricolari con la migliore cancellazione del rumore" />
+                  <Label style="-fx-font-size: 15; -fx-text-fill: #888888;" text="L'Ascolto cambia Musica " />
                   <Separator maxWidth="1.7976931348623157E308" minWidth="-Infinity" VBox.vgrow="ALWAYS" />
                   <Label fx:id="prezzoLabel" style="-fx-font-size: 28; -fx-font-weight: bold; -fx-text-fill: #1a1a1a;" text="Da 579€" />
                   <Label fx:id="coloreLabel" style="-fx-font-size: 14; -fx-text-fill: #555;" text="Colore: Mezzanotte" />
