@@ -408,9 +408,7 @@ public class GenericProductController
 
     @FXML
     private void apriCarrello(MouseEvent event) {
-        Node nodo = (Node) event.getSource();
-        AnimazioneUtil.aggiungiAnimazione(nodo);
-        NavigationManager.apriCarrello(nodo);
+        NavigationManager.apriCarrello((Node) event.getSource());
     }
 
     @FXML

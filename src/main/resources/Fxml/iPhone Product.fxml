@@ -183,7 +183,7 @@
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                               </Label>
-                              <Label text="A partire da 1.339 €" textFill="#6e6e73">
+                              <Label text="€ 1339" textFill="#6e6e73">
                                  <font>
                                     <Font name="System Bold" size="16.0" />
                                  </font>
@@ -208,7 +208,7 @@
                                     <Font name="System Bold" size="24.0" />
                                   </font>
                               </Label>
-                              <Label text="A partire da 1.219 €" textFill="#6e6e73">
+                              <Label text="€ 1219" textFill="#6e6e73">
                                   <font>
                                     <Font name="System Bold" size="16.0" />
                                  </font>
@@ -233,7 +233,7 @@
                                     <Font name="System Bold" size="24.0" />
                                   </font>
                               </Label>
-                              <Label text="A partire da 939 €" textFill="#6e6e73">
+                              <Label text="€ 939" textFill="#6e6e73">
                                   <font>
                                     <Font name="System Bold" size="16.0" />
                                  </font>
@@ -484,6 +484,9 @@
                                   </children>
                               </VBox>
                            </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
                         </HBox>
                       </children>
                      <VBox.margin>
