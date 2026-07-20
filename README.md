@@ -32,8 +32,6 @@ ProfileOption.fxml
 Airpods Max 2/Pro 3/4 PageProduct.fxml
 Apple Watch Ultra/SE 3/Series 11 PageProduct.fxml
 
-
-
 GABRIELE
 
 VIEW
@@ -54,7 +52,6 @@ HomeController.java
 iPhoneProductController.java
 iPadProductController.java
 GenericProductController.java (iPhone & iPad)
-
 
 LORENZO
 
