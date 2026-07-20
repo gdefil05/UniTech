@@ -343,12 +343,12 @@
                                     <Font name="System Bold" size="64.0" />
                                  </font>
                                </Label>
-                              <Label minHeight="50.0" text="Display Liquid Retina" textAlignment="CENTER" wrapText="true">
+                              <Label text="Display Liquid Retina" textAlignment="CENTER" wrapText="true">
                                  <font>
                                      <Font name="System Bold" size="18.0" />
                                  </font>
                               </Label>
-                               <ImageView fitHeight="102.0" fitWidth="130.0" pickOnBounds="true" preserveRatio="true">
+                               <ImageView fitHeight="112.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../it/uid/unitech/Images/Chip%20M4.png" />
                                   </image>
@@ -410,12 +410,12 @@
                                     <Font name="System Bold" size="64.0" />
                                   </font>
                               </Label>
-                              <Label minHeight="50.0" text="Display Liquid Retina" textAlignment="CENTER" wrapText="true">
+                              <Label text="Display Liquid Retina" textAlignment="CENTER" wrapText="true">
                                   <font>
                                     <Font name="System Bold" size="18.0" />
                                   </font>
                               </Label>
-                              <ImageView fitHeight="102.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fitHeight="112.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                      <Image url="@../it/uid/unitech/Images/Chip%20A16.png" />
                                  </image>
