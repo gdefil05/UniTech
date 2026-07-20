@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="upgrade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Mac Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Mac Product.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Watch Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Watch Product.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784569883068</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="upgrade">
+      <option name="closed" value="true" />
+      <created>1784570228303</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1784570228303</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
