@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="fix2">
+    <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="upgrade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/ProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/SessioneUtente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/SessioneUtente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Product.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,18 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jonathancaputo3-droid"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jonathancaputo3-droid&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/gdefil05/UniTech.git",
-    "accountId": "72fbe951-c6c4-4a8a-960b-28e248951ed1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gdefil05/UniTech.git&quot;,
+    &quot;accountId&quot;: &quot;72fbe951-c6c4-4a8a-960b-28e248951ed1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -47,6 +43,7 @@
     "Application.UniTech.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -86,7 +83,55 @@
       <option name="project" value="LOCAL" />
       <updated>1784559154287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ultimo fix">
+      <option name="closed" value="true" />
+      <created>1784560510312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1784560510312</updated>
+    </task>
+    <task id="LOCAL-00004" summary="upgrade">
+      <option name="closed" value="true" />
+      <created>1784566117255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1784566117255</updated>
+    </task>
+    <task id="LOCAL-00005" summary="upgrade">
+      <option name="closed" value="true" />
+      <created>1784566189270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784566189270</updated>
+    </task>
+    <task id="LOCAL-00006" summary="upgrade">
+      <option name="closed" value="true" />
+      <created>1784566372975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784566372975</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upgrade">
+      <option name="closed" value="true" />
+      <created>1784566523652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784566523652</updated>
+    </task>
+    <task id="LOCAL-00008" summary="upgrade">
+      <option name="closed" value="true" />
+      <created>1784566972955</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1784566972955</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
     <MESSAGE value="fix2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix2" />
+    <MESSAGE value="ultimo fix" />
+    <MESSAGE value="upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade" />
   </component>
 </project>
