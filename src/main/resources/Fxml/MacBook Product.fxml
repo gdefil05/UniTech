@@ -191,7 +191,7 @@
                                         <Separator prefWidth="319.0" />
                                          <Button fx:id="discoverMacBookProProduct" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                             <font>
-                                                 <Font size="18.0" />
+                                                 <Font name="System Bold" size="18.0" />
                                             </font>
                                         </Button>
                                       </children>
@@ -216,7 +216,7 @@
                                         <Separator prefWidth="319.0" />
                                         <Button fx:id="discoverMacBookAirProduct" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                               <font>
-                                                <Font size="18.0" />
+                                                <Font name="System Bold" size="18.0" />
                                              </font>
                                         </Button>
                                      </children>
@@ -241,7 +241,7 @@
                                      <Separator prefWidth="319.0" />
                                         <Button fx:id="discoverMacBookNeoProduct" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                              <font>
-                                                <Font size="18.0" />
+                                                <Font name="System Bold" size="18.0" />
                                              </font>
                                         </Button>
                                     </children>
@@ -520,6 +520,9 @@
                                      </children>
                                 </HBox>
                             </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
                         </VBox>
                      </children>
                     <VBox.margin>

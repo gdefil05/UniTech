@@ -150,7 +150,7 @@
                               <Insets left="30.0" />
                            </HBox.margin>
                          </Region>
-                        <FontIcon iconColor="#1d1d1f" iconLiteral="fas-shopping-bag" iconSize="22" onMouseClicked="#apriCarrello" >
+                        <FontIcon iconColor="#1d1d1f" iconLiteral="fas-shopping-bag" iconSize="22" onMouseClicked="#apriCarrello">
                            <HBox.margin>
                               <Insets right="24.0" />
                             </HBox.margin>
@@ -185,7 +185,7 @@
                                       <Font name="System Bold" size="24.0" />
                                  </font>
                               </Label>
-                               <Label text="€ 579" textFill="#6e6e73">
+                               <Label text="A partire da 579 €" textFill="#6e6e73">
                                  <font>
                                     <Font name="System Bold" size="16.0" />
                                  </font>
@@ -193,7 +193,7 @@
                               <Separator prefWidth="319.0" />
                                 <Button fx:id="discoverAirPodsMax2Product" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                  <font>
-                                     <Font size="18.0" />
+                                     <Font name="System Bold" size="18.0" />
                                  </font>
                               </Button>
                            </children>
@@ -211,7 +211,7 @@
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                                </Label>
-                              <Label text="€ 249" textFill="#6e6e73">
+                              <Label text="A partire da 249 €" textFill="#6e6e73">
                                  <font>
                                      <Font name="System Bold" size="16.0" />
                                  </font>
@@ -219,7 +219,7 @@
                                <Separator prefWidth="319.0" />
                               <Button fx:id="discoverAirPodsPro3Product" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                  <font>
-                                     <Font size="18.0" />
+                                     <Font name="System Bold" size="18.0" />
                                  </font>
                               </Button>
                             </children>
@@ -237,7 +237,7 @@
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                                </Label>
-                              <Label text="€ 149" textFill="#6e6e73">
+                              <Label text="A partire da 149 €" textFill="#6e6e73">
                                  <font>
                                      <Font name="System Bold" size="16.0" />
                                  </font>
@@ -245,7 +245,7 @@
                                <Separator prefWidth="319.0" />
                               <Button fx:id="discoverAirPods4Product" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                  <font>
-                                     <Font size="18.0" />
+                                     <Font name="System Bold" size="18.0" />
                                  </font>
                               </Button>
                             </children>
@@ -255,13 +255,16 @@
 
                   <VBox alignment="CENTER" maxWidth="1200.0" spacing="20.0">
                      <VBox.margin>
-                        <Insets top="40.0" />
+                        <Insets top="10.0" />
                      </VBox.margin>
                      <children>
                           <Label text="Caratteristiche Tecniche">
                            <font>
                               <Font name="System Bold" size="46.0" />
                             </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
                         </Label>
                         <Separator prefWidth="1200.0" />
                      </children>
@@ -374,6 +377,9 @@
                            </children>
                         </VBox>
                      </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
                    </HBox>
 
                </children>

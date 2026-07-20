@@ -109,7 +109,9 @@ public class AirPodsProductController {
 
     @FXML
     private void apriCarrello(MouseEvent event) {
-        NavigationManager.apriCarrello((Node) event.getSource());
+        Node nodo = (Node) event.getSource();
+        AnimazioneUtil.aggiungiAnimazione(nodo);
+        NavigationManager.apriCarrello(nodo);
     }
 
 

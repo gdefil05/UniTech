@@ -186,7 +186,7 @@
                                                 <Font name="System Bold" size="24.0" />
                                              </font>
                                         </Label>
-                                         <Label text="A partire da 2.029 € " textFill="#6e6e73">
+                                         <Label text="A partire da 2.029 €" textFill="#6e6e73">
                                             <font>
                                                  <Font name="System Bold" size="16.0" />
                                             </font>
@@ -194,7 +194,7 @@
                                           <Separator prefWidth="319.0" />
                                         <Button fx:id="discoveriMacProduct" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                              <font>
-                                                <Font size="18.0" />
+                                                <Font name="System Bold" size="18.0" />
                                              </font>
                                         </Button>
                                     </children>
@@ -211,7 +211,7 @@
                                                 <Font name="System Bold" size="24.0" />
                                              </font>
                                         </Label>
-                                        <Label text="A partire da 3.049 € " textFill="#6e6e73">
+                                        <Label text="A partire da 3.049 €" textFill="#6e6e73">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -219,7 +219,7 @@
                                          <Separator prefWidth="319.0" />
                                         <Button fx:id="discoverMacStudioProduct" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                              <font>
-                                                <Font size="18.0" />
+                                                <Font name="System Bold" size="18.0" />
                                             </font>
                                          </Button>
                                     </children>
@@ -236,7 +236,7 @@
                                                   <Font name="System Bold" size="24.0" />
                                             </font>
                                          </Label>
-                                        <Label text="A partire da 979 € " textFill="#6e6e73">
+                                        <Label text="A partire da 979 €" textFill="#6e6e73">
                                              <font>
                                                 <Font name="System Bold" size="16.0" />
                                              </font>
@@ -244,7 +244,7 @@
                                         <Separator prefWidth="319.0" />
                                          <Button fx:id="discoverMacMiniProduct" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                             <font>
-                                                 <Font size="18.0" />
+                                                 <Font name="System Bold" size="18.0" />
                                             </font>
                                          </Button>
                                     </children>
@@ -507,6 +507,9 @@
                                     </children>
                                 </HBox>
                             </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
                          </VBox>
                     </children>
                     <VBox.margin>

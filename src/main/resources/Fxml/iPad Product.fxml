@@ -183,7 +183,7 @@
                                      <Font name="System Bold" size="24.0" />
                                  </font>
                               </Label>
-                               <Label text="€ 1.299" textFill="#6e6e73">
+                               <Label text="A partire da 1.299 €" textFill="#6e6e73">
                                  <font>
                                     <Font name="System Bold" size="16.0" />
                                  </font>
@@ -191,7 +191,7 @@
                               <Separator prefWidth="319.0" />
                                <Button fx:id="discoveriPadProProduct" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                  <font>
-                                     <Font size="18.0" />
+                                     <Font name="System Bold" size="18.0" />
                                  </font>
                               </Button>
                            </children>
@@ -208,7 +208,7 @@
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                                </Label>
-                              <Label text="€ 829" textFill="#6e6e73">
+                              <Label text="A partire da 829 €" textFill="#6e6e73">
                                  <font>
                                      <Font name="System Bold" size="16.0" />
                                  </font>
@@ -216,7 +216,7 @@
                                <Separator prefWidth="319.0" />
                               <Button fx:id="discoveriPadAirProduct" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                  <font>
-                                     <Font size="18.0" />
+                                     <Font name="System Bold" size="18.0" />
                                  </font>
                                  <VBox.margin>
                                      <Insets />
@@ -236,7 +236,7 @@
                                     <Font name="System Bold" size="24.0" />
                                  </font>
                                </Label>
-                              <Label text="€ 509" textFill="#6e6e73">
+                              <Label text="A partire da 509 €" textFill="#6e6e73">
                                  <font>
                                      <Font name="System Bold" size="16.0" />
                                  </font>
@@ -244,7 +244,7 @@
                                <Separator prefWidth="319.0" />
                               <Button fx:id="discoveriPadBaseProduct" mnemonicParsing="false" styleClass="accent" text="Scopri di più">
                                  <font>
-                                     <Font size="18.0" />
+                                     <Font name="System Bold" size="18.0" />
                                  </font>
                               </Button>
                             </children>
@@ -253,13 +253,16 @@
                   </HBox>
                    <VBox alignment="CENTER" maxWidth="1241.0" spacing="20.0">
                      <VBox.margin>
-                        <Insets top="80.0" />
+                        <Insets top="10.0" />
                      </VBox.margin>
                      <children>
                          <Label text="Caratteristiche Tecniche">
                            <font>
                               <Font name="System Bold" size="46.0" />
                             </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
                         </Label>
                         <Separator prefWidth="1241.0" />
                      </children>
@@ -468,6 +471,9 @@
                            </children>
                         </VBox>
                      </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
                   </HBox>
                </children>
                <VBox.margin>
@@ -924,6 +930,9 @@
                      </children>
                   </HBox>
                </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
             </VBox>
          </children>
       </VBox>
