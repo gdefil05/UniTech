@@ -14,9 +14,6 @@ import org.kordamp.ikonli.javafx.FontIcon;
 public class HomeController {
 
     @FXML
-    private ImageView logoicon;
-
-    @FXML
     private FontIcon loginIcon;
 
     @FXML
@@ -111,6 +108,9 @@ public class HomeController {
     private Button DiscoveriMacHome;
 
     @FXML
+    private FontIcon shoppingBag;
+
+    @FXML
     private void apriCarrello(MouseEvent event) {
         NavigationManager.apriCarrello((Node) event.getSource());
     }
@@ -151,6 +151,8 @@ public class HomeController {
         AnimazioneUtil.verificaCambiaScena(DiscoveriMacHome, "/fxml/iMac PageProduct.fxml");
 
         AnimazioneUtil.verificaCambiaScena(loginIcon, "/fxml/ProfileOption.fxml");
-        AnimazioneUtil.verificaCambiaScena(logoicon, "/fxml/Home.fxml");
+        AnimazioneUtil.aggiungiAnimazione(loginIcon);
+        AnimazioneUtil.aggiungiAnimazione(shoppingBag);
+
     }
 }

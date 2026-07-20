@@ -59,10 +59,6 @@ public class AirPodsProductController {
 
 
 
-
-
-
-
     @FXML
     private void aggiungiAirPodsMax2(MouseEvent event) {
 
