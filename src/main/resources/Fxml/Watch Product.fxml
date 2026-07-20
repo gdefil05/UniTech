@@ -20,7 +20,7 @@
    <content>
       <VBox style="-fx-background-color: #C4DEFF;">
          <children>
-            <VBox alignment="TOP_CENTER" spacing="60.0" style="-fx-padding: 40 20 60 20; -fx-background-color: #EEF2FB; -fx-background-radius: 20; -fx-border-radius: 20;">
+            <VBox alignment="TOP_CENTER" spacing="50.0" style="-fx-padding: 40 20 60 20; -fx-background-color: #EEF2FB; -fx-background-radius: 20; -fx-border-radius: 20;" VBox.vgrow="ALWAYS">
                <children>
                   <HBox alignment="CENTER_LEFT" maxWidth="880.0" minHeight="54.0" prefHeight="54.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-radius: 10;">
                       <styleClass>
@@ -162,18 +162,18 @@
                      </padding>
                   </HBox>
 
-                  <Label text="Scegli il tuo modello di Watch">
+                  <Label text="Confronta il tuo modello di Watch">
                      <font>
                         <Font name="System Bold" size="58.0" />
                      </font>
                      <VBox.margin>
-                         <Insets bottom="20.0" top="20.0" />
+                         <Insets />
                      </VBox.margin>
                   </Label>
 
-                  <HBox alignment="TOP_CENTER" maxWidth="1200.0" spacing="100.0">
+                  <HBox alignment="TOP_CENTER" spacing="100.0">
                       <children>
-                        <VBox alignment="TOP_CENTER" prefWidth="324.0" spacing="15.0">
+                        <VBox alignment="TOP_CENTER" spacing="10.0">
                            <children>
                               <ImageView fitHeight="488.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -199,7 +199,7 @@
                            </children>
                          </VBox>
 
-                        <VBox alignment="TOP_CENTER" prefWidth="324.0" spacing="15.0">
+                        <VBox alignment="TOP_CENTER" spacing="10.0">
                            <children>
                                <ImageView fitHeight="488.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -225,7 +225,7 @@
                             </children>
                         </VBox>
 
-                        <VBox alignment="TOP_CENTER" prefWidth="324.0" spacing="15.0">
+                        <VBox alignment="TOP_CENTER" spacing="10.0">
                            <children>
                                <ImageView fitHeight="488.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -267,9 +267,9 @@
                      </children>
                   </VBox>
 
-                   <HBox alignment="TOP_CENTER" maxWidth="1200.0" spacing="100.0">
+                   <HBox alignment="TOP_CENTER" spacing="100.0">
                      <children>
-                        <VBox alignment="TOP_CENTER" prefWidth="324.0" spacing="30.0">
+                        <VBox alignment="TOP_CENTER" prefWidth="327.0" spacing="30.0">
                            <children>
                                <ImageView fitHeight="112.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -337,7 +337,7 @@
                            </children>
                         </VBox>
 
-                        <VBox alignment="TOP_CENTER" prefWidth="324.0" spacing="30.0">
+                        <VBox alignment="TOP_CENTER" prefWidth="327.0" spacing="30.0">
                             <children>
                               <ImageView fitHeight="112.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -405,7 +405,7 @@
                            </children>
                         </VBox>
 
-                        <VBox alignment="TOP_CENTER" prefWidth="324.0" spacing="30.0">
+                        <VBox alignment="TOP_CENTER" prefWidth="327.0" spacing="30.0">
                             <children>
                               <ImageView fitHeight="112.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -479,7 +479,7 @@
                   </HBox>
                 </children>
                <VBox.margin>
-                  <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="30.0" />
                </VBox.margin>
             </VBox>
          </children>
