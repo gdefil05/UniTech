@@ -643,13 +643,13 @@
   -fx-text-fill: #3A7BD5;
 }
 
-/*================BUTTON DEFAULT==========*/
+/*================BUTTON LOGIN==========*/
 
 .button-login{
   -fx-font-family: CooperHewitt;
   -fx-text-fill: white;
   -fx-font-weight: bold;
-  -fx-background-color: #2092e4;
+  -fx-background-color: rgb(0, 122, 255);
   -fx-background-radius: 10px;
   -fx-border-radius: 10px;
   -fx-border-width: 1.2;
@@ -791,11 +791,13 @@
   -fx-text-fill: white;
   -fx-font-size: 15px;
   -fx-font-weight: bold;
-  -fx-background-color: #2092e4;
+  -fx-background-color: rgb(0, 122, 255);
   -fx-background-radius: 10px;
   -fx-border-radius: 10px;
   -fx-border-width: 1.2;
 }
+
+/*=================== ICONE =================*/
 
 .splash-icon{
   -fx-icon-color: #5c5fd6;
