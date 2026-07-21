@@ -21,35 +21,26 @@ import java.util.Objects;
 
 public class iPadProductController {
 
-    // =========================
-    // 📦 VARIABILI IPAD
-    // =========================
+    // VARIABILI IPAD
     private String coloreIPad = "Argento";
     private String memoriaIPad = "128GB";
     private double prezzoIPad = 509.0;
     private Image immagineIPad = loadImage("/it/uid/unitech/Images/iPad Argento.png");
 
-    // =========================
-    // 📦 VARIABILI IPAD AIR
-    // =========================
+    // VARIABILI IPAD AIR
     private String coloreIPadAir = "Grigio";
     private String memoriaIPadAir = "128GB";
     private double prezzoIPadAir = 829.0;
     private Image immagineIPadAir = loadImage("/it/uid/unitech/Images/iPad Air Grigio.png");
 
-    // =========================
-    // 📦 VARIABILI IPAD PRO
-    // =========================
+    //VARIABILI IPAD PRO
     private String coloreIPadPro = "Nero";
     private String memoriaIPadPro = "256GB";
     private double prezzoIPadPro = 1299.0;
     private Image immagineIPadPro = loadImage("/it/uid/unitech/Images/iPad Pro Nero.png");
 
 
-    // =========================
-    // 🛒 AGGIUNTA AL CARRELLO
-    // =========================
-
+    // AGGIUNTA AL CARRELLO
     @FXML
     private void aggiungiIPad(MouseEvent event) {
 
@@ -96,9 +87,7 @@ public class iPadProductController {
     }
 
 
-    // =========================
-    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
-    // =========================
+    // ACQUISTA ORA (checkout rapido su singolo prodotto)
 
     @FXML
     private void acquistaOraIPad(MouseEvent event) {
@@ -138,7 +127,6 @@ public class iPadProductController {
                 immagineIPadPro,
                 "Colore: " + coloreIPadPro + " | Memoria: " + memoriaIPadPro
         );
-
         NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 

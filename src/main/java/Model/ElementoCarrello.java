@@ -19,9 +19,7 @@ public class ElementoCarrello {
     }
 
     public ElementoCarrello(String nome2, double prezzoMax2, int quantita2, Image immagineMax2,
-            Object caratteristiche2) {
-        //TODO Auto-generated constructor stub
-    }
+            Object caratteristiche2) {}
 
     public String getNome() {
         return nome;

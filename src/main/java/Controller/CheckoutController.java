@@ -21,9 +21,7 @@ import Util.NavigationManager;
 
 public class CheckoutController {
 
-    // ==========================================
-    // 📦 CAMPI FORM SPEDIZIONE
-    // ==========================================
+    //Campi Spedizione
     @FXML
     private TextField nomeField;
     @FXML
@@ -50,9 +48,7 @@ public class CheckoutController {
     @FXML
     private Label errProvincia;
 
-    // ==========================================
-    // 💳 CAMPI PAGAMENTO
-    // ==========================================
+    //Campi Pagamento
     @FXML
     private TextField nomeCartaField;
     @FXML
@@ -71,7 +67,7 @@ public class CheckoutController {
     @FXML
     private Label errCvv;
 
-    // 👉 icone circuiti carta
+    //Icone Carte
     @FXML
     private FontIcon visaIcon;
     @FXML
@@ -89,9 +85,7 @@ public class CheckoutController {
     @FXML
     private Button btnConfermaOverlay;
 
-    // ==========================================
-    // 🛒 RIEPILOGO ORDINE
-    // ==========================================
+    //Riepilogo Ordine
     @FXML
     private VBox riepilogoBox;
     @FXML
@@ -127,10 +121,7 @@ public class CheckoutController {
         AnimazioneUtil.aggiungiAnimazione(btnAnnulla);
     }
 
-    // ==========================================
-    // LIMITAZIONE INPUT IN TEMPO REALE
-    // ==========================================
-
+    //Limitatore Input
     private void setupCapFormatter() {
         UnaryOperator<TextFormatter.Change> filter = change -> {
             String newText = change.getControlNewText();
@@ -211,9 +202,7 @@ public class CheckoutController {
         });
     }
 
-    // ==========================================
-    // 💳 GESTIONE ICONA CIRCUITO CARTA
-    // ==========================================
+    //Gestione icona circuito
     private void updateCardIcon(String value) {
 
         if (value == null || value.isEmpty()) {
@@ -283,9 +272,7 @@ public class CheckoutController {
         return null;
     }
 
-    // ==========================================
-    // 🛒 RIEPILOGO ORDINE
-    // ==========================================
+    //Riepilogo ordine
     private void popolaRiepilogo() {
 
         riepilogoBox.getChildren().clear();
@@ -319,9 +306,7 @@ public class CheckoutController {
         lblTotaleCheckout.setText("€ " + String.format("%.2f", CheckoutSession.getIstanza().getTotaleCheckout()));
     }
 
-    // ==========================================
-    // ✅ VALIDAZIONE FORM
-    // ==========================================
+    //Validazione
 
     private void mostraErrore(Label label, String messaggio) {
         label.setText(messaggio);
@@ -434,9 +419,7 @@ public class CheckoutController {
         return valido;
     }
 
-    // ==========================================
-    // 💳 PAGA ORA
-    // ==========================================
+    //Pagamento
     @FXML
     private void pagaOra(ActionEvent event) {
 
@@ -448,10 +431,8 @@ public class CheckoutController {
         NavigationManager.apriConferma((Node) event.getSource());
     }
 
-    // ==========================================
-    // ❌ ANNULLA CHECKOUT (con conferma overlay)
-    // ==========================================
 
+    //Annulla Checkout
     @FXML
     private void annullaCheckout(ActionEvent event) {
         AnimazioneUtil.apriOverlay(overlayAnnulla);

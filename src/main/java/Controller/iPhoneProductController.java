@@ -20,35 +20,27 @@ import java.util.Objects;
 
 public class iPhoneProductController {
 
-    // =========================
-    // 📦 VARIABILI IPHONE 17
-    // =========================
+
+    //VARIABILI IPHONE 17
     private String colore17 = "Nero";
     private String memoria17 = "128GB";
     private double prezzo17 = 939.0;
     private Image immagine17 = loadImage("/it/uid/unitech/Images/iPhone 17 Nero.png");
 
-    // =========================
-    // 📦 VARIABILI IPHONE 17 PRO
-    // =========================
+    //VARIABILI IPHONE 17 PRO
     private String colore17Pro = "Arancione";
     private String memoria17Pro = "256GB";
     private double prezzo17Pro = 1339.0;
     private Image immagine17Pro = loadImage("/it/uid/unitech/Images/iPhone 17 Pro Arancione.png");
 
-    // =========================
-    // 📦 VARIABILI IPHONE AIR
-    // =========================
+
+    //VARIABILI IPHONE AIR
     private String coloreAir = "Nero";
     private String memoriaAir = "256GB";
     private double prezzoAir = 1219.0;
     private Image immagineAir = loadImage("/it/uid/unitech/Images/iPhone Air Nero.png");
 
-
-    // =========================
-    // 🛒 AGGIUNTA AL CARRELLO
-    // =========================
-
+    //AGGIUNTA AL CARRELLO
     @FXML
     private void aggiungiIPhone17(MouseEvent event) {
 
@@ -95,11 +87,7 @@ public class iPhoneProductController {
         AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
-
-    // =========================
-    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
-    // =========================
-
+    //ACQUISTA ORA (checkout rapido su singolo prodotto)
     @FXML
     private void acquistaOraIPhone17(MouseEvent event) {
 
@@ -142,20 +130,13 @@ public class iPhoneProductController {
         NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
-
-    // =========================
-    // 🛒 APERTURA CARRELLO
-    // =========================
-
+    //APERTURA CARRELLO
     @FXML
     private void apriCarrello(MouseEvent event) {
         NavigationManager.apriCarrello((Node) event.getSource());
     }
 
-
-    // ==========================================
-    // 📱 DATI iPhone 17
-    // ==========================================
+    // DATI iPhone 17
     @FXML
     private ImageView immagineProdotto17;
     @FXML
@@ -213,9 +194,8 @@ public class iPhoneProductController {
     @FXML private MenuItem AirPods4Home17;
 
 
-    // ==========================================
-    // 📱 DATI iPhone 17 Pro
-    // ==========================================
+
+    //DATI iPhone 17 Pro
     @FXML
     private ImageView immagineProdotto17Pro;
     @FXML
@@ -268,10 +248,7 @@ public class iPhoneProductController {
     @FXML private MenuItem AirPodsPro3Home17Pro;
     @FXML private MenuItem AirPods4Home17Pro;
 
-
-    // ==========================================
-    // 📱 DATI iPhone Air
-    // ==========================================
+    //DATI iPhone Air
     @FXML
     private ImageView immagineProdottoAir;
     @FXML
@@ -328,9 +305,7 @@ public class iPhoneProductController {
 
 
     public void initialize() {
-        // ------------------------------------------
         // Prodotto iPhone 17
-        // ------------------------------------------
         AnimazioneUtil.aggiungiClickColore(circleNero17, "Nero", "/it/uid/unitech/Images/iPhone 17 Nero.png", coloreLabel17, immagineProdotto17);
         AnimazioneUtil.aggiungiClickColore(circleBlu17, "Blu", "/it/uid/unitech/Images/iPhone 17 Azzurro.png", coloreLabel17, immagineProdotto17);
         AnimazioneUtil.aggiungiClickColore(circleBianco17, "Bianco", "/it/uid/unitech/Images/iPhone 17 Bianco.png", coloreLabel17, immagineProdotto17);
@@ -423,9 +398,8 @@ public class iPhoneProductController {
         AnimazioneUtil.aggiungiAnimazione(loginIcon17);
         AnimazioneUtil.aggiungiAnimazione(Bag17);
 
-        // ------------------------------------------
+
         // Prodotto iPhone 17 Pro
-        // ------------------------------------------
         AnimazioneUtil.aggiungiClickColore(circleArancione17Pro, "Arancione", "/it/uid/unitech/Images/iPhone 17 Pro Arancione.png", coloreLabel17Pro, immagineProdotto17Pro);
         AnimazioneUtil.aggiungiClickColore(circleBianco17Pro, "Bianco", "/it/uid/unitech/Images/iPhone 17 Pro Bianco.png", coloreLabel17Pro, immagineProdotto17Pro);
         AnimazioneUtil.aggiungiClickColore(circleBlu17Pro, "Blu", "/it/uid/unitech/Images/iPhone 17 Pro Blu.png", coloreLabel17Pro, immagineProdotto17Pro);
@@ -504,9 +478,8 @@ public class iPhoneProductController {
         AnimazioneUtil.aggiungiAnimazione(loginIcon17Pro);
         AnimazioneUtil.aggiungiAnimazione(BagPro);
 
-        // ------------------------------------------
+
         // Prodotto iPhone Air
-        // ------------------------------------------
         AnimazioneUtil.aggiungiClickColore(circleNeroAir, "Nero", "/it/uid/unitech/Images/iPhone Air Nero.png", coloreLabelAir, immagineProdottoAir);
         AnimazioneUtil.aggiungiClickColore(circleBiancoAir, "Bianco", "/it/uid/unitech/Images/iPhone Air Bianco.png", coloreLabelAir, immagineProdottoAir);
         AnimazioneUtil.aggiungiClickColore(circleCelesteAir, "Celeste", "/it/uid/unitech/Images/iPhone Air Celeste.png", coloreLabelAir, immagineProdottoAir);
