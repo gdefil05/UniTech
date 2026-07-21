@@ -154,6 +154,7 @@ public class HomeController {
         AnimazioneUtil.verificaCambiaScena(DiscoveriMacHome, "/fxml/iMac PageProduct.fxml");
 
         AnimazioneUtil.verificaCambiaScena(loginIcon, "/fxml/ProfileOption.fxml");
+        AnimazioneUtil.verificaCambiaScena(logoicon, "/fxml/Home.fxml");
         AnimazioneUtil.aggiungiAnimazione(loginIcon);
         AnimazioneUtil.aggiungiAnimazione(shoppingBag);
         AnimazioneUtil.aggiungiAnimazione(logoicon);

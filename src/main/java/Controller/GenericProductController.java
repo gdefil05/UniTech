@@ -23,6 +23,9 @@ public class GenericProductController
     private FontIcon loginIconiPhoneProduct;
 
     @FXML
+    private FontIcon shoppingBag;
+
+    @FXML
     private SplitMenuButton iPhoneHomeiPhoneProduct;
 
     @FXML
@@ -424,6 +427,7 @@ public class GenericProductController
         AnimazioneUtil.verificaCambiaScena(loginIconiPhoneProduct, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIconiPhoneProduct);
         AnimazioneUtil.aggiungiAnimazione(loginIconiPhoneProduct);
+        AnimazioneUtil.aggiungiAnimazione(shoppingBag);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeiPhoneProduct, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeiPhoneProduct, "/fxml/iPhone 17 PageProduct.fxml");

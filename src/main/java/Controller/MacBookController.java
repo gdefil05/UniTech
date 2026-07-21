@@ -151,6 +151,7 @@ public class MacBookController {
     // Navigazione MacBook Pro 14
     @FXML private ImageView logoiconMacBookPro14;
     @FXML private FontIcon loginIconMacBookPro14;
+    @FXML private FontIcon shoppingBag;
     @FXML private SplitMenuButton iPhoneHomeMacBookPro14;
     @FXML private SplitMenuButton iPadHomeMacBookPro14;
     @FXML private SplitMenuButton MacHomeMacBookPro14;
@@ -342,6 +343,9 @@ public class MacBookController {
             AnimazioneUtil.verificaCambiaScena(logoiconMacBookPro14, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoiconMacBookPro14);
             AnimazioneUtil.aggiungiAnimazione(loginIconMacBookPro14);
+            if (shoppingBag != null) {
+                AnimazioneUtil.aggiungiAnimazione(shoppingBag);
+            }
         }
 
 
@@ -436,6 +440,9 @@ public class MacBookController {
             AnimazioneUtil.verificaCambiaScena(logoiconMacBookAir13, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoiconMacBookAir13);
             AnimazioneUtil.aggiungiAnimazione(loginIconMacBookAir13);
+            if (shoppingBag != null) {
+                AnimazioneUtil.aggiungiAnimazione(shoppingBag);
+            }
         }
 
 
@@ -529,6 +536,9 @@ public class MacBookController {
             AnimazioneUtil.verificaCambiaScena(logoiconMacBookNeo, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoiconMacBookNeo);
             AnimazioneUtil.aggiungiAnimazione(loginIconMacBookNeo);
+            if (shoppingBag != null) {
+                AnimazioneUtil.aggiungiAnimazione(shoppingBag);
+            }
         }
     }
 

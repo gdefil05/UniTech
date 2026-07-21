@@ -180,6 +180,8 @@ public class AirPodsProductController {
     private FontIcon loginIconMax2;
     @FXML
     private ImageView logoIconMax2;
+    @FXML
+    private FontIcon shoppingBag;
 
     // Navigazione (sezione AirPods Max 2)
     @FXML private SplitMenuButton iPhoneHomeAirPodsMax2;
@@ -424,6 +426,9 @@ public class AirPodsProductController {
             verificaCambiaScena(loginIconMax2, "/fxml/ProfileOption.fxml");
             aggiungiAnimazione(logoIconMax2);
             verificaCambiaScena(logoIconMax2, "/fxml/Home.fxml");
+            if (shoppingBag != null) {
+                aggiungiAnimazione(shoppingBag);
+            }
         }
 
         if (loginIcon4 != null) {
@@ -431,6 +436,9 @@ public class AirPodsProductController {
             verificaCambiaScena(loginIcon4, "/fxml/ProfileOption.fxml");
             aggiungiAnimazione(logoIcon4);
             verificaCambiaScena(logoIcon4, "/fxml/Home.fxml");
+            if (shoppingBag != null) {
+                aggiungiAnimazione(shoppingBag);
+            }
         }
 
         if (loginIcon3 != null) {
@@ -438,6 +446,9 @@ public class AirPodsProductController {
             verificaCambiaScena(loginIcon3, "/fxml/ProfileOption.fxml");
             aggiungiAnimazione(logoIcon3);
             verificaCambiaScena(logoIcon3, "/fxml/Home.fxml");
+            if (shoppingBag != null) {
+                aggiungiAnimazione(shoppingBag);
+            }
         }
 
         // Navigazione (sezione AirPods Max 2)

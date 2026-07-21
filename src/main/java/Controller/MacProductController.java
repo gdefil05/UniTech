@@ -158,6 +158,8 @@ public class MacProductController {
     private FontIcon loginIconiM;
     @FXML
     private ImageView logoIconiM;
+    @FXML
+    private FontIcon shoppingBag;
 
         // Navigazione (sezione iMac)
     @FXML private SplitMenuButton iPhoneHomeiMac;
@@ -342,6 +344,9 @@ public class MacProductController {
             AnimazioneUtil.verificaCambiaScena(logoIconiM, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoIconiM);
             AnimazioneUtil.aggiungiAnimazione(loginIconiM);
+            if (shoppingBag != null) {
+                AnimazioneUtil.aggiungiAnimazione(shoppingBag);
+            }
 
             AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeiMac, "/fxml/iPhone 17 Pro PageProduct.fxml");
             AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeiMac, "/fxml/iPhone 17 PageProduct.fxml");
@@ -412,6 +417,9 @@ public class MacProductController {
             AnimazioneUtil.verificaCambiaScena(logoIconMS, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoIconMS);
             AnimazioneUtil.aggiungiAnimazione(loginIconMS);
+            if (shoppingBag != null) {
+                AnimazioneUtil.aggiungiAnimazione(shoppingBag);
+            }
 
             AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeMacStudio, "/fxml/iPhone 17 Pro PageProduct.fxml");
             AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeMacStudio, "/fxml/iPhone 17 PageProduct.fxml");
@@ -482,6 +490,9 @@ public class MacProductController {
             AnimazioneUtil.verificaCambiaScena(logoIconMini, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoIconMini);
             AnimazioneUtil.aggiungiAnimazione(loginIconMini);
+            if (shoppingBag != null) {
+                AnimazioneUtil.aggiungiAnimazione(shoppingBag);
+            }
         }
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeMacMini, "/fxml/iPhone 17 Pro PageProduct.fxml");

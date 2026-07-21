@@ -182,6 +182,8 @@ public class iPhoneProductController {
     private FontIcon loginIcon17;
     @FXML
     private ImageView logoIcon17;
+    @FXML
+    private FontIcon shoppingBag;
 
     // Navigazione iPhone 17
     @FXML private SplitMenuButton iPhoneHome17;
@@ -415,6 +417,7 @@ public class iPhoneProductController {
         AnimazioneUtil.verificaCambiaScena(logoIcon17, "/fxml/Home.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIcon17);
         AnimazioneUtil.aggiungiAnimazione(loginIcon17);
+        AnimazioneUtil.aggiungiAnimazione(shoppingBag);
 
         // ------------------------------------------
         // Prodotto iPhone 17 Pro

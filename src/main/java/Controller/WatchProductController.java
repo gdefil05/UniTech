@@ -156,6 +156,8 @@ public class WatchProductController {
     @FXML
     private ImageView logoIconUltra;
     @FXML
+    private FontIcon shoppingBag;
+    @FXML
     private ImageView immagineProdottoUltra;
 
         // Navigazione (sezione Apple Watch Ultra 3)
@@ -455,6 +457,9 @@ public class WatchProductController {
         AnimazioneUtil.aggiungiAnimazione(loginIconUltra);
         AnimazioneUtil.aggiungiAnimazione(loginIconSE3);
         AnimazioneUtil.aggiungiAnimazione(loginIcon11);
+        if (shoppingBag != null) {
+            AnimazioneUtil.aggiungiAnimazione(shoppingBag);
+        }
 
         AnimazioneUtil.verificaCambiaScena(loginIconUltra, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.verificaCambiaScena(loginIconSE3, "/fxml/ProfileOption.fxml");

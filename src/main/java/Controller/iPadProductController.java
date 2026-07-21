@@ -183,6 +183,7 @@ public class iPadProductController {
     @FXML private SplitMenuButton AirPodsHomeiPad;
     @FXML private ImageView logoIconiPad;
     @FXML private FontIcon loginIconiPad;
+    @FXML private FontIcon shoppingBag;
 
 
     @FXML private MenuItem iPhone17ProHomeiPad;
@@ -376,6 +377,7 @@ public class iPadProductController {
         AnimazioneUtil.verificaCambiaScena(loginIconiPad, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIconiPad);
         AnimazioneUtil.aggiungiAnimazione(loginIconiPad);
+        AnimazioneUtil.aggiungiAnimazione(shoppingBag);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeiPad, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeiPad, "/fxml/iPhone 17 PageProduct.fxml");
