@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.String?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Region?>
-<?import javafx.scene.layout.StackPane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
-<?import org.kordamp.ikonli.javafx.FontIcon?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import org.kordamp.ikonli.javafx.*?>
 
-<AnchorPane prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #f5f5f7;" stylesheets="@../Style/unitech.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CheckoutController">
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #f5f5f7;" stylesheets="@../Style/cupertino-light.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CheckoutController">
 
     <children>
 
-        <ScrollPane fitToWidth="true" hbarPolicy="ALWAYS" style="-fx-background-color: transparent; -fx-background: transparent; -fx-border-color: transparent;" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <ScrollPane fitToWidth="true" style="-fx-background-color: transparent; -fx-background: transparent; -fx-border-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <content>
         <VBox alignment="TOP_CENTER" maxWidth="Infinity" prefWidth="1000.0" spacing="30.0">
 
@@ -131,9 +123,9 @@
                                         <StackPane prefHeight="35.0" prefWidth="358.0">
                                             <children>
                                                 <TextField fx:id="cardField" prefHeight="35.0" prefWidth="358.0" promptText="Numero Carta (16 cifre)" style="-fx-background-color: #f2f2f7; -fx-background-radius: 10; -fx-border-color: transparent; -fx-padding: 8 10 8 10;" />
-                                                <FontIcon fx:id="visaIcon" iconLiteral="fab-cc-visa" managed="false" text="" translateX="-10.0" visible="false" StackPane.alignment="CENTER_RIGHT" />
-                                                <FontIcon fx:id="mastercardIcon" iconLiteral="fab-cc-mastercard" managed="false" translateX="-10.0" visible="false" StackPane.alignment="CENTER_RIGHT" />
-                                                <FontIcon fx:id="amexIcon" iconLiteral="fab-cc-amex" managed="false" translateX="-10.0" visible="false" StackPane.alignment="CENTER_RIGHT" />
+                                                <FontIcon fx:id="visaIcon" iconLiteral="fab-cc-visa" text="" translateX="-10.0" StackPane.alignment="CENTER_RIGHT" visible="false" managed="false" />
+                                                <FontIcon fx:id="mastercardIcon" iconLiteral="fab-cc-mastercard" translateX="-10.0" StackPane.alignment="CENTER_RIGHT" visible="false" managed="false" />
+                                                <FontIcon fx:id="amexIcon" iconLiteral="fab-cc-amex" translateX="-10.0" StackPane.alignment="CENTER_RIGHT" visible="false" managed="false" />
                                             </children>
                                         </StackPane>
                                         <Label fx:id="errCard" managed="false" maxWidth="Infinity" styleClass="signup-error" visible="false" wrapText="true" />
@@ -161,11 +153,11 @@
                                 <!-- ANNULLA + PAGA ORA -->
                                 <HBox alignment="CENTER_LEFT">
                                     <children>
-                                        <Button fx:id="btnAnnulla" mnemonicParsing="false" onAction="#annullaCheckout" style="-fx-background-color: transparent; -fx-text-fill: #ff3b30; -fx-font-size: 14; -fx-font-weight: bold; -fx-cursor: hand;" text="← Annulla" />
+                                        <Button fx:id="btnAnnulla" onAction="#annullaCheckout" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-text-fill: #ff3b30; -fx-font-size: 14; -fx-font-weight: bold; -fx-cursor: hand;" text="← Annulla" />
 
                                         <Region HBox.hgrow="ALWAYS" />
 
-                                        <Button fx:id="btnPagaOra" minHeight="44.0" minWidth="160.0" mnemonicParsing="false" onAction="#pagaOra" prefHeight="32.0" prefWidth="110.0" style="-fx-background-color: #0071e3; -fx-text-fill: white; -fx-background-radius: 12; -fx-font-weight: bold;" styleClass="accent" text="Paga Ora" textAlignment="CENTER" />
+                                        <Button fx:id="btnPagaOra" onAction="#pagaOra" minHeight="44.0" minWidth="160.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="110.0" style="-fx-background-color: #0071e3; -fx-text-fill: white; -fx-background-radius: 12; -fx-font-weight: bold;" styleClass="accent" text="Paga Ora" textAlignment="CENTER" />
                                     </children>
                                     <padding>
                                         <Insets top="20.0" />
@@ -194,7 +186,7 @@
                                     </padding>
                                 </Label>
 
-                                <ScrollPane fitToWidth="true" hbarPolicy="NEVER" maxHeight="320.0" prefHeight="320.0" style="-fx-background-color: transparent; -fx-background: transparent; -fx-border-color: transparent;" vbarPolicy="AS_NEEDED">
+                                <ScrollPane fitToWidth="true" maxHeight="320.0" prefHeight="320.0" style="-fx-background-color: transparent; -fx-background: transparent; -fx-border-color: transparent;" vbarPolicy="AS_NEEDED" hbarPolicy="NEVER">
                                     <content>
                                         <VBox fx:id="riepilogoBox" spacing="10.0" />
                                     </content>
@@ -228,11 +220,11 @@
         </ScrollPane>
 
         <!-- ================== OVERLAY CONFERMA ANNULLA (identico a ProfileOption) ================== -->
-        <StackPane fx:id="overlayAnnulla" layoutX="20.0" minWidth="-Infinity" prefHeight="170.0" style="-fx-background-color: rgba(0,0,0,0.4); -fx-background-radius: 20; -fx-border-radius: 20;" visible="false" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="0.0">
+        <StackPane fx:id="overlayAnnulla" layoutX="20.0" minWidth="-Infinity" prefHeight="170.0" style="-fx-background-color: rgba(0,0,0,0.4);" visible="false" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
-                <VBox alignment="CENTER" fillWidth="false" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="400.0" spacing="12.0" style="-fx-background-color: white; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-width: 1.2; -fx-border-color: #e0e0e0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 20, 0.2, 0, 4); -fx-padding: 30;">
+                <VBox alignment="CENTER" fillWidth="false" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="400.0" spacing="12.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-width: 1.2; -fx-border-color: #e0e0e0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 20, 0.2, 0, 4); -fx-padding: 30;">
                     <children>
-                        <FontIcon iconColor="#7a7a7a" iconLiteral="fas-exclamation-triangle" iconSize="40" styleClass="popUp-icon" />
+                        <FontIcon iconColor="#7a7a7a" iconLiteral="fas-exclamation-triangle" iconSize="40" />
                         <Label style="-fx-text-fill: #1a1a1a; -fx-font-size: 20; -fx-font-weight: bold;" text="Annullare l'ordine?" VBox.vgrow="ALWAYS">
                             <VBox.margin>
                                 <Insets top="20.0" />
@@ -249,12 +241,12 @@
                                 <Insets top="5.0" />
                             </VBox.margin>
                             <children>
-                                <Button fx:id="btnAnnullaOverlay" minWidth="-Infinity" mnemonicParsing="false" onAction="#chiudiOverlayAnnulla" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: #f0f0f0; -fx-text-fill: #333333; -fx-border-radius: 20; -fx-background-radius: 20; -fx-font-weight: bold; -fx-font-size: 15; -fx-cursor: hand;" text="Annulla">
+                                <Button fx:id="btnAnnullaOverlay" onAction="#chiudiOverlayAnnulla" minWidth="-Infinity" mnemonicParsing="false" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: #f0f0f0; -fx-text-fill: #333333; -fx-border-radius: 20; -fx-background-radius: 20; -fx-font-weight: bold; -fx-font-size: 15; -fx-cursor: hand;" text="Annulla">
                                     <HBox.margin>
                                         <Insets />
                                     </HBox.margin>
                                 </Button>
-                                <Button fx:id="btnConfermaOverlay" minWidth="-Infinity" mnemonicParsing="false" onAction="#confermaAnnullaCheckout" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: #e53935; -fx-text-fill: white; -fx-border-radius: 20; -fx-background-radius: 20; -fx-font-weight: bold; -fx-font-size: 15; -fx-cursor: hand;" text="Conferma" HBox.hgrow="ALWAYS">
+                                <Button fx:id="btnConfermaOverlay" onAction="#confermaAnnullaCheckout" minWidth="-Infinity" mnemonicParsing="false" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: #e53935; -fx-text-fill: white; -fx-border-radius: 20; -fx-background-radius: 20; -fx-font-weight: bold; -fx-font-size: 15; -fx-cursor: hand;" text="Conferma" HBox.hgrow="ALWAYS">
                                     <HBox.margin>
                                         <Insets />
                                     </HBox.margin>

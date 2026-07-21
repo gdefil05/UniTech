@@ -7,6 +7,7 @@ import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.SplitMenuButton;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import org.kordamp.ikonli.javafx.FontIcon;
 
@@ -14,6 +15,9 @@ public class HomeController {
 
     @FXML
     private FontIcon loginIcon;
+
+    @FXML
+    private ImageView logoicon;
 
     @FXML
     private SplitMenuButton iPhoneHome;
@@ -89,7 +93,7 @@ public class HomeController {
 
     @FXML
     private Button DiscoveriPhone17Home;
-    
+
     @FXML
     private Button DiscoveriPadAirHome;
 
@@ -152,6 +156,7 @@ public class HomeController {
         AnimazioneUtil.verificaCambiaScena(loginIcon, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(loginIcon);
         AnimazioneUtil.aggiungiAnimazione(shoppingBag);
+        AnimazioneUtil.aggiungiAnimazione(logoicon);
 
     }
 }
