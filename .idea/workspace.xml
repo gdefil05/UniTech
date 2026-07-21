@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="upgrade2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/AirPodsProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/AirPodsProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CarrelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CarrelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/uid/unitech/UniTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/uid/unitech/UniTech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Carrello.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Carrello.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +27,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/gdefil05/UniTech.git&quot;,
-    &quot;accountId&quot;: &quot;72fbe951-c6c4-4a8a-960b-28e248951ed1&quot;
+    &quot;url&quot;: &quot;https://github.com/gdefil05/UniTech&quot;,
+    &quot;accountId&quot;: &quot;3432cad2-8632-4205-8b55-b2cc564357b7&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -50,7 +50,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Jonny&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/IdeaProjects/UniTech/src/main/resources/it/uid/unitech/Images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,

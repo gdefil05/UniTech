@@ -1,6 +1,9 @@
 package Controller;
 
 import javafx.animation.FadeTransition;
+import javafx.animation.Interpolator;
+import javafx.animation.ParallelTransition;
+import javafx.animation.TranslateTransition;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.Parent;
@@ -18,8 +21,10 @@ import Util.AnimazioneUtil;
 import Util.NavigationManager;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import javafx.util.Duration;
 import org.kordamp.ikonli.javafx.FontIcon;
+import javafx.geometry.Insets;
 
 public class CarrelloController {
 
@@ -71,8 +76,6 @@ public class CarrelloController {
 
         for (ElementoCarrello p : prodotti) {
 
-
-
             HBox card = new HBox(15);
             card.setStyle("-fx-background-color:  #EEF2FB; -fx-padding: 10; -fx-background-radius: 20; -fx-border-radius:20;");
 
@@ -109,62 +112,7 @@ public class CarrelloController {
                 aggiornaCarrello();
             });
 
-
-            btnDelete.setOnMouseClicked(e -> {
-
-                Stage dialog = new Stage();
-                dialog.initModality(Modality.APPLICATION_MODAL);
-                dialog.setResizable(false);
-
-                Label title = new Label("Rimuovere prodotto?");
-                title.setStyle("-fx-font-size: 18px; -fx-font-weight: bold;");
-
-                Label msg = new Label("Sei sicuro di voler eliminare questo articolo dal carrello?");
-                msg.setStyle("-fx-font-size: 14px; -fx-text-fill: #555;");
-
-
-                Button si = new Button("Sì, elimina");
-                Button no = new Button("Annulla");
-
-                si.setStyle("""
-        -fx-background-color: #ff3b30;
-        -fx-text-fill: white;
-        -fx-background-radius: 8;
-        -fx-padding: 8 16;
-    """);
-
-                no.setStyle("""
-        -fx-background-color: #e0e0e0;
-        -fx-text-fill: black;
-        -fx-background-radius: 8;
-        -fx-padding: 8 16;
-    """);
-
-                si.setOnAction(ev -> {
-                    Carrello.getIstanza().rimuoviProdotto(p);
-                    aggiornaCarrello();
-                    dialog.close();
-                });
-
-                no.setOnAction(ev -> dialog.close());
-
-                HBox buttons = new HBox(10, si, no);
-                buttons.setStyle("-fx-alignment: center;");
-
-                VBox root = new VBox(15, title, msg, buttons);
-                root.setStyle("""
-        -fx-padding: 20;
-        -fx-background-color: white;
-        -fx-alignment: center;
-        -fx-background-radius: 12;
-    """);
-
-                Scene scene = new Scene(root, 320, 160);
-                dialog.setScene(scene);
-                dialog.showAndWait();
-            });
-
-
+            btnDelete.setOnMouseClicked(e -> apriDialogRimozione(p));
 
             HBox controls = new HBox(10, btnMinus, btnPlus);
 
@@ -180,6 +128,142 @@ public class CarrelloController {
             boxProdotti.getChildren().add(card);
         }
         lblTotale.setText("€ " + String.format("%.2f", Carrello.getIstanza().getTotale()));
+    }
+
+    /**
+     * Dialog di conferma rimozione prodotto dal carrello.
+     * Stesso stile bottoni e stesse animazioni (fade + slide) dell'overlay
+     * "Elimina Account" della pagina profilo, ma con dimensioni e
+     * posizionamento compatti (piccolo Stage centrato).
+     */
+    private void apriDialogRimozione(ElementoCarrello p) {
+
+        Stage dialog = new Stage();
+        dialog.initStyle(StageStyle.TRANSPARENT);
+        dialog.initModality(Modality.APPLICATION_MODAL);
+        dialog.initOwner(boxProdotti.getScene().getWindow());
+        dialog.setResizable(false);
+
+        FontIcon warningIcon = new FontIcon("fas-exclamation-triangle");
+        warningIcon.setIconColor(javafx.scene.paint.Color.web("#e53935"));
+        warningIcon.setIconSize(40);
+        warningIcon.getStyleClass().add("popUp-icon");
+        // --- NUOVA LABEL: titolo grande e nero, come "Elimina Account" ---
+        Label titolo = new Label("Eliminazione Articolo");
+        titolo.setStyle("-fx-text-fill: #1a1a1a; -fx-font-size: 20; -fx-font-weight: bold;");
+        VBox.setMargin(titolo, new Insets(20, 0, 0, 0));
+        // -----------------------------------------------------------------
+        Label msg = new Label("Sei sicuro di voler eliminare questo articolo dal carrello?");
+        msg.setStyle("-fx-font-size: 13; -fx-text-fill: #888888;");
+        msg.setWrapText(true);
+        msg.setTextAlignment(javafx.scene.text.TextAlignment.CENTER);
+        VBox.setMargin(msg, new Insets(10, 0, 0, 0));
+
+        Separator separator = new Separator();
+        separator.setPrefWidth(340);
+
+        Button no = new Button("Annulla");
+        no.setPrefWidth(140);
+        no.setPrefHeight(38);
+        no.setStyle("""
+            -fx-background-color: #f0f0f0;
+            -fx-text-fill: #333333;
+            -fx-border-radius: 20;
+            -fx-background-radius: 20;
+            -fx-font-weight: bold;
+            -fx-font-size: 15;
+            -fx-cursor: hand;
+        """);
+
+        Button si = new Button("Conferma");
+        si.setPrefWidth(140);
+        si.setPrefHeight(38);
+        si.setStyle("""
+            -fx-background-color: #e53935;
+            -fx-text-fill: white;
+            -fx-border-radius: 20;
+            -fx-background-radius: 20;
+            -fx-font-weight: bold;
+            -fx-font-size: 15;
+            -fx-cursor: hand;
+        """);
+
+        AnimazioneUtil.aggiungiAnimazioneScale(no);
+        AnimazioneUtil.aggiungiAnimazioneScale(si);
+
+        HBox buttons = new HBox(15, no, si);
+        buttons.setAlignment(javafx.geometry.Pos.CENTER);
+
+        VBox root = new VBox(12, warningIcon,titolo, msg, separator, buttons);
+        root.setAlignment(javafx.geometry.Pos.CENTER);
+        root.setPrefWidth(400);
+        root.setStyle("""
+            -fx-background-color: #FFFFFF;
+            -fx-background-radius: 18;
+            -fx-border-width: 1.5;
+            -fx-border-color: #d0d0d0;
+            -fx-border-radius: 18;
+            -fx-padding: 30 30 40 30;
+            -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 25, 0, 0, 8);
+        """);
+        VBox.setMargin(buttons, new Insets(5, 0, 15, 0));
+
+        // stato iniziale per l'animazione di apertura (come AnimazioneUtil.apriOverlay)
+        root.setOpacity(0.0);
+        root.setTranslateY(-30);
+
+        javafx.scene.layout.StackPane wrapper = new javafx.scene.layout.StackPane(root);
+        wrapper.setStyle("-fx-background-color: transparent;");
+        wrapper.setPadding(new Insets(20, 20, 30, 20));
+
+        Scene scene = new Scene(wrapper);
+        scene.setFill(javafx.scene.paint.Color.TRANSPARENT);
+        dialog.setScene(scene);
+
+        wrapper.applyCss();
+        wrapper.layout();
+        dialog.sizeToScene();
+        dialog.centerOnScreen();
+
+        // animazione di apertura identica a AnimazioneUtil.apriOverlay
+        dialog.setOnShown(ev -> {
+            TranslateTransition slide = new TranslateTransition(Duration.millis(400), root);
+            slide.setFromY(-30);
+            slide.setToY(0);
+            slide.setInterpolator(Interpolator.EASE_OUT);
+
+            FadeTransition fade = new FadeTransition(Duration.millis(400), root);
+            fade.setFromValue(0.0);
+            fade.setToValue(1.0);
+
+            new ParallelTransition(fade, slide).play();
+        });
+
+        // animazione di chiusura identica a AnimazioneUtil.chiudiOverlay
+        Runnable chiudiConAnimazione = () -> {
+            TranslateTransition slide = new TranslateTransition(Duration.millis(300), root);
+            slide.setFromY(0);
+            slide.setToY(-30);
+            slide.setInterpolator(Interpolator.EASE_IN);
+
+            FadeTransition fade = new FadeTransition(Duration.millis(300), root);
+            fade.setFromValue(1.0);
+            fade.setToValue(0.0);
+
+            ParallelTransition chiudi = new ParallelTransition(slide, fade);
+            chiudi.setOnFinished(ev -> dialog.close());
+            chiudi.play();
+        };
+
+        si.setOnAction(ev -> {
+            Carrello.getIstanza().rimuoviProdotto(p);
+            aggiornaCarrello();
+            chiudiConAnimazione.run();
+        });
+
+        no.setOnAction(ev -> chiudiConAnimazione.run());
+
+        dialog.showAndWait();
     }
 
 

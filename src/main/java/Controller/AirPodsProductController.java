@@ -23,29 +23,26 @@ import static Util.AnimazioneUtil.*;
 public class AirPodsProductController {
 
     // =========================
-    // 📦 AGGIUNTA PRODOTTI
+    // VARIABILI AIRPODS MAX 2 (Valori di Default)
     // =========================
-
-
-    // =========================
-// VARIABILI AIRPODS MAX 2
-// =========================
     private String coloreMax2 = "Mezzanotte";
     private String ancMax2 = "Standard";
     private double prezzoMax2 = 579.0;
     private Image immagineMax2 = loadImage("/it/uid/unitech/Images/AirPods Max 2 Nere.png");
 
+
     // =========================
-// VARIABILI AIRPODS PRO 3
-// =========================
+    // VARIABILI AIRPODS PRO 3 (Valori di Default)
+    // =========================
     private String colorePro3 = "Bianco";
     private String ancPro3 = "Standard";
     private double prezzoPro3 = 249.0;
     private Image immaginePro3 = loadImage("/it/uid/unitech/Images/AirPods Pro 3.png");
 
+
     // =========================
-// VARIABILI AIRPODS 4
-// =========================
+    // VARIABILI AIRPODS 4 (Valori di Default)
+    // =========================
     private String colore4 = "Bianco";
     private String anc4 = "No";
     private double prezzo4 = 149.0;
@@ -53,6 +50,9 @@ public class AirPodsProductController {
 
 
 
+    // =========================
+    // Metodo che permette di inserire nel carrello le AirPodsMax2 scelte
+    // =========================
     @FXML
     private void aggiungiAirPodsMax2(MouseEvent event) {
 
@@ -68,6 +68,11 @@ public class AirPodsProductController {
         AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
+
+
+    // =========================
+    // Metodo che permette di inserire nel carrello le AirPodsPro3 scelte
+    // =========================
     @FXML
     private void aggiungiAirPodsPro3(MouseEvent event) {
 
@@ -84,6 +89,10 @@ public class AirPodsProductController {
     }
 
 
+
+    // =========================
+    // Metodo che permette di inserire nel carrello le AirPods4 scelte
+    // =========================
     @FXML
     private void aggiungiAirPods4(MouseEvent event) {
 
@@ -101,9 +110,8 @@ public class AirPodsProductController {
 
 
     // =========================
-    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // Metodo che permette di acquistare direttamente le AirPodsMax2, andando al Checkout.
     // =========================
-
     @FXML
     private void acquistaOraMax2(MouseEvent event) {
 
@@ -118,6 +126,11 @@ public class AirPodsProductController {
         NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
+
+
+    // =========================
+    // Metodo che permette di acquistare direttamente le AirPodsPro3, andando al Checkout.
+    // =========================
     @FXML
     private void acquistaOraPro3(MouseEvent event) {
 
@@ -132,6 +145,11 @@ public class AirPodsProductController {
         NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
+
+
+    // =========================
+    // Metodo che permette di acquistare direttamente le AirPods 4, andando al Checkout.
+    // =========================
     @FXML
     private void acquistaOra4(MouseEvent event) {
 
@@ -147,17 +165,22 @@ public class AirPodsProductController {
     }
 
 
-    // =========================
-    // 🛒 APERTURA CARRELLO
-    // =========================
 
+
+    // =========================
+    // Metodo che permette di aprire il carrello nelle varie pagine delle AirPods
+    // =========================
     @FXML
     private void apriCarrello(MouseEvent event) {
         NavigationManager.apriCarrello((Node) event.getSource());
     }
 
 
-    //Dati AirPods Max 2
+
+
+    // =========================
+    // DATI AIRPODS MAX 2
+    // =========================
     @FXML
     private ImageView immagineProdotto;
     @FXML
@@ -183,7 +206,11 @@ public class AirPodsProductController {
     @FXML
     private FontIcon shoppingBag;
 
+
+
+    // =========================
     // Navigazione (sezione AirPods Max 2)
+    // =========================
     @FXML private SplitMenuButton iPhoneHomeAirPodsMax2;
     @FXML private SplitMenuButton iPadHomeAirPodsMax2;
     @FXML private SplitMenuButton MacHomeAirPodsMax2;
@@ -211,7 +238,10 @@ public class AirPodsProductController {
     @FXML private MenuItem AirPods4HomeAirPodsMax2;
 
 
-    //Dati AirPods 4
+
+    // =========================
+    // DATI AIRPODS 4
+    // =========================
     @FXML
     private Label prezzoLabel4;
     @FXML
@@ -229,7 +259,11 @@ public class AirPodsProductController {
     @FXML
     private ImageView immagineProdotto4;
 
+
+
+    // =========================
     // Navigazione (sezione AirPods 4)
+    // =========================
     @FXML private SplitMenuButton iPhoneHomeAirPods4;
     @FXML private SplitMenuButton iPadHomeAirPods4;
     @FXML private SplitMenuButton MacHomeAirPods4;
@@ -257,7 +291,10 @@ public class AirPodsProductController {
     @FXML private MenuItem AirPods4HomeAirPods4;
 
 
-    //Dati AirPods Pro 3
+
+    // =========================
+    // DATI AIRPODS PRO 3
+    // =========================
     @FXML
     private Label prezzoLabel3;
     @FXML
@@ -275,7 +312,11 @@ public class AirPodsProductController {
     @FXML
     private ImageView immagineProdotto3;
 
+
+
+    // =========================
     // Navigazione (sezione AirPods Pro 3)
+    // =========================
     @FXML private SplitMenuButton iPhoneHomeAirPodsPro3;
     @FXML private SplitMenuButton iPadHomeAirPodsPro3;
     @FXML private SplitMenuButton MacHomeAirPodsPro3;
@@ -413,14 +454,6 @@ public class AirPodsProductController {
 
 
 
-
-
-
-
-
-
-
-
         if (loginIconMax2 != null) {
             aggiungiAnimazione(loginIconMax2);
             verificaCambiaScena(loginIconMax2, "/fxml/ProfileOption.fxml");
@@ -451,7 +484,10 @@ public class AirPodsProductController {
             }
         }
 
+
+        // =========================
         // Navigazione (sezione AirPods Max 2)
+        // =========================
         if (iPhoneHomeAirPodsMax2 != null) {
             AnimazioneUtil.verificaCambiaScena(iPhoneHomeAirPodsMax2, "/fxml/iPhone Product.fxml");
             AnimazioneUtil.verificaCambiaScena(iPadHomeAirPodsMax2, "/fxml/iPad Product.fxml");
@@ -480,7 +516,11 @@ public class AirPodsProductController {
             AnimazioneUtil.verificaCambiaScenaItem(AirPods4HomeAirPodsMax2, "/fxml/AirPods 4 PageProduct.fxml");
         }
 
+
+
+        // =========================
         // Navigazione (sezione AirPods 4)
+        // =========================
         if (iPhoneHomeAirPods4 != null) {
             AnimazioneUtil.verificaCambiaScena(iPhoneHomeAirPods4, "/fxml/iPhone Product.fxml");
             AnimazioneUtil.verificaCambiaScena(iPadHomeAirPods4, "/fxml/iPad Product.fxml");
@@ -509,7 +549,11 @@ public class AirPodsProductController {
             AnimazioneUtil.verificaCambiaScenaItem(AirPods4HomeAirPods4, "/fxml/AirPods 4 PageProduct.fxml");
         }
 
+
+
+        // =========================
         // Navigazione (sezione AirPods Pro 3)
+        // =========================
         if (iPhoneHomeAirPodsPro3 != null) {
             AnimazioneUtil.verificaCambiaScena(iPhoneHomeAirPodsPro3, "/fxml/iPhone Product.fxml");
             AnimazioneUtil.verificaCambiaScena(iPadHomeAirPodsPro3, "/fxml/iPad Product.fxml");

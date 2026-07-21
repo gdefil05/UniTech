@@ -123,7 +123,7 @@
                                         <StackPane prefHeight="35.0" prefWidth="358.0">
                                             <children>
                                                 <TextField fx:id="cardField" prefHeight="35.0" prefWidth="358.0" promptText="Numero Carta (16 cifre)" style="-fx-background-color: #f2f2f7; -fx-background-radius: 10; -fx-border-color: transparent; -fx-padding: 8 10 8 10;" />
-                                                <FontIcon fx:id="visaIcon" iconLiteral="fab-cc-visa" managed="false" text="" translateX="-10.0" visible="false" StackPane.alignment="CENTER_RIGHT" />
+                                                <FontIcon fx:id="visaIcon" iconLiteral="fab-cc-visa" managed="false" translateX="-10.0" visible="false" StackPane.alignment="CENTER_RIGHT" />
                                                 <FontIcon fx:id="mastercardIcon" iconLiteral="fab-cc-mastercard" managed="false" translateX="-10.0" visible="false" StackPane.alignment="CENTER_RIGHT" />
                                                 <FontIcon fx:id="amexIcon" iconLiteral="fab-cc-amex" managed="false" translateX="-10.0" visible="false" StackPane.alignment="CENTER_RIGHT" />
                                             </children>

@@ -111,6 +111,7 @@ public class CheckoutController {
 
         hideAllIcons();
 
+
         cardField.textProperty().addListener((obs, oldVal, newVal) -> {
             updateCardIcon(newVal);
         });
