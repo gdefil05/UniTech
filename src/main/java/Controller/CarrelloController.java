@@ -65,7 +65,7 @@ public class CarrelloController {
 
 
             HBox card = new HBox(15);
-            card.setStyle("-fx-background-color: white; -fx-padding: 10;");
+            card.setStyle("-fx-background-color:  #EEF2FB; -fx-padding: 10; -fx-background-radius: 20; -fx-border-radius:20;");
 
             ImageView img = new ImageView(p.getImmagine());
             img.setFitWidth(70);
