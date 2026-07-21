@@ -85,12 +85,10 @@ public class CarrelloController {
             Label caratteristiche = new Label(p.getCaratteristiche());
             Label totale = new Label("Totale: € " + p.getTotale());
 
-            // 🔥 BOTTONI QUI
             Button btnMinus = new Button("-");
             Button btnPlus = new Button("+");
             btnMinus.getStyleClass().add("btn-minus");
             btnPlus.getStyleClass().add("btn-plus");
-
 
             FontIcon btnDelete = new FontIcon("fas-times");
             btnDelete.setIconSize(18);
@@ -191,7 +189,6 @@ public class CarrelloController {
             Scene scene = boxProdotti.getScene();
             Node currentRoot = scene.getRoot();
 
-            // 🔥 FADE OUT del carrello (come fa HomeController con l'home)
             FadeTransition fadeOut = new FadeTransition(Duration.millis(600), currentRoot);
             fadeOut.setFromValue(1.0);
             fadeOut.setToValue(0.0);
@@ -201,7 +198,6 @@ public class CarrelloController {
                 previousRoot.setOpacity(0.0);
                 scene.setRoot(previousRoot); // stesso Stage, niente flicker
 
-                // 🔥 FADE IN della pagina precedente
                 FadeTransition fadeIn = new FadeTransition(Duration.millis(600), previousRoot);
                 fadeIn.setFromValue(0.0);
                 fadeIn.setToValue(1.0);
