@@ -205,6 +205,8 @@ public class AirPodsProductController {
     private ImageView logoIconMax2;
     @FXML
     private FontIcon shoppingBag;
+    @FXML
+    private FontIcon Bag2;
 
 
 
@@ -258,6 +260,8 @@ public class AirPodsProductController {
     private ImageView logoIcon4;
     @FXML
     private ImageView immagineProdotto4;
+    @FXML
+    private FontIcon Bag4;
 
 
 
@@ -311,6 +315,8 @@ public class AirPodsProductController {
     private ImageView logoIcon3;
     @FXML
     private ImageView immagineProdotto3;
+    @FXML
+    private FontIcon Bag3;
 
 
 
@@ -458,6 +464,7 @@ public class AirPodsProductController {
             aggiungiAnimazione(loginIconMax2);
             verificaCambiaScena(loginIconMax2, "/fxml/ProfileOption.fxml");
             aggiungiAnimazione(logoIconMax2);
+            aggiungiAnimazione(Bag2);
             verificaCambiaScena(logoIconMax2, "/fxml/Home.fxml");
             if (shoppingBag != null) {
                 aggiungiAnimazione(shoppingBag);
@@ -468,6 +475,7 @@ public class AirPodsProductController {
             aggiungiAnimazione(loginIcon4);
             verificaCambiaScena(loginIcon4, "/fxml/ProfileOption.fxml");
             aggiungiAnimazione(logoIcon4);
+            aggiungiAnimazione(Bag4);
             verificaCambiaScena(logoIcon4, "/fxml/Home.fxml");
             if (shoppingBag != null) {
                 aggiungiAnimazione(shoppingBag);
@@ -478,6 +486,7 @@ public class AirPodsProductController {
             aggiungiAnimazione(loginIcon3);
             verificaCambiaScena(loginIcon3, "/fxml/ProfileOption.fxml");
             aggiungiAnimazione(logoIcon3);
+            aggiungiAnimazione(Bag3);
             verificaCambiaScena(logoIcon3, "/fxml/Home.fxml");
             if (shoppingBag != null) {
                 aggiungiAnimazione(shoppingBag);
