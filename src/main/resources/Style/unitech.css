@@ -820,7 +820,61 @@
   -fx-icon-color: red;
 }
 
+.check-icon{
+  -fx-icon-color: green;
+  -fx-cursor: arrow;
+}
+
+.x-icon{
+  -fx-icon-color: red;
+  -fx-cursor:hand;
+}
+
+.x-icon:hover {
+  -fx-icon-color: red;
+}
+
 .popUp-icon:hover {
   -fx-icon-color: red;
   -fx-cursor: arrow;
+}
+
+.btn-minus {
+  -fx-background-color: transparent;
+  -fx-text-fill: red;
+  -fx-border-color: red;
+  -fx-border-radius: 50%;
+  -fx-background-radius: 50%;
+  -fx-min-width: 28;
+  -fx-min-height: 28;
+  -fx-max-width: 28;
+  -fx-max-height: 28;
+  -fx-padding: 0;
+  -fx-cursor: hand;
+  -fx-font-weight: bold;
+}
+
+.btn-minus:hover {
+  -fx-background-color: rgba(255, 0, 0, 0.1);
+  -fx-text-fill: red;
+}
+
+.btn-plus {
+  -fx-background-color: transparent;
+  -fx-text-fill: #007aff;
+  -fx-border-color: #007aff;
+  -fx-border-radius: 50%;
+  -fx-background-radius: 50%;
+  -fx-min-width: 28;
+  -fx-min-height: 28;
+  -fx-max-width: 28;
+  -fx-max-height: 28;
+  -fx-padding: 0;
+  -fx-cursor: hand;
+  -fx-font-weight: bold;
+}
+
+.btn-plus:hover {
+  -fx-background-color: rgba(0, 122, 255, 0.1);
+  -fx-text-fill: #007aff;
 }

@@ -14,6 +14,7 @@ import javafx.scene.layout.Priority;
 
 import Model.Carrello;
 import Model.ElementoCarrello;
+import Util.AnimazioneUtil;
 import Util.NavigationManager;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -35,8 +36,12 @@ public class CarrelloController {
     private Button btnCheckout;
 
     @FXML
+    private Button esciCarrelloBtn;
+
+    @FXML
     public void initialize() {
         aggiornaCarrello();
+        AnimazioneUtil.aggiungiAnimazione(esciCarrelloBtn);
     }
 
     public void aggiornaCarrello() {
@@ -83,11 +88,13 @@ public class CarrelloController {
             // 🔥 BOTTONI QUI
             Button btnMinus = new Button("-");
             Button btnPlus = new Button("+");
+            btnMinus.getStyleClass().add("btn-minus");
+            btnPlus.getStyleClass().add("btn-plus");
 
 
             FontIcon btnDelete = new FontIcon("fas-times");
             btnDelete.setIconSize(18);
-            btnDelete.setIconColor(javafx.scene.paint.Color.RED);
+            btnDelete.getStyleClass().add("x-icon");
             btnDelete.setCursor(javafx.scene.Cursor.HAND);
 
             btnMinus.setOnAction(e -> {

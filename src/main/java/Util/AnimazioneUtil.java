@@ -281,7 +281,7 @@ public class AnimazioneUtil {
         }
 
         FontIcon check = new FontIcon("fas-check-circle");
-        check.setIconColor(Color.web("#007AFF")); // -color-accent-5 di unitech.css
+        check.getStyleClass().add("check-icon");
         check.setIconSize(22);
 
         Label titolo = new Label("Aggiunto al carrello");
@@ -290,7 +290,7 @@ public class AnimazioneUtil {
         HBox toast = new HBox(12, check, titolo);
         toast.setAlignment(Pos.CENTER_LEFT);
         toast.setStyle("""
-                -fx-background-color: white;
+                -fx-background-color:white;
                 -fx-background-radius: 12;
                 -fx-padding: 14 22 14 18;
                 -fx-border-color: #D1D1D6;
@@ -307,17 +307,17 @@ public class AnimazioneUtil {
         toast.applyCss();
         toast.autosize();
 
-        // Posizione: basso a destra, margine di 40px (coerente con lo spacing usato nelle card prodotto)
-        double targetX = scene.getWidth() - toast.prefWidth(-1) - 40;
-        double targetY = scene.getHeight() - toast.prefHeight(-1) - 40;
+        // Posizione: in alto a destra, appena sotto la barra di navigazione
+        double targetX = scene.getWidth() - toast.prefWidth(-1) - 185;
+        double targetY = 130;
         toast.setLayoutX(targetX);
         toast.setLayoutY(targetY);
         toast.setOpacity(0);
-        toast.setTranslateY(40);
+        toast.setTranslateY(-40);
 
-        // Lo slide ora entra dal basso verso l'alto
+        // Lo slide ora entra dall'alto verso il basso
         TranslateTransition slideIn = new TranslateTransition(Duration.millis(350), toast);
-        slideIn.setFromY(40);
+        slideIn.setFromY(-40);
         slideIn.setToY(0);
         slideIn.setInterpolator(Interpolator.EASE_OUT);
 
@@ -326,8 +326,14 @@ public class AnimazioneUtil {
         fadeIn.setToValue(1.0);
 
         ParallelTransition entrata = new ParallelTransition(slideIn, fadeIn);
+
+        TranslateTransition slideOut = new TranslateTransition(Duration.millis(400), toast);
+        slideOut.setFromY(0);
+        slideOut.setToY(-40);
+        slideOut.setInterpolator(Interpolator.EASE_IN);
+
         ParallelTransition uscita = new ParallelTransition(
-                new TranslateTransition(Duration.millis(400), toast),
+                slideOut,
                 new FadeTransition(Duration.millis(400), toast)
         );
         uscita.setDelay(Duration.millis(2000));
