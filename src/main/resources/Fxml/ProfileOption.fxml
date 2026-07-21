@@ -20,7 +20,7 @@
                <children>
                   <VBox alignment="CENTER" fillWidth="false" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="400.0" spacing="12.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-width: 1.2; -fx-border-color: #e0e0e0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 20, 0.2, 0, 4); -fx-padding: 30;">
                      <children>
-                        <FontIcon iconColor="#e53935" iconLiteral="fas-exclamation-triangle" iconSize="40" />
+                        <FontIcon iconColor="#e53935" iconLiteral="fas-exclamation-triangle" iconSize="40" styleClass="popUp-icon" />
                         <Label style="-fx-text-fill: #1a1a1a; -fx-font-size: 20; -fx-font-weight: bold;" text="Elimina Account" VBox.vgrow="ALWAYS">
                            <VBox.margin>
                               <Insets top="20.0" />

@@ -173,7 +173,7 @@
                       <children>
                         <VBox alignment="CENTER" spacing="10.0">
                            <children>
-                              <ImageView fitHeight="488.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fitHeight="323.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
                                   <image>
                                     <Image url="@../it/uid/unitech/Images/iPad%20Pro%20Nero.png" />
                                  </image>
@@ -198,7 +198,7 @@
                        </VBox>
                         <VBox alignment="CENTER" spacing="10.0">
                            <children>
-                               <ImageView fitHeight="488.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+                               <ImageView fitHeight="323.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../it/uid/unitech/Images/iPad%20Air%20Azzurro.png" />
                                   </image>
@@ -226,7 +226,7 @@
                         </VBox>
                         <VBox alignment="CENTER" spacing="10.0">
                            <children>
-                               <ImageView fitHeight="488.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+                               <ImageView fitHeight="323.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../it/uid/unitech/Images/iPad%20Argento.png" />
                                   </image>

@@ -175,7 +175,7 @@
                       <children>
                         <VBox alignment="TOP_CENTER" spacing="10.0">
                            <children>
-                              <ImageView fitHeight="488.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fitHeight="323.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
                                    <image>
                                     <Image url="@../it/uid/unitech/Images/AirPods%20Max%202%20Nere.png" />
                                  </image>
@@ -201,7 +201,7 @@
 
                         <VBox alignment="TOP_CENTER" spacing="10.0">
                            <children>
-                               <ImageView fitHeight="303.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+                               <ImageView fitHeight="323.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../it/uid/unitech/Images/AirPods%20Pro%203.png" />
                                   </image>
@@ -227,7 +227,7 @@
 
                         <VBox alignment="TOP_CENTER" maxWidth="-Infinity" minHeight="-Infinity" spacing="10.0">
                            <children>
-                               <ImageView fitHeight="303.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+                               <ImageView fitHeight="323.0" fitWidth="303.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../it/uid/unitech/Images/AirPods%204.png" />
                                   </image>

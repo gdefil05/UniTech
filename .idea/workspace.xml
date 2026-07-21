@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="Acquista ora" />
+    <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="Acquista ora">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +50,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Jonny",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

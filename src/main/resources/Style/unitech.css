@@ -802,9 +802,7 @@
 }
 
 .splash-icon:hover {
-
   -fx-icon-color: #5c5fd6;
-
   -fx-cursor: hand;
 
 }
@@ -814,7 +812,13 @@
 }
 
 .profile-icon:hover {
-
   -fx-icon-color: white;
+}
 
+.popUp-icon{
+  -fx-icon-color: red;
+}
+
+.popUp-icon:hover {
+  -fx-icon-color: red;
 }
