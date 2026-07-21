@@ -62,6 +62,7 @@ public class iPadProductController {
         );
 
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -76,6 +77,7 @@ public class iPadProductController {
         );
 
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -90,6 +92,54 @@ public class iPadProductController {
         );
 
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
+    }
+
+
+    // =========================
+    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // =========================
+
+    @FXML
+    private void acquistaOraIPad(MouseEvent event) {
+
+        ElementoCarrello item = new ElementoCarrello(
+                "iPad",
+                prezzoIPad,
+                1,
+                immagineIPad,
+                "Colore: " + coloreIPad + " | Memoria: " + memoriaIPad
+        );
+
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraIPadAir(MouseEvent event) {
+
+        ElementoCarrello item = new ElementoCarrello(
+                "iPad Air",
+                prezzoIPadAir,
+                1,
+                immagineIPadAir,
+                "Colore: " + coloreIPadAir + " | Memoria: " + memoriaIPadAir
+        );
+
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraIPadPro(MouseEvent event) {
+
+        ElementoCarrello item = new ElementoCarrello(
+                "iPad Pro",
+                prezzoIPadPro,
+                1,
+                immagineIPadPro,
+                "Colore: " + coloreIPadPro + " | Memoria: " + memoriaIPadPro
+        );
+
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
 
@@ -360,21 +410,25 @@ public class iPadProductController {
         if (circleGrigioiPadAir != null) {
             circleGrigioiPadAir.setOnMouseClicked(e -> {
                 coloreIPadAir = "Grigio";
+                immagineIPadAir = loadImage("/it/uid/unitech/Images/iPad Air Grigio.png");
                 AnimazioneUtil.selezionaColore(circleGrigioiPadAir, "Grigio", "/it/uid/unitech/Images/iPad Air Grigio.png", coloreLabeliPadAir, immagineProdottoiPadAir);
             });
 
             circleOroiPadAir.setOnMouseClicked(e -> {
                 coloreIPadAir = "Oro";
+                immagineIPadAir = loadImage("/it/uid/unitech/Images/iPad Air Argento.png");
                 AnimazioneUtil.selezionaColore(circleOroiPadAir, "Oro", "/it/uid/unitech/Images/iPad Air Argento.png", coloreLabeliPadAir, immagineProdottoiPadAir);
             });
 
             circleAzzurroiPadAir.setOnMouseClicked(e -> {
                 coloreIPadAir = "Azzurro";
+                immagineIPadAir = loadImage("/it/uid/unitech/Images/iPad Air Azzurro.png");
                 AnimazioneUtil.selezionaColore(circleAzzurroiPadAir, "Azzurro", "/it/uid/unitech/Images/iPad Air Azzurro.png", coloreLabeliPadAir, immagineProdottoiPadAir);
             });
 
             circleViolaiPadAir.setOnMouseClicked(e -> {
                 coloreIPadAir = "Viola";
+                immagineIPadAir = loadImage("/it/uid/unitech/Images/iPad Air Viola.png");
                 AnimazioneUtil.selezionaColore(circleViolaiPadAir, "Viola", "/it/uid/unitech/Images/iPad Air Viola.png", coloreLabeliPadAir, immagineProdottoiPadAir);
             });
 

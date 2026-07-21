@@ -65,6 +65,7 @@ public class AirPodsProductController {
         );
 
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -79,6 +80,7 @@ public class AirPodsProductController {
         );
 
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
 
@@ -94,6 +96,54 @@ public class AirPodsProductController {
         );
 
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
+    }
+
+
+    // =========================
+    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // =========================
+
+    @FXML
+    private void acquistaOraMax2(MouseEvent event) {
+
+        ElementoCarrello item = new ElementoCarrello(
+                "AirPods Max 2",
+                prezzoMax2,
+                1,
+                immagineMax2,
+                "Colore: " + coloreMax2 + " | ANC: " + ancMax2
+        );
+
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraPro3(MouseEvent event) {
+
+        ElementoCarrello item = new ElementoCarrello(
+                "AirPods Pro 3",
+                prezzoPro3,
+                1,
+                immaginePro3,
+                "Colore: " + colorePro3 + " | ANC: " + ancPro3
+        );
+
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOra4(MouseEvent event) {
+
+        ElementoCarrello item = new ElementoCarrello(
+                "AirPods 4",
+                prezzo4,
+                1,
+                immagine4,
+                "Colore: " + colore4 + " | ANC: " + anc4
+        );
+
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
 

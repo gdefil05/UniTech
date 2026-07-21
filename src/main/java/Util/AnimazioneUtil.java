@@ -2,6 +2,7 @@ package Util;
 import javafx.animation.*;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -13,10 +14,13 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.CornerRadii;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import org.kordamp.ikonli.javafx.FontIcon;
 
 public class AnimazioneUtil {
 
@@ -260,5 +264,79 @@ public class AnimazioneUtil {
             }
         });
         fadeOut.play();
+    }
+
+    //Metodo per mostrare una notifica "toast" quando un prodotto viene aggiunto al carrello
+    //Posizionata in basso a destra, stile coerente con la palette e le ombre di unitech.css
+    public static void mostraNotificaCarrello(Node nodo, String nomeProdotto) {
+        Scene scene = nodo.getScene();
+        if (scene == null) return;
+
+        Parent rootParent = scene.getRoot();
+        if (!(rootParent instanceof Pane)) return;
+
+        Pane root = (Pane) rootParent;
+        if (root.getProperties().get("toastCarrello") instanceof Node vecchioToast) {
+            root.getChildren().remove(vecchioToast);
+        }
+
+        FontIcon check = new FontIcon("fas-check-circle");
+        check.setIconColor(Color.web("#007AFF")); // -color-accent-5 di unitech.css
+        check.setIconSize(22);
+
+        Label titolo = new Label("Aggiunto al carrello");
+        titolo.setStyle("-fx-text-fill: #000000; -fx-font-size: 14.5; -fx-font-weight: 600; -fx-font-family: 'Segoe UI';");
+
+        HBox toast = new HBox(12, check, titolo);
+        toast.setAlignment(Pos.CENTER_LEFT);
+        toast.setStyle("""
+                -fx-background-color: white;
+                -fx-background-radius: 12;
+                -fx-padding: 14 22 14 18;
+                -fx-border-color: #D1D1D6;
+                -fx-border-width: 1;
+                -fx-border-radius: 12;
+                -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.08), 15, 0, 0, 4);
+                """);
+        toast.setManaged(false);
+        toast.setMouseTransparent(true);
+
+        root.getChildren().add(toast);
+        root.getProperties().put("toastCarrello", toast);
+
+        toast.applyCss();
+        toast.autosize();
+
+        // Posizione: basso a destra, margine di 40px (coerente con lo spacing usato nelle card prodotto)
+        double targetX = scene.getWidth() - toast.prefWidth(-1) - 40;
+        double targetY = scene.getHeight() - toast.prefHeight(-1) - 40;
+        toast.setLayoutX(targetX);
+        toast.setLayoutY(targetY);
+        toast.setOpacity(0);
+        toast.setTranslateY(40);
+
+        // Lo slide ora entra dal basso verso l'alto
+        TranslateTransition slideIn = new TranslateTransition(Duration.millis(350), toast);
+        slideIn.setFromY(40);
+        slideIn.setToY(0);
+        slideIn.setInterpolator(Interpolator.EASE_OUT);
+
+        FadeTransition fadeIn = new FadeTransition(Duration.millis(350), toast);
+        fadeIn.setFromValue(0.0);
+        fadeIn.setToValue(1.0);
+
+        ParallelTransition entrata = new ParallelTransition(slideIn, fadeIn);
+        ParallelTransition uscita = new ParallelTransition(
+                new TranslateTransition(Duration.millis(400), toast),
+                new FadeTransition(Duration.millis(400), toast)
+        );
+        uscita.setDelay(Duration.millis(2000));
+        uscita.setOnFinished(e -> {
+            root.getChildren().remove(toast);
+            root.getProperties().remove("toastCarrello");
+        });
+
+        entrata.setOnFinished(e -> uscita.play());
+        entrata.play();
     }
 }

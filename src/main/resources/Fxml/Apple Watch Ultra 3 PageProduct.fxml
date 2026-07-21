@@ -272,7 +272,7 @@
                   <HBox spacing="15.0">
                      <children>
                         <Button fx:id="btnAggiungiCarrelloUltra" onMouseClicked="#aggiungiWatchUltra3" mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="accent" text="Aggiungi al Carrello" />
-                        <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="button-outlined" text="Acquista" />
+                        <Button mnemonicParsing="false" onMouseClicked="#acquistaOraWatchUltra3" prefHeight="42.0" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="button-outlined" text="Acquista" />
                      </children>
                   </HBox>
                </children>

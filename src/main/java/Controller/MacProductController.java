@@ -58,6 +58,7 @@ public class MacProductController {
                 "Colore: " + coloreiMac + " | Memoria: " + memoriaiMac
         );
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -70,6 +71,7 @@ public class MacProductController {
                 "Colore: " + coloreMacStudio + " | Memoria: " + memoriaMacStudio
         );
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -82,6 +84,47 @@ public class MacProductController {
                 "Colore: " + coloreMacMini + " | Memoria: " + memoriaMacMini
         );
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
+    }
+
+
+    // =========================
+    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // =========================
+    @FXML
+    private void acquistaOraiMac(MouseEvent event) {
+        ElementoCarrello item = new ElementoCarrello(
+                "iMac",
+                prezzoiMac,
+                1,
+                immagineiMac,
+                "Colore: " + coloreiMac + " | Memoria: " + memoriaiMac
+        );
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraMacStudio(MouseEvent event) {
+        ElementoCarrello item = new ElementoCarrello(
+                "Mac Studio",
+                prezzoMacStudio,
+                1,
+                immagineMacStudio,
+                "Colore: " + coloreMacStudio + " | Memoria: " + memoriaMacStudio
+        );
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraMacMini(MouseEvent event) {
+        ElementoCarrello item = new ElementoCarrello(
+                "Mac Mini",
+                prezzoMacMini,
+                1,
+                immagineMacMini,
+                "Colore: " + coloreMacMini + " | Memoria: " + memoriaMacMini
+        );
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
 

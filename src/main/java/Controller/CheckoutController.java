@@ -15,6 +15,7 @@ import org.kordamp.ikonli.javafx.FontIcon;
 import java.util.function.UnaryOperator;
 
 import Model.Carrello;
+import Model.CheckoutSession;
 import Model.ElementoCarrello;
 import Util.AnimazioneUtil;
 import Util.NavigationManager;
@@ -79,6 +80,16 @@ public class CheckoutController {
     @FXML
     private FontIcon amexIcon;
 
+
+    @FXML
+    private javafx.scene.layout.StackPane overlayAnnulla;
+
+    @FXML
+    private Button btnAnnullaOverlay;
+
+    @FXML
+    private Button btnConfermaOverlay;
+
     // ==========================================
     // 🛒 RIEPILOGO ORDINE
     // ==========================================
@@ -112,6 +123,8 @@ public class CheckoutController {
         setupScadenzaFormatter();
 
         popolaRiepilogo();
+        AnimazioneUtil.aggiungiAnimazioneScale(btnAnnullaOverlay);
+        AnimazioneUtil.aggiungiAnimazioneScale(btnConfermaOverlay);
     }
 
     // ==========================================
@@ -277,7 +290,7 @@ public class CheckoutController {
 
         riepilogoBox.getChildren().clear();
 
-        var prodotti = Carrello.getIstanza().getProdotti();
+        var prodotti = CheckoutSession.getIstanza().getItemsCheckout();
 
         for (ElementoCarrello p : prodotti) {
 
@@ -303,7 +316,7 @@ public class CheckoutController {
             riepilogoBox.getChildren().add(card);
         }
 
-        lblTotaleCheckout.setText("€ " + String.format("%.2f", Carrello.getIstanza().getTotale()));
+        lblTotaleCheckout.setText("€ " + String.format("%.2f", CheckoutSession.getIstanza().getTotaleCheckout()));
     }
 
     // ==========================================
@@ -431,15 +444,28 @@ public class CheckoutController {
             return;
         }
 
-        Carrello.getIstanza().svuota();
+        CheckoutSession.getIstanza().confermaAcquisto();
         NavigationManager.apriConferma((Node) event.getSource());
     }
 
     // ==========================================
-    // ❌ ANNULLA CHECKOUT
+    // ❌ ANNULLA CHECKOUT (con conferma overlay)
     // ==========================================
+
     @FXML
     private void annullaCheckout(ActionEvent event) {
-    AnimazioneUtil.cambiaScena((Node) event.getSource(), "/fxml/Home.fxml");
-}
+        AnimazioneUtil.apriOverlay(overlayAnnulla);
+    }
+
+    @FXML
+    private void chiudiOverlayAnnulla(ActionEvent event) {
+        AnimazioneUtil.chiudiOverlay(overlayAnnulla);
+    }
+
+    @FXML
+    private void confermaAnnullaCheckout(ActionEvent event) {
+        CheckoutSession.getIstanza().annullaCheckout();
+        NavigationManager.apriCarrelloMantenendoPrecedente((Node) event.getSource());
+    }
+    
 }

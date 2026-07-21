@@ -7,11 +7,13 @@
 <?import javafx.scene.text.*?>
 <?import org.kordamp.ikonli.javafx.*?>
 
-<AnchorPane prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #f5f5f7;" stylesheets="@../Style/unitech.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CheckoutController">
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #f5f5f7;" stylesheets="@../Style/cupertino-light.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CheckoutController">
 
     <children>
 
-        <VBox alignment="TOP_CENTER" layoutX="8.0" layoutY="14.0" maxWidth="Infinity" prefWidth="1000.0" spacing="30.0" AnchorPane.bottomAnchor="-14.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="-8.0" AnchorPane.topAnchor="14.0">
+        <ScrollPane fitToWidth="true" style="-fx-background-color: transparent; -fx-background: transparent; -fx-border-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <content>
+        <VBox alignment="TOP_CENTER" maxWidth="Infinity" prefWidth="1000.0" spacing="30.0">
 
             <padding>
                 <Insets bottom="40.0" left="40.0" right="40.0" top="50.0" />
@@ -184,7 +186,11 @@
                                     </padding>
                                 </Label>
 
-                                <VBox fx:id="riepilogoBox" spacing="10.0" />
+                                <ScrollPane fitToWidth="true" maxHeight="320.0" prefHeight="320.0" style="-fx-background-color: transparent; -fx-background: transparent; -fx-border-color: transparent;" vbarPolicy="AS_NEEDED" hbarPolicy="NEVER">
+                                    <content>
+                                        <VBox fx:id="riepilogoBox" spacing="10.0" />
+                                    </content>
+                                </ScrollPane>
 
                                 <Separator style="-fx-opacity: 0.5;" styleClass="separator" />
 
@@ -210,6 +216,50 @@
             </children>
 
         </VBox>
+            </content>
+        </ScrollPane>
+
+        <!-- ================== OVERLAY CONFERMA ANNULLA (identico a ProfileOption) ================== -->
+        <StackPane fx:id="overlayAnnulla" layoutX="20.0" minWidth="-Infinity" prefHeight="170.0" style="-fx-background-color: rgba(0,0,0,0.4);" visible="false" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox alignment="CENTER" fillWidth="false" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="400.0" spacing="12.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-width: 1.2; -fx-border-color: #e0e0e0; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 20, 0.2, 0, 4); -fx-padding: 30;">
+                    <children>
+                        <FontIcon iconColor="#7a7a7a" iconLiteral="fas-exclamation-triangle" iconSize="40" />
+                        <Label style="-fx-text-fill: #1a1a1a; -fx-font-size: 20; -fx-font-weight: bold;" text="Annullare l'ordine?" VBox.vgrow="ALWAYS">
+                            <VBox.margin>
+                                <Insets top="20.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Label style="-fx-font-size: 13; -fx-text-fill: #888888;" text="I dati inseriti andranno persi." VBox.vgrow="ALWAYS">
+                            <VBox.margin>
+                                <Insets top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <Separator prefWidth="340.0" />
+                        <HBox alignment="CENTER" spacing="15.0" VBox.vgrow="ALWAYS">
+                            <VBox.margin>
+                                <Insets top="5.0" />
+                            </VBox.margin>
+                            <children>
+                                <Button fx:id="btnAnnullaOverlay" onAction="#chiudiOverlayAnnulla" minWidth="-Infinity" mnemonicParsing="false" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: #f0f0f0; -fx-text-fill: #333333; -fx-border-radius: 20; -fx-background-radius: 20; -fx-font-weight: bold; -fx-font-size: 15; -fx-cursor: hand;" text="Annulla">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </Button>
+                                <Button fx:id="btnConfermaOverlay" onAction="#confermaAnnullaCheckout" minWidth="-Infinity" mnemonicParsing="false" prefHeight="38.0" prefWidth="140.0" style="-fx-background-color: #e53935; -fx-text-fill: white; -fx-border-radius: 20; -fx-background-radius: 20; -fx-font-weight: bold; -fx-font-size: 15; -fx-cursor: hand;" text="Conferma" HBox.hgrow="ALWAYS">
+                                    <HBox.margin>
+                                        <Insets />
+                                    </HBox.margin>
+                                </Button>
+                            </children>
+                        </HBox>
+                    </children>
+                    <StackPane.margin>
+                        <Insets />
+                    </StackPane.margin>
+                </VBox>
+            </children>
+        </StackPane>
 
     </children>
 

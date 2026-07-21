@@ -667,14 +667,14 @@
 .splash-subtitle{
   -fx-font-family: "CooperHewitt";
   -fx-font-size: 105px;
-  -fx-font-weight: regular;
+  -fx-font-weight: normal;
   -fx-text-fill: #6b6f80;
 }
 
 .splash-text{
   -fx-font-family: DMSans;
   -fx-font-size: 20px;
-  -fx-font-weight: regular;
+  -fx-font-weight: normal;
   -fx-text-fill: #1e1e2e;
 
 }
@@ -775,14 +775,14 @@
 .profile-option-subtext{
   -fx-font-family: CooperHewitt;
   -fx-font-size: 18px;
-  -fx-font-weight: regular;
+  -fx-font-weight: normal;
   -fx-text-fill: #6b6f80;
 }
 
 .profile-main-text{
   -fx-font-family: DMSans;
   -fx-font-size: 20px;
-  -fx-font-weight: regular;
+  -fx-font-weight: normal;
   -fx-text-fill: #1e1e2e;
 }
 

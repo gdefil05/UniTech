@@ -271,7 +271,7 @@
                         <HBox spacing="15.0">
                             <children>
                                 <Button fx:id="btnAggiungiCarrelloPro14" onMouseClicked="#aggiungiMacBookPro14" mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="accent" text="Aggiungi al Carrello" />
-                                <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="button-outlined" text="Acquista" />
+                                <Button mnemonicParsing="false" onMouseClicked="#acquistaOraMacBookPro14" prefHeight="42.0" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="button-outlined" text="Acquista" />
                             </children>
                         </HBox>
                     </children>

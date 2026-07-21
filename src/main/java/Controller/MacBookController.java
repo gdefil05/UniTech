@@ -58,6 +58,7 @@ public class MacBookController {
                 "Colore: " + coloreMacPro14 + " | Memoria: " + memoriaMacPro14
         );
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -70,6 +71,7 @@ public class MacBookController {
                 "Colore: " + coloreMacAir13 + " | Memoria: " + memoriaMacAir13
         );
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -82,6 +84,47 @@ public class MacBookController {
                 "Colore: " + coloreMacNeo + " | Memoria: " + memoriaMacNeo
         );
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
+    }
+
+
+    // ==========================================
+    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // ==========================================
+    @FXML
+    private void acquistaOraMacBookPro14(MouseEvent event) {
+        ElementoCarrello item = new ElementoCarrello(
+                "MacBook Pro 14",
+                prezzoMacPro14,
+                1,
+                immagineMacPro14,
+                "Colore: " + coloreMacPro14 + " | Memoria: " + memoriaMacPro14
+        );
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraMacBookAir13(MouseEvent event) {
+        ElementoCarrello item = new ElementoCarrello(
+                "MacBook Air 13",
+                prezzoMacAir13,
+                1,
+                immagineMacAir13,
+                "Colore: " + coloreMacAir13 + " | Memoria: " + memoriaMacAir13
+        );
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraMacBookNeo(MouseEvent event) {
+        ElementoCarrello item = new ElementoCarrello(
+                "MacBook Neo",
+                prezzoMacNeo,
+                1,
+                immagineMacNeo,
+                "Colore: " + coloreMacNeo + " | Memoria: " + memoriaMacNeo
+        );
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
 

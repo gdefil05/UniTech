@@ -61,6 +61,7 @@ public class iPhoneProductController {
         );
 
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome()); AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -75,6 +76,8 @@ public class iPhoneProductController {
         );
 
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
+        
     }
 
     @FXML
@@ -89,6 +92,54 @@ public class iPhoneProductController {
         );
 
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
+    }
+
+
+    // =========================
+    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // =========================
+
+    @FXML
+    private void acquistaOraIPhone17(MouseEvent event) {
+
+        ElementoCarrello item = new ElementoCarrello(
+                "iPhone 17",
+                prezzo17,
+                1,
+                immagine17,
+                "Colore: " + colore17 + " | Memoria: " + memoria17
+        );
+
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraIPhone17Pro(MouseEvent event) {
+
+        ElementoCarrello item = new ElementoCarrello(
+                "iPhone 17 Pro",
+                prezzo17Pro,
+                1,
+                immagine17Pro,
+                "Colore: " + colore17Pro + " | Memoria: " + memoria17Pro
+        );
+
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraIPhoneAir(MouseEvent event) {
+
+        ElementoCarrello item = new ElementoCarrello(
+                "iPhone Air",
+                prezzoAir,
+                1,
+                immagineAir,
+                "Colore: " + coloreAir + " | Memoria: " + memoriaAir
+        );
+
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
 

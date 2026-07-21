@@ -273,7 +273,7 @@
                         <HBox spacing="15.0">
                             <children>
                                 <Button fx:id="btnAggiungiCarrelloAir13" onMouseClicked="#aggiungiMacBookAir13" mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="accent" text="Aggiungi al Carrello" />
-                                <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="button-outlined" text="Acquista" />
+                                <Button mnemonicParsing="false" onMouseClicked="#acquistaOraMacBookAir13" prefHeight="42.0" prefWidth="200.0" style="-fx-font-weight: bold;" styleClass="button-outlined" text="Acquista" />
                             </children>
                         </HBox>
                     </children>

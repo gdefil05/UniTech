@@ -59,6 +59,7 @@ public class WatchProductController {
                 "Colore: " + coloreUltra3 + " | Connettività: " + connettivitaUltra3
         );
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -71,6 +72,7 @@ public class WatchProductController {
                 "Colore: " + coloreSE3 + " | Connettività: " + connettivitaSE3
         );
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
     @FXML
@@ -83,6 +85,47 @@ public class WatchProductController {
                 "Colore: " + coloreSeries11 + " | Connettività: " + connettivitaSeries11
         );
         Carrello.getIstanza().aggiungiProdotto(item);
+        AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
+    }
+
+
+    // =========================
+    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // =========================
+    @FXML
+    private void acquistaOraWatchUltra3(MouseEvent event) {
+        ElementoCarrello item = new ElementoCarrello(
+                "Apple Watch Ultra 3",
+                prezzoUltra3,
+                1,
+                immagineUltra3,
+                "Colore: " + coloreUltra3 + " | Connettività: " + connettivitaUltra3
+        );
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraWatchSE3(MouseEvent event) {
+        ElementoCarrello item = new ElementoCarrello(
+                "Apple Watch SE 3",
+                prezzoSE3,
+                1,
+                immagineSE3,
+                "Colore: " + coloreSE3 + " | Connettività: " + connettivitaSE3
+        );
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
+    }
+
+    @FXML
+    private void acquistaOraWatchSeries11(MouseEvent event) {
+        ElementoCarrello item = new ElementoCarrello(
+                "Apple Watch Series 11",
+                prezzoSeries11,
+                1,
+                immagineSeries11,
+                "Colore: " + coloreSeries11 + " | Connettività: " + connettivitaSeries11
+        );
+        NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
 

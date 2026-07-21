@@ -6,8 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="upgrade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Product.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Watch Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Watch Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/AirPodsProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/AirPodsProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/MacBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/MacBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/MacProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/MacProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/WatchProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/WatchProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/iPadProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/iPadProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/iPhoneProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/iPhoneProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/AnimazioneUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/AnimazioneUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/NavigationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/NavigationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods 4 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods 4 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Max 2 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Max 2 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Pro 3 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Pro 3 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch SE 3 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch SE 3 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Series 11 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Series 11 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Ultra 3 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Ultra 3 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Air 13 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Air 13 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Neo PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Neo PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Pro 14 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Pro 14 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacMini PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacMini PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacStudio PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacStudio PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/ProfileOption.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/ProfileOption.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iMac PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iMac PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Air PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Air PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Pro PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Pro PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 Pro PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 Pro PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Air PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Air PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +66,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniTech.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Jonny&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.UniTech.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -132,31 +165,7 @@
       <option name="project" value="LOCAL" />
       <updated>1784566972955</updated>
     </task>
-    <task id="LOCAL-00009" summary="upgrade">
-      <option name="closed" value="true" />
-      <created>1784568871468</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1784568871469</updated>
-    </task>
-    <task id="LOCAL-00010" summary="upgrade">
-      <option name="closed" value="true" />
-      <created>1784569883068</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1784569883068</updated>
-    </task>
-    <task id="LOCAL-00011" summary="upgrade">
-      <option name="closed" value="true" />
-      <created>1784570228303</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1784570228303</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
