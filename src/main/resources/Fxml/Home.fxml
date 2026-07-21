@@ -34,7 +34,7 @@
                         <String fx:value="elevated-1" />
                     </styleClass>
                     <children>
-                        <ImageView fx:id="logoicon" cache="true" cacheHint="QUALITY" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="logoicon" cache="true" cacheHint="QUALITY" fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                             <image>
                                 <Image url="@../it/uid/unitech/Images/UnitechLogo.png" />
                             </image>
