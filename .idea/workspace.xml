@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="upgrade">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/AirPodsProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/AirPodsProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CheckoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/MacBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/MacBookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/MacProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/MacProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/WatchProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/WatchProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/iPadProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/iPadProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/iPhoneProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/iPhoneProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/AnimazioneUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/AnimazioneUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/NavigationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/NavigationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods 4 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods 4 PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Max 2 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Max 2 PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Pro 3 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Pro 3 PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch SE 3 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch SE 3 PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Series 11 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Series 11 PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Ultra 3 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Ultra 3 PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Air 13 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Air 13 PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Neo PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Neo PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Pro 14 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Pro 14 PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacMini PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacMini PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacStudio PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacStudio PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/ProfileOption.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/ProfileOption.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iMac PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iMac PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Air PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Air PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Pro PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Pro PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 Pro PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 Pro PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Air PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Air PageProduct.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" afterDir="false" />
-    </list>
+    <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="Acquista ora" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784566972955</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Acquista ora">
+      <option name="closed" value="true" />
+      <created>1784623893316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1784623893317</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Acquista ora">
+      <option name="closed" value="true" />
+      <created>1784623942238</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784623942238</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +160,7 @@
     <MESSAGE value="fix2" />
     <MESSAGE value="ultimo fix" />
     <MESSAGE value="upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade" />
+    <MESSAGE value="Acquista ora" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acquista ora" />
   </component>
 </project>
