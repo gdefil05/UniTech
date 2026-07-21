@@ -1,84 +1,42 @@
-PROGETTO USER INTERFACE
+# Progetto Gestionale "UniTech"
 
-ELENCO CLASSI SVOLTE
+## Autori del progetto
 
-JONATHAN:
+Il progetto è stato realizzato da:
 
-Unitech.java:
-Parte di lancio dell’app e di chiusura database
+* **Iorio Lorenzo** — Matricola `261415`
+* **Caputo Jonathan** — Matricola `262213`
+* **de Filippis Gabriele** — Matricola `260860`
 
-Controller:
-loginPageController
-SignUpController
-SplashScreenController
-ProfileController
-AirPodsProductController (Parte relativa ai prodotti Airpods)
-WatchproductController (Parte relativa ai prodotti Watch)
-PasswordLostController
+---
 
-Model:
-Utente
-UtenteDAO
+## Descrizione del progetto
 
-Util:
-AnimazioneUtil
-DataBaseConnection
-SessioneUtente
+Per questo progetto abbiamo realizzato **UniTech**, un gestionale dedicato
+alla vendita di prodotti Apple, ispirandoci al design del sito ufficiale
+Apple e reinterpretandolo con soluzioni e funzionalità sviluppate dal
+nostro team.
 
-Fxml:
-Login.fxml
-signUp.fxml
-SplashScreen.fxml
-ProfileOption.fxml
-Airpods Max 2/Pro 3/4 PageProduct.fxml
-Apple Watch Ultra/SE 3/Series 11 PageProduct.fxml
-PasswordUpdate.fxml
+L'obiettivo è stato quello di realizzare un'applicazione moderna,
+intuitiva e funzionale, ponendo particolare attenzione all'esperienza
+utente e all'interfaccia grafica.
 
-GABRIELE
-
-VIEW
-
-Home.fxml
-iPad Product.fxml
-iPhone Product.fxml
-iPhone 17 Pro PageProduct.fxml
-iPhone 17 PageProduct.fxml
-iPhone Air PageProduct.fxml
-iPhone 17 Pro PageProduct.fxml
-iPhone 17 PageProduct.fxml
-iPhone Air PageProduct.fxml
-
-CONTROLLER
-
-HomeController.java
-iPhoneProductController.java
-iPadProductController.java
-GenericProductController.java (iPhone & iPad)
-
-LORENZO
-
-VIEW
-
-iMac/MacStudio/MacMini PageProduct.fxml
-MacBook Pro/Air/Neo PageProduct.fxml
-Mac Product.fxml
-MacBook Product.fxml
-Carrello /Checkout.fxml
-
-CONTROLLER
-
-MacProductController.java
-MacBookProductController.java
-GenericProductController.java(Mac & MacBook)
-CarrelloController.java
-CheckoutController.java
+L'applicazione consente di simulare le principali operazioni di un negozio
+di elettronica, dalla consultazione dei prodotti alla gestione delle
+funzionalità offerte dal sistema.
 
 
+---
 
+## Credenziali di test
 
+Per accedere all'applicazione ed effettuare una prova è possibile
+utilizzare il seguente account:
 
+**Email:** `test@gmail.com`
 
+**Password:** `123456Tt#`
 
-
-
-
+> **Nota:** In alternativa, è possibile creare un nuovo account
+> completando la procedura di registrazione direttamente
+> dall'applicazione.
