@@ -813,6 +813,7 @@
 
 .profile-icon:hover {
   -fx-icon-color: white;
+  -fx-cursor: arrow;
 }
 
 .popUp-icon{
@@ -821,4 +822,5 @@
 
 .popUp-icon:hover {
   -fx-icon-color: red;
+  -fx-cursor: arrow;
 }
