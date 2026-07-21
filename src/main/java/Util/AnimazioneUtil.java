@@ -291,11 +291,11 @@ public class AnimazioneUtil {
         toast.setAlignment(Pos.CENTER_LEFT);
         toast.setStyle("""
                 -fx-background-color:white;
-                -fx-background-radius: 12;
+                -fx-background-radius: 20;
                 -fx-padding: 14 22 14 18;
                 -fx-border-color: #D1D1D6;
                 -fx-border-width: 1;
-                -fx-border-radius: 12;
+                -fx-border-radius: 20;
                 -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.08), 15, 0, 0, 4);
                 """);
         toast.setManaged(false);
@@ -309,7 +309,7 @@ public class AnimazioneUtil {
 
         // Posizione: in alto a destra, appena sotto la barra di navigazione
         double targetX = scene.getWidth() - toast.prefWidth(-1) - 185;
-        double targetY = 130;
+        double targetY = 128;
         toast.setLayoutX(targetX);
         toast.setLayoutY(targetY);
         toast.setOpacity(0);

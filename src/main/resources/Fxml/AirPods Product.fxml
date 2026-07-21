@@ -20,7 +20,7 @@
    <content>
       <VBox alignment="TOP_CENTER" style="-fx-background-color: #C4DEFF;">
          <children>
-            <VBox alignment="TOP_CENTER" spacing="50.0" style="-fx-background-color: #EEF2FB; -fx-background-radius: 20; -fx-border-radius: 20;">
+            <VBox alignment="TOP_CENTER" spacing="50.0" style="-fx-background-color: #EEF2FB; -fx-background-radius: 20; -fx-border-radius: 20;" VBox.vgrow="ALWAYS">
                <children>
                   <HBox alignment="CENTER_LEFT" maxWidth="880.0" minHeight="54.0" prefHeight="54.0" style="-fx-border-radius: 10; -fx-border-color: black; -fx-background-radius: 10;">
                      <styleClass>
@@ -150,7 +150,7 @@
                               <Insets left="30.0" />
                            </HBox.margin>
                          </Region>
-                        <FontIcon iconColor="#1d1d1f" iconLiteral="fas-shopping-bag" iconSize="22" onMouseClicked="#apriCarrello">
+                        <FontIcon fx:id="BagAirPods" iconColor="#1d1d1f" iconLiteral="fas-shopping-bag" iconSize="22" onMouseClicked="#apriCarrello">
                            <HBox.margin>
                               <Insets right="24.0" />
                             </HBox.margin>
@@ -225,9 +225,9 @@
                             </children>
                         </VBox>
 
-                        <VBox alignment="TOP_CENTER" maxWidth="-Infinity" minHeight="-Infinity" spacing="10.0">
+                        <VBox alignment="TOP_CENTER" spacing="10.0">
                            <children>
-                               <ImageView fitHeight="323.0" fitWidth="303.0" pickOnBounds="true" preserveRatio="true">
+                               <ImageView fitHeight="303.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../it/uid/unitech/Images/AirPods%204.png" />
                                   </image>

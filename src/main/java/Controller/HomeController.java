@@ -157,6 +157,7 @@ public class HomeController {
         AnimazioneUtil.aggiungiAnimazione(loginIcon);
         AnimazioneUtil.aggiungiAnimazione(shoppingBag);
         AnimazioneUtil.aggiungiAnimazione(logoicon);
+        AnimazioneUtil.verificaCambiaScena(logoicon,"/Fxml/Home.fxml");
 
     }
 }

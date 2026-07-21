@@ -104,7 +104,6 @@ public class CheckoutController {
     @FXML
     private Button btnAnnulla;
 
-    // 👉 flag per evitare loop infinito durante l'auto-formattazione della scadenza
     private boolean formattandoScadenza = false;
 
     @FXML
@@ -125,10 +124,11 @@ public class CheckoutController {
         popolaRiepilogo();
         AnimazioneUtil.aggiungiAnimazioneScale(btnAnnullaOverlay);
         AnimazioneUtil.aggiungiAnimazioneScale(btnConfermaOverlay);
+        AnimazioneUtil.aggiungiAnimazione(btnAnnulla);
     }
 
     // ==========================================
-    // 🔒 LIMITAZIONE INPUT IN TEMPO REALE
+    // LIMITAZIONE INPUT IN TEMPO REALE
     // ==========================================
 
     private void setupCapFormatter() {

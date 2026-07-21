@@ -147,6 +147,7 @@ public class MacBookController {
     @FXML private Circle circleArgento14;
     @FXML private Button btn1_14;
     @FXML private Button btn2_14;
+    @FXML private FontIcon BagPro;
 
     // Navigazione MacBook Pro 14
     @FXML private ImageView logoiconMacBookPro14;
@@ -189,6 +190,7 @@ public class MacBookController {
     @FXML private Circle circleMezzanotte13;
     @FXML private Button btn512_13;
     @FXML private Button btn1_13;
+    @FXML private FontIcon BagAir;
 
     // Navigazione MacBook Air 13
     @FXML private ImageView logoiconMacBookAir13;
@@ -232,6 +234,7 @@ public class MacBookController {
     @FXML private Circle circleIndacoNeo;
     @FXML private Button btn256_Neo;
     @FXML private Button btn512_Neo;
+    @FXML private FontIcon BagNeo;
 
     // Navigazione MacBook Neo
     @FXML private ImageView logoiconMacBookNeo;
@@ -342,6 +345,7 @@ public class MacBookController {
             AnimazioneUtil.verificaCambiaScena(logoiconMacBookPro14, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoiconMacBookPro14);
             AnimazioneUtil.aggiungiAnimazione(loginIconMacBookPro14);
+            AnimazioneUtil.aggiungiAnimazione(BagPro);
         }
 
 
@@ -436,6 +440,7 @@ public class MacBookController {
             AnimazioneUtil.verificaCambiaScena(logoiconMacBookAir13, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoiconMacBookAir13);
             AnimazioneUtil.aggiungiAnimazione(loginIconMacBookAir13);
+            AnimazioneUtil.aggiungiAnimazione(BagAir);
         }
 
 
@@ -529,6 +534,7 @@ public class MacBookController {
             AnimazioneUtil.verificaCambiaScena(logoiconMacBookNeo, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoiconMacBookNeo);
             AnimazioneUtil.aggiungiAnimazione(loginIconMacBookNeo);
+            AnimazioneUtil.aggiungiAnimazione(BagNeo);
         }
     }
 

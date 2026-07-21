@@ -157,6 +157,8 @@ public class WatchProductController {
     private ImageView logoIconUltra;
     @FXML
     private ImageView immagineProdottoUltra;
+    @FXML
+    private FontIcon BagUltra;
 
         // Navigazione (sezione Apple Watch Ultra 3)
     @FXML private SplitMenuButton iPhoneHomeWatchUltra3;
@@ -208,6 +210,8 @@ public class WatchProductController {
     private ImageView logoIconSE3;
     @FXML
     private ImageView immagineProdottoSE;
+    @FXML
+    private FontIcon BagSE;
 
         // Navigazione (sezione Apple Watch SE 3)
     @FXML private SplitMenuButton iPhoneHomeWatchSE3;
@@ -257,6 +261,8 @@ public class WatchProductController {
     private ImageView logoIcon11;
     @FXML
     private ImageView immagineProdotto11;
+    @FXML
+    private FontIcon Bag11;
 
         // Navigazione (sezione Apple Watch Series 11)
     @FXML private SplitMenuButton iPhoneHomeWatchSeries11;
@@ -451,6 +457,10 @@ public class WatchProductController {
                 });
             }
         }
+
+        AnimazioneUtil.aggiungiAnimazione(Bag11);
+        AnimazioneUtil.aggiungiAnimazione(BagSE);
+        AnimazioneUtil.aggiungiAnimazione(BagUltra);
 
         AnimazioneUtil.aggiungiAnimazione(loginIconUltra);
         AnimazioneUtil.aggiungiAnimazione(loginIconSE3);

@@ -180,6 +180,8 @@ public class AirPodsProductController {
     private FontIcon loginIconMax2;
     @FXML
     private ImageView logoIconMax2;
+    @FXML
+    private FontIcon Bag2;
 
     // Navigazione (sezione AirPods Max 2)
     @FXML private SplitMenuButton iPhoneHomeAirPodsMax2;
@@ -226,6 +228,8 @@ public class AirPodsProductController {
     private ImageView logoIcon4;
     @FXML
     private ImageView immagineProdotto4;
+    @FXML
+    private FontIcon Bag4;
 
     // Navigazione (sezione AirPods 4)
     @FXML private SplitMenuButton iPhoneHomeAirPods4;
@@ -272,6 +276,8 @@ public class AirPodsProductController {
     private ImageView logoIcon3;
     @FXML
     private ImageView immagineProdotto3;
+    @FXML
+    private FontIcon Bag3;
 
     // Navigazione (sezione AirPods Pro 3)
     @FXML private SplitMenuButton iPhoneHomeAirPodsPro3;
@@ -410,20 +416,12 @@ public class AirPodsProductController {
         }
 
 
-
-
-
-
-
-
-
-
-
         if (loginIconMax2 != null) {
             aggiungiAnimazione(loginIconMax2);
             verificaCambiaScena(loginIconMax2, "/fxml/ProfileOption.fxml");
             aggiungiAnimazione(logoIconMax2);
             verificaCambiaScena(logoIconMax2, "/fxml/Home.fxml");
+            aggiungiAnimazione(Bag2);
         }
 
         if (loginIcon4 != null) {
@@ -431,6 +429,7 @@ public class AirPodsProductController {
             verificaCambiaScena(loginIcon4, "/fxml/ProfileOption.fxml");
             aggiungiAnimazione(logoIcon4);
             verificaCambiaScena(logoIcon4, "/fxml/Home.fxml");
+            aggiungiAnimazione(Bag4);
         }
 
         if (loginIcon3 != null) {
@@ -438,6 +437,7 @@ public class AirPodsProductController {
             verificaCambiaScena(loginIcon3, "/fxml/ProfileOption.fxml");
             aggiungiAnimazione(logoIcon3);
             verificaCambiaScena(logoIcon3, "/fxml/Home.fxml");
+            aggiungiAnimazione(Bag3);
         }
 
         // Navigazione (sezione AirPods Max 2)

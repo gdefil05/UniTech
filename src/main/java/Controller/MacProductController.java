@@ -158,6 +158,8 @@ public class MacProductController {
     private FontIcon loginIconiM;
     @FXML
     private ImageView logoIconiM;
+    @FXML
+    private FontIcon BagMac;
 
         // Navigazione (sezione iMac)
     @FXML private SplitMenuButton iPhoneHomeiMac;
@@ -206,6 +208,8 @@ public class MacProductController {
     private FontIcon loginIconMS;
     @FXML
     private ImageView logoIconMS;
+    @FXML
+    private FontIcon BagStudio;
 
         // Navigazione (sezione Mac Studio)
     @FXML private SplitMenuButton iPhoneHomeMacStudio;
@@ -254,6 +258,8 @@ public class MacProductController {
     private FontIcon loginIconMini;
     @FXML
     private ImageView logoIconMini;
+    @FXML
+    private FontIcon BagMini;
 
         // Navigazione (sezione Mac Mini)
     @FXML private SplitMenuButton iPhoneHomeMacMini;
@@ -342,6 +348,7 @@ public class MacProductController {
             AnimazioneUtil.verificaCambiaScena(logoIconiM, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoIconiM);
             AnimazioneUtil.aggiungiAnimazione(loginIconiM);
+            AnimazioneUtil.aggiungiAnimazione(BagMac);
 
             AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeiMac, "/fxml/iPhone 17 Pro PageProduct.fxml");
             AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeiMac, "/fxml/iPhone 17 PageProduct.fxml");
@@ -412,6 +419,7 @@ public class MacProductController {
             AnimazioneUtil.verificaCambiaScena(logoIconMS, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoIconMS);
             AnimazioneUtil.aggiungiAnimazione(loginIconMS);
+            AnimazioneUtil.aggiungiAnimazione(BagStudio);
 
             AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeMacStudio, "/fxml/iPhone 17 Pro PageProduct.fxml");
             AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeMacStudio, "/fxml/iPhone 17 PageProduct.fxml");
@@ -482,6 +490,7 @@ public class MacProductController {
             AnimazioneUtil.verificaCambiaScena(logoIconMini, "/fxml/Home.fxml");
             AnimazioneUtil.aggiungiAnimazione(logoIconMini);
             AnimazioneUtil.aggiungiAnimazione(loginIconMini);
+            AnimazioneUtil.aggiungiAnimazione(BagMini);
         }
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeMacMini, "/fxml/iPhone 17 Pro PageProduct.fxml");

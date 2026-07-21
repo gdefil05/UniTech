@@ -4,12 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="upgrade2">
+    <list default="true" id="44610a66-0702-42ad-a5f7-ba88d4eede49" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CarrelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CarrelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/AirPodsProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/AirPodsProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/GenericProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/GenericProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/MacBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/MacBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/MacProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/MacProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/WatchProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/WatchProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/iPadProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/iPadProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/iPhoneProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/iPhoneProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Util/AnimazioneUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/AnimazioneUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/uid/unitech/UniTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/uid/unitech/UniTech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Carrello.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Carrello.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods 4 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods 4 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Max 2 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Max 2 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Pro 3 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Pro 3 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AirPods Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch SE 3 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch SE 3 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Series 11 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Series 11 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Ultra 3 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Apple Watch Ultra 3 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Checkout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Mac Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Mac Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Air 13 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Air 13 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Neo PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Neo PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Pro 14 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Pro 14 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacBook Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacMini PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacMini PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/MacStudio PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/MacStudio PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Watch Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Watch Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iMac PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iMac PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Air PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Air PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Pro PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Pro PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPad Product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 Pro PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone 17 Pro PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Air PageProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Air PageProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/iPhone Product.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,58 +52,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;jonathancaputo3-droid&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jonathancaputo3-droid"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/gdefil05/UniTech.git&quot;,
-    &quot;accountId&quot;: &quot;72fbe951-c6c4-4a8a-960b-28e248951ed1&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/gdefil05/UniTech.git",
+    "accountId": "72fbe951-c6c4-4a8a-960b-28e248951ed1"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="3GlD3zhuMAnKojtuzaQK31CMmjl" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3Gob3qQd24cIqWhgTiIalLIYvkU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniTech.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Jonny&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/IdeaProjects/UniTech/src/main/resources/it/uid/unitech/Images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Jonny",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Asus\IdeaProjects\UniTech\src\main\resources\it\uid\unitech\Images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Asus\IdeaProjects\UniTech\src\main\resources\it\uid\unitech\Images" />
-    </key>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,180 +95,15 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="" />
-      <created>1784537067362</created>
+      <changelist id="44610a66-0702-42ad-a5f7-ba88d4eede49" name="Changes" comment="" />
+      <created>1784640679376</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1784537067362</updated>
+      <updated>1784640679376</updated>
     </task>
-    <task id="LOCAL-00001" summary="fix">
-      <option name="closed" value="true" />
-      <created>1784558454401</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1784558454402</updated>
-    </task>
-    <task id="LOCAL-00002" summary="fix2">
-      <option name="closed" value="true" />
-      <created>1784559154287</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1784559154287</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ultimo fix">
-      <option name="closed" value="true" />
-      <created>1784560510312</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1784560510312</updated>
-    </task>
-    <task id="LOCAL-00004" summary="upgrade">
-      <option name="closed" value="true" />
-      <created>1784566117255</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1784566117255</updated>
-    </task>
-    <task id="LOCAL-00005" summary="upgrade">
-      <option name="closed" value="true" />
-      <created>1784566189270</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1784566189270</updated>
-    </task>
-    <task id="LOCAL-00006" summary="upgrade">
-      <option name="closed" value="true" />
-      <created>1784566372975</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1784566372975</updated>
-    </task>
-    <task id="LOCAL-00007" summary="upgrade">
-      <option name="closed" value="true" />
-      <created>1784566523652</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1784566523652</updated>
-    </task>
-    <task id="LOCAL-00008" summary="upgrade">
-      <option name="closed" value="true" />
-      <created>1784566972955</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1784566972955</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Acquista ora">
-      <option name="closed" value="true" />
-      <created>1784623893316</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1784623893317</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Acquista ora">
-      <option name="closed" value="true" />
-      <created>1784623942238</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1784623942238</updated>
-    </task>
-    <task id="LOCAL-00011" summary="upgrade2">
-      <option name="closed" value="true" />
-      <created>1784625627233</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1784625627234</updated>
-    </task>
-    <task id="LOCAL-00012" summary="upgrade2">
-      <option name="closed" value="true" />
-      <created>1784625759550</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1784625759550</updated>
-    </task>
-    <task id="LOCAL-00013" summary="upgrade2">
-      <option name="closed" value="true" />
-      <created>1784626020684</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1784626020684</updated>
-    </task>
-    <task id="LOCAL-00014" summary="upgrade2">
-      <option name="closed" value="true" />
-      <created>1784626315428</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1784626315429</updated>
-    </task>
-    <task id="LOCAL-00015" summary="upgrade2">
-      <option name="closed" value="true" />
-      <created>1784627251743</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1784627251743</updated>
-    </task>
-    <task id="LOCAL-00016" summary="upgrade2">
-      <option name="closed" value="true" />
-      <created>1784628876974</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1784628876974</updated>
-    </task>
-    <task id="LOCAL-00017" summary="upgrade2">
-      <option name="closed" value="true" />
-      <created>1784629750442</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1784629750442</updated>
-    </task>
-    <task id="LOCAL-00018" summary="upgrade2">
-      <option name="closed" value="true" />
-      <created>1784632849775</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1784632849775</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix" />
-    <MESSAGE value="fix2" />
-    <MESSAGE value="ultimo fix" />
-    <MESSAGE value="upgrade" />
-    <MESSAGE value="Acquista ora" />
-    <MESSAGE value="upgrade2" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade2" />
   </component>
 </project>

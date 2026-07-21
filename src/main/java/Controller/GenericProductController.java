@@ -398,6 +398,18 @@ public class GenericProductController
     private MenuItem AirPodsPro3HomeAirPodsProduct;
     @FXML
     private MenuItem AirPods4HomeAirPodsProduct;
+    @FXML
+    private FontIcon BagAirPods;
+    @FXML
+    private FontIcon BagWatch;
+    @FXML
+    private FontIcon BagMacProduct;
+    @FXML
+    private FontIcon BagIPadProduct;
+    @FXML
+    private FontIcon BagIPhoneProduct;
+    @FXML
+    private FontIcon BagMacBookProduct;
 
     @FXML
     private Button discoverAirPodsMax2Product;
@@ -424,6 +436,7 @@ public class GenericProductController
         AnimazioneUtil.verificaCambiaScena(loginIconiPhoneProduct, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIconiPhoneProduct);
         AnimazioneUtil.aggiungiAnimazione(loginIconiPhoneProduct);
+        AnimazioneUtil.aggiungiAnimazione(BagIPhoneProduct);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeiPhoneProduct, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeiPhoneProduct, "/fxml/iPhone 17 PageProduct.fxml");
@@ -462,6 +475,7 @@ public class GenericProductController
         AnimazioneUtil.verificaCambiaScena(loginIconiPadProduct, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIconiPadProduct);
         AnimazioneUtil.aggiungiAnimazione(loginIconiPadProduct);
+        AnimazioneUtil.aggiungiAnimazione(BagIPadProduct);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeiPadProduct, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeiPadProduct, "/fxml/iPhone 17 PageProduct.fxml");
@@ -497,6 +511,7 @@ public class GenericProductController
         AnimazioneUtil.verificaCambiaScena(loginIconMacProduct, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoiconMacProduct);
         AnimazioneUtil.aggiungiAnimazione(loginIconMacProduct);
+        AnimazioneUtil.aggiungiAnimazione(BagMacProduct);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeMacProduct, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeMacProduct, "/fxml/iPhone 17 PageProduct.fxml");
@@ -517,6 +532,7 @@ public class GenericProductController
         AnimazioneUtil.verificaCambiaScenaItem(AirPodsPro3HomeMacProduct, "/fxml/AirPods Pro 3 PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(AirPods4HomeMacProduct, "/fxml/AirPods 4 PageProduct.fxml");
 
+
         AnimazioneUtil.verificaCambiaScena(discoveriMacProduct, "/fxml/iMac PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScena(discoverMacStudioProduct, "/fxml/MacStudio PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScena(discoverMacMiniProduct, "/fxml/MacMini PageProduct.fxml");
@@ -532,6 +548,7 @@ public class GenericProductController
         AnimazioneUtil.verificaCambiaScena(loginIconMacBookProduct, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIconMacBookProduct);
         AnimazioneUtil.aggiungiAnimazione(loginIconMacBookProduct);
+        AnimazioneUtil.aggiungiAnimazione(BagMacBookProduct);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeMacBookProduct, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeMacBookProduct, "/fxml/iPhone 17 PageProduct.fxml");
@@ -568,6 +585,7 @@ public class GenericProductController
         AnimazioneUtil.verificaCambiaScena(loginIconWatchProduct, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoiconWatchProduct);
         AnimazioneUtil.aggiungiAnimazione(loginIconWatchProduct);
+        AnimazioneUtil.aggiungiAnimazione(BagWatch);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeWatchProduct, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeWatchProduct, "/fxml/iPhone 17 PageProduct.fxml");
@@ -603,6 +621,7 @@ public class GenericProductController
         AnimazioneUtil.verificaCambiaScena(loginIconAirPodsProduct, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoiconAirPodsProduct);
         AnimazioneUtil.aggiungiAnimazione(loginIconAirPodsProduct);
+        AnimazioneUtil.aggiungiAnimazione(BagAirPods);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeAirPodsProduct, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeAirPodsProduct, "/fxml/iPhone 17 PageProduct.fxml");

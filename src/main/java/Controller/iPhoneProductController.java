@@ -182,6 +182,8 @@ public class iPhoneProductController {
     private FontIcon loginIcon17;
     @FXML
     private ImageView logoIcon17;
+    @FXML
+    private FontIcon Bag17;
 
     // Navigazione iPhone 17
     @FXML private SplitMenuButton iPhoneHome17;
@@ -235,7 +237,9 @@ public class iPhoneProductController {
     @FXML
     private FontIcon loginIcon17Pro;
     @FXML
-    private ImageView logoIcon17Pro;   
+    private ImageView logoIcon17Pro;
+    @FXML
+    private FontIcon BagPro;
 
     // Navigazione iPhone 17 Pro
     @FXML private SplitMenuButton iPhoneHome17Pro;
@@ -291,7 +295,9 @@ public class iPhoneProductController {
     @FXML
     private FontIcon loginIconAir;
     @FXML
-    private ImageView logoIconAir;  
+    private ImageView logoIconAir;
+    @FXML
+    private FontIcon BagAir;
 
     // Navigazione iPhone Air
     @FXML private SplitMenuButton iPhoneHomeAir;
@@ -415,6 +421,7 @@ public class iPhoneProductController {
         AnimazioneUtil.verificaCambiaScena(logoIcon17, "/fxml/Home.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIcon17);
         AnimazioneUtil.aggiungiAnimazione(loginIcon17);
+        AnimazioneUtil.aggiungiAnimazione(Bag17);
 
         // ------------------------------------------
         // Prodotto iPhone 17 Pro
@@ -495,6 +502,7 @@ public class iPhoneProductController {
         AnimazioneUtil.verificaCambiaScena(logoIcon17Pro, "/fxml/Home.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIcon17Pro);
         AnimazioneUtil.aggiungiAnimazione(loginIcon17Pro);
+        AnimazioneUtil.aggiungiAnimazione(BagPro);
 
         // ------------------------------------------
         // Prodotto iPhone Air
@@ -582,6 +590,7 @@ public class iPhoneProductController {
         AnimazioneUtil.verificaCambiaScena(logoIconAir, "/fxml/Home.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIconAir);
         AnimazioneUtil.aggiungiAnimazione(loginIconAir);
+        AnimazioneUtil.aggiungiAnimazione(BagAir);
     }
 
     private Image loadImage(String resourcePath) {

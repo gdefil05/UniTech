@@ -173,6 +173,8 @@ public class iPadProductController {
     private Button btn256_iPad;
     @FXML
     private Button btn512_iPad;
+    @FXML
+    private FontIcon BagIpad;
 
         // Navigazione (sezione iPad)
     @FXML private SplitMenuButton iPhoneHomeiPad;
@@ -229,6 +231,8 @@ public class iPadProductController {
     private Button btn512_iPadAir;
     @FXML
     private Button btn1TB_iPadAir;
+    @FXML
+    private FontIcon BagAir;
 
         // Navigazione (sezione iPad Air)
     @FXML private SplitMenuButton iPhoneHomeiPadAir;
@@ -279,6 +283,8 @@ public class iPadProductController {
     private Button btn1TB_iPadPro;
     @FXML
     private Button btn2TB_iPadPro;
+    @FXML
+    private FontIcon BagPro;
 
         // Navigazione (sezione iPad Pro)
     @FXML private SplitMenuButton iPhoneHomeiPadPro;
@@ -376,6 +382,7 @@ public class iPadProductController {
         AnimazioneUtil.verificaCambiaScena(loginIconiPad, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIconiPad);
         AnimazioneUtil.aggiungiAnimazione(loginIconiPad);
+        AnimazioneUtil.aggiungiAnimazione(BagIpad);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeiPad, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeiPad, "/fxml/iPhone 17 PageProduct.fxml");
@@ -467,6 +474,8 @@ public class iPadProductController {
         AnimazioneUtil.verificaCambiaScena(loginIconiPadAir, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIconiPadAir);
         AnimazioneUtil.aggiungiAnimazione(loginIconiPadAir);
+        AnimazioneUtil.aggiungiAnimazione(BagAir);
+
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeiPadAir, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeiPadAir, "/fxml/iPhone 17 PageProduct.fxml");
@@ -544,6 +553,7 @@ public class iPadProductController {
         AnimazioneUtil.verificaCambiaScena(loginIconiPadPro, "/fxml/ProfileOption.fxml");
         AnimazioneUtil.aggiungiAnimazione(logoIconiPadPro);
         AnimazioneUtil.aggiungiAnimazione(loginIconiPadPro);
+        AnimazioneUtil.aggiungiAnimazione(BagPro);
 
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17ProHomeiPadPro, "/fxml/iPhone 17 Pro PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(iPhone17HomeiPadPro, "/fxml/iPhone 17 PageProduct.fxml");
