@@ -39,9 +39,13 @@ public class CarrelloController {
     private Button esciCarrelloBtn;
 
     @FXML
+    private Button esci;
+
+    @FXML
     public void initialize() {
         aggiornaCarrello();
         AnimazioneUtil.aggiungiAnimazione(esciCarrelloBtn);
+        AnimazioneUtil.aggiungiAnimazione(esci);
     }
 
     public void aggiornaCarrello() {

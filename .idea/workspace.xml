@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8563383-da05-4c61-b460-6fb53134e349" name="Changes" comment="upgrade2">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/it/uid/unitech/Images/icons8-redux-50.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CarrelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/CarrelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/uid/unitech/UniTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/uid/unitech/UniTech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/it/uid/unitech/Images/chipM5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Carrello.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Carrello.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Style/unitech.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,10 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -220,11 +223,30 @@
       <option name="project" value="LOCAL" />
       <updated>1784629750442</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="upgrade2">
+      <option name="closed" value="true" />
+      <created>1784632849775</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1784632849775</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />

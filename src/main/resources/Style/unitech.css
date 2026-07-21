@@ -827,6 +827,11 @@
   -fx-cursor: arrow;
 }
 
+.check-icon:hover {
+  -fx-icon-color: green;
+  -fx-cursor: arrow;
+}
+
 .x-icon{
   -fx-icon-color: red;
   -fx-cursor:hand;
