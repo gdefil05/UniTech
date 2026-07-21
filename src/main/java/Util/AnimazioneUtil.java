@@ -337,6 +337,7 @@ public class AnimazioneUtil {
         fadeOut.setToValue(0.0);
 
         ParallelTransition uscita = new ParallelTransition(slideOut, fadeOut);
+
         uscita.setDelay(Duration.millis(2000));
         uscita.setOnFinished(e -> {
             root.getChildren().remove(toast);
