@@ -14,7 +14,6 @@ import org.kordamp.ikonli.javafx.FontIcon;
 
 import java.util.function.UnaryOperator;
 
-import Model.Carrello;
 import Model.CheckoutSession;
 import Model.ElementoCarrello;
 import Util.AnimazioneUtil;
