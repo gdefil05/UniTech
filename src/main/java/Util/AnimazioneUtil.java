@@ -332,10 +332,11 @@ public class AnimazioneUtil {
         slideOut.setToY(-40);
         slideOut.setInterpolator(Interpolator.EASE_IN);
 
-        ParallelTransition uscita = new ParallelTransition(
-                slideOut,
-                new FadeTransition(Duration.millis(400), toast)
-        );
+        FadeTransition fadeOut = new FadeTransition(Duration.millis(400), toast);
+        fadeOut.setFromValue(1.0);
+        fadeOut.setToValue(0.0);
+
+        ParallelTransition uscita = new ParallelTransition(slideOut, fadeOut);
         uscita.setDelay(Duration.millis(2000));
         uscita.setOnFinished(e -> {
             root.getChildren().remove(toast);
