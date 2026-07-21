@@ -22,7 +22,7 @@ import java.util.Objects;
 public class WatchProductController {
 
     // =========================
-    // 📦 VARIABILI Apple Watch Ultra 3
+    // VARIABILI Apple Watch Ultra 3
     // =========================
     private String coloreUltra3 = "Nero";
     private String connettivitaUltra3 = "GPS";
@@ -30,7 +30,7 @@ public class WatchProductController {
     private Image immagineUltra3 = loadImage("/it/uid/unitech/Images/Apple Watch Ultra 3 Black.png");
 
     // =========================
-    // 📦 VARIABILI Apple Watch SE 3
+    // VARIABILI Apple Watch SE 3
     // =========================
     private String coloreSE3 = "Nero";
     private String connettivitaSE3 = "GPS";
@@ -38,7 +38,7 @@ public class WatchProductController {
     private Image immagineSE3 = loadImage("/it/uid/unitech/Images/Apple Watch SE 3 Black.png");
 
     // =========================
-    // 📦 VARIABILI Apple Watch Series 11
+    // VARIABILI Apple Watch Series 11
     // =========================
     private String coloreSeries11 = "Naturale";
     private String connettivitaSeries11 = "GPS";
@@ -47,7 +47,7 @@ public class WatchProductController {
 
 
     // =========================
-    // 🛒 AGGIUNTA AL CARRELLO
+    // Inserimento nel carrello dell'Apple Watch Ultra 3
     // =========================
     @FXML
     private void aggiungiWatchUltra3(MouseEvent event) {
@@ -62,6 +62,10 @@ public class WatchProductController {
         AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
+
+    // =========================
+    // Inserimento nel carrello dell'Apple Watch SE 3
+    // =========================
     @FXML
     private void aggiungiWatchSE3(MouseEvent event) {
         ElementoCarrello item = new ElementoCarrello(
@@ -75,6 +79,11 @@ public class WatchProductController {
         AnimazioneUtil.mostraNotificaCarrello((Node) event.getSource(), item.getNome());
     }
 
+
+
+    // =========================
+    // Inserimento nel carrello dell'Apple Series 11
+    // =========================
     @FXML
     private void aggiungiWatchSeries11(MouseEvent event) {
         ElementoCarrello item = new ElementoCarrello(
@@ -90,7 +99,7 @@ public class WatchProductController {
 
 
     // =========================
-    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // Acquisto diretto dell' Apple Watch Ultra 3
     // =========================
     @FXML
     private void acquistaOraWatchUltra3(MouseEvent event) {
@@ -104,6 +113,12 @@ public class WatchProductController {
         NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
+
+
+
+    // =========================
+    // Acquisto diretto dell' Apple Watch SE 3
+    // =========================
     @FXML
     private void acquistaOraWatchSE3(MouseEvent event) {
         ElementoCarrello item = new ElementoCarrello(
@@ -116,6 +131,12 @@ public class WatchProductController {
         NavigationManager.apriCheckout((Node) event.getSource(), item);
     }
 
+
+
+
+    // =========================
+    // Acquisto diretto dell' Apple Watch Series 11
+    // =========================
     @FXML
     private void acquistaOraWatchSeries11(MouseEvent event) {
         ElementoCarrello item = new ElementoCarrello(
@@ -130,7 +151,7 @@ public class WatchProductController {
 
 
     // =========================
-    // 🛒 APERTURA CARRELLO
+    // Apertura del carrello
     // =========================
     @FXML
     private void apriCarrello(MouseEvent event) {
@@ -162,7 +183,9 @@ public class WatchProductController {
     @FXML
     private FontIcon BagUltra;
 
-        // Navigazione (sezione Apple Watch Ultra 3)
+
+
+    // Navigazione (sezione Apple Watch Ultra 3)
     @FXML private SplitMenuButton iPhoneHomeWatchUltra3;
     @FXML private SplitMenuButton iPadHomeWatchUltra3;
     @FXML private SplitMenuButton MacHomeWatchUltra3;
@@ -215,7 +238,9 @@ public class WatchProductController {
     @FXML
     private FontIcon BagSE;
 
-        // Navigazione (sezione Apple Watch SE 3)
+
+
+    // Navigazione (sezione Apple Watch SE 3)
     @FXML private SplitMenuButton iPhoneHomeWatchSE3;
     @FXML private SplitMenuButton iPadHomeWatchSE3;
     @FXML private SplitMenuButton MacHomeWatchSE3;
@@ -266,7 +291,9 @@ public class WatchProductController {
     @FXML
     private FontIcon Bag11;
 
-        // Navigazione (sezione Apple Watch Series 11)
+
+
+    // Navigazione (sezione Apple Watch Series 11)
     @FXML private SplitMenuButton iPhoneHomeWatchSeries11;
     @FXML private SplitMenuButton iPadHomeWatchSeries11;
     @FXML private SplitMenuButton MacHomeWatchSeries11;
@@ -297,7 +324,7 @@ public class WatchProductController {
     public void initialize(){
 
         // ==========================================
-        // ⌚ Apple Watch Ultra 3
+        //  Apple Watch Ultra 3
         // ==========================================
         if (immagineProdottoUltra != null) {
             if (circleNeroUltra != null) AnimazioneUtil.aggiungiClickColore(circleNeroUltra, "Nero", "/it/uid/unitech/Images/Apple Watch Ultra 3 Black.png", coloreLabelUltra, immagineProdottoUltra);
@@ -349,7 +376,7 @@ public class WatchProductController {
 
 
         // ==========================================
-        // ⌚ Apple Watch SE 3
+        // Apple Watch SE 3
         // ==========================================
         if (immagineProdottoSE != null) {
             if (circleNeroSE != null) AnimazioneUtil.aggiungiClickColore(circleNeroSE, "Nero", "/it/uid/unitech/Images/Apple Watch SE 3 Black.png", coloreLabelSE, immagineProdottoSE);
@@ -410,7 +437,7 @@ public class WatchProductController {
 
 
         // ==========================================
-        // ⌚ Apple Watch Series 11
+        // Apple Watch Series 11
         // ==========================================
         if (immagineProdotto11 != null) {
             if (circleGrigio11 != null) AnimazioneUtil.aggiungiClickColore(circleGrigio11, "Naturale", "/it/uid/unitech/Images/Apple Watch Series 11 Naturale.png", coloreLabel11, immagineProdotto11);
@@ -460,6 +487,8 @@ public class WatchProductController {
             }
         }
 
+
+
         AnimazioneUtil.aggiungiAnimazione(Bag11);
         AnimazioneUtil.aggiungiAnimazione(BagSE);
         AnimazioneUtil.aggiungiAnimazione(BagUltra);
@@ -482,6 +511,8 @@ public class WatchProductController {
         AnimazioneUtil.verificaCambiaScena(logoIconSE3, "/fxml/Home.fxml");
         AnimazioneUtil.verificaCambiaScena(logoIconUltra, "/fxml/Home.fxml");
         AnimazioneUtil.verificaCambiaScena(logoIcon11, "/fxml/Home.fxml");
+
+
 
         // Navigazione (sezione Apple Watch Ultra 3)
         AnimazioneUtil.verificaCambiaScena(iPhoneHomeWatchUltra3, "/fxml/iPhone Product.fxml");
@@ -511,6 +542,7 @@ public class WatchProductController {
         AnimazioneUtil.verificaCambiaScenaItem(AirPods4HomeWatchUltra3, "/fxml/AirPods 4 PageProduct.fxml");
         
 
+
         // Navigazione (sezione Apple Watch SE 3)
         AnimazioneUtil.verificaCambiaScena(iPhoneHomeWatchSE3, "/fxml/iPhone Product.fxml");
         AnimazioneUtil.verificaCambiaScena(iPadHomeWatchSE3, "/fxml/iPad Product.fxml");
@@ -537,6 +569,8 @@ public class WatchProductController {
         AnimazioneUtil.verificaCambiaScenaItem(AirPodsMax2HomeWatchSE3, "/fxml/AirPods Max 2 PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(AirPodsPro3HomeWatchSE3, "/fxml/AirPods Pro 3 PageProduct.fxml");
         AnimazioneUtil.verificaCambiaScenaItem(AirPods4HomeWatchSE3, "/fxml/AirPods 4 PageProduct.fxml");
+
+
 
         // Navigazione (sezione Apple Watch Series 11)
         AnimazioneUtil.verificaCambiaScena(iPhoneHomeWatchSeries11, "/fxml/iPhone Product.fxml");

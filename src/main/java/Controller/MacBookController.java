@@ -21,7 +21,7 @@ import java.util.Objects;
 public class MacBookController {
 
     // ==========================================
-    // 📦 VARIABILI MACBOOK PRO 14
+    // VARIABILI MACBOOK PRO 14
     // ==========================================
     private String coloreMacPro14 = "Nero";
     private String memoriaMacPro14 = "1TB";
@@ -29,7 +29,7 @@ public class MacBookController {
     private Image immagineMacPro14 = loadImage("/it/uid/unitech/Images/macbook pro 14 m5 nero.png");
 
     // ==========================================
-    // 📦 VARIABILI MACBOOK AIR 13
+    // VARIABILI MACBOOK AIR 13
     // ==========================================
     private String coloreMacAir13 = "Celeste";
     private String memoriaMacAir13 = "512 GB";
@@ -37,7 +37,7 @@ public class MacBookController {
     private Image immagineMacAir13 = loadImage("/it/uid/unitech/Images/macbook air 13 m5 celeste.png");
 
     // ==========================================
-    // 📦 VARIABILI MACBOOK NEO
+    // VARIABILI MACBOOK NEO
     // ==========================================
     private String coloreMacNeo = "Argento";
     private String memoriaMacNeo = "256 GB";
@@ -46,7 +46,7 @@ public class MacBookController {
 
 
     // ==========================================
-    // 🛒 AGGIUNTA AL CARRELLO
+    // AGGIUNTA AL CARRELLO
     // ==========================================
     @FXML
     private void aggiungiMacBookPro14(MouseEvent event) {
@@ -89,7 +89,7 @@ public class MacBookController {
 
 
     // ==========================================
-    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // Acquisto diretto di un MacBookPro 14
     // ==========================================
     @FXML
     private void acquistaOraMacBookPro14(MouseEvent event) {
@@ -129,7 +129,7 @@ public class MacBookController {
 
 
     // ==========================================
-    // 🛒 APERTURA CARRELLO
+    // Apertura del carrello
     // ==========================================
     @FXML
     private void apriCarrello(MouseEvent event) {
@@ -138,7 +138,7 @@ public class MacBookController {
 
 
     // ==========================================
-    // 💻 DATI MacBook Pro 14
+    // Dati Macbook pro 14
     // ==========================================
     @FXML private ImageView immagineProdotto14;
     @FXML private Label prezzoLabel14;
@@ -148,6 +148,8 @@ public class MacBookController {
     @FXML private Button btn1_14;
     @FXML private Button btn2_14;
     @FXML private FontIcon BagPro;
+
+
 
     // Navigazione MacBook Pro 14
     @FXML private ImageView logoiconMacBookPro14;
@@ -179,7 +181,7 @@ public class MacBookController {
     @FXML private MenuItem AirPods4HomeMacBookPro14;
 
     // ==========================================
-    // 💻 DATI MacBook Air 13
+    //  DATI MacBook Air 13
     // ==========================================
     @FXML private ImageView immagineProdotto13;
     @FXML private Label prezzoLabel13;
@@ -191,6 +193,8 @@ public class MacBookController {
     @FXML private Button btn512_13;
     @FXML private Button btn1_13;
     @FXML private FontIcon BagAir;
+
+
 
     // Navigazione MacBook Air 13
     @FXML private ImageView logoiconMacBookAir13;
@@ -223,7 +227,7 @@ public class MacBookController {
 
 
     // ==========================================
-    // 💻 DATI MacBook Neo
+    // DATI MacBook Neo
     // ==========================================
     @FXML private ImageView immagineProdottoNeo;
     @FXML private Label prezzoLabelNeo;
@@ -267,13 +271,11 @@ public class MacBookController {
 
 
 
-    // ==========================================
-    // ⚙️ INITIALIZE
-    // ==========================================
+
     public void initialize() {
 
         // ==========================================
-        // 💻 1️⃣ DATI & GRAFICA PRODOTTO: MacBook Pro 14
+        // DATI & GRAFICA PRODOTTO: MacBook Pro 14
         // ==========================================
         if (immagineProdotto14 != null) {
             AnimazioneUtil.aggiungiClickColore(circleNero14, "Nero", "/it/uid/unitech/Images/macbook pro 14 m5 nero.png", coloreLabel14, immagineProdotto14);
@@ -313,7 +315,7 @@ public class MacBookController {
                 });
             }
 
-            // 🔄 Navigazione MacBook Pro 14
+            //Navigazione MacBook Pro 14
             AnimazioneUtil.verificaCambiaScena(iPhoneHomeMacBookPro14, "/fxml/iPhone Product.fxml");
             AnimazioneUtil.verificaCambiaScena(iPadHomeMacBookPro14, "/fxml/iPad Product.fxml");
             AnimazioneUtil.verificaCambiaScena(MacHomeMacBookPro14, "/fxml/Mac Product.fxml");
@@ -350,7 +352,7 @@ public class MacBookController {
 
 
         // ==========================================
-        // 💻 2️⃣ DATI & GRAFICA PRODOTTO: MacBook Air 13
+        // DATI & GRAFICA PRODOTTO: MacBook Air 13
         // ==========================================
         if (immagineProdotto13 != null) {
             AnimazioneUtil.aggiungiClickColore(circleCeleste13, "Celeste", "/it/uid/unitech/Images/macbook air 13 m5 celeste.png", coloreLabel13, immagineProdotto13);
@@ -408,7 +410,9 @@ public class MacBookController {
                 });
             }
 
-            // 🔄 Navigazione MacBook Air 13
+
+
+            //Navigazione MacBook Air 13
             AnimazioneUtil.verificaCambiaScena(iPhoneHomeMacBookAir13, "/fxml/iPhone Product.fxml");
             AnimazioneUtil.verificaCambiaScena(iPadHomeMacBookAir13, "/fxml/iPad Product.fxml");
             AnimazioneUtil.verificaCambiaScena(MacHomeMacBookAir13, "/fxml/Mac Product.fxml");
@@ -445,7 +449,7 @@ public class MacBookController {
 
 
         // ==========================================
-        // 💻 3️⃣ DATI & GRAFICA PRODOTTO: MacBook Neo
+        // DATI & GRAFICA PRODOTTO: MacBook Neo
         // ==========================================
         if (immagineProdottoNeo != null) {
             if (circleArgentoNeo != null) AnimazioneUtil.aggiungiClickColore(circleArgentoNeo, "Argento", "/it/uid/unitech/Images/macbook neo argento.png", coloreLabelNeo, immagineProdottoNeo);
@@ -503,7 +507,7 @@ public class MacBookController {
                 });
             }
 
-            // 🔄 Navigazione MacBook Neo
+            //Navigazione MacBook Neo
             AnimazioneUtil.verificaCambiaScena(iPhoneHomeMacBookNeo, "/fxml/iPhone Product.fxml");
             AnimazioneUtil.verificaCambiaScena(iPadHomeMacBookNeo, "/fxml/iPad Product.fxml");
             AnimazioneUtil.verificaCambiaScena(MacHomeMacBookNeo, "/fxml/Mac Product.fxml");

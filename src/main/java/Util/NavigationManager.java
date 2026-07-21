@@ -22,13 +22,9 @@ public class NavigationManager {
         eseguiTransizioneVersoCarrello(scene, root);
     }
 
-    /**
-     * Torna al Carrello SENZA sovrascrivere il previousRoot già impostato.
-     * Usato ad esempio quando si annulla il Checkout: il previousRoot deve
-     * restare quello impostato prima di entrare nel Checkout (es. la pagina
-     * prodotto da cui è partito un "Acquista ora"), altrimenti il tasto
-     * "esci dal carrello" riporterebbe erroneamente al Checkout stesso.
-     */
+
+    //Torna al Carrello SENZA sovrascrivere il previousRoot già impostato
+
     public static void apriCarrelloMantenendoPrecedente(Node nodo) {
 
         Scene scene = nodo.getScene();
@@ -67,31 +63,20 @@ public class NavigationManager {
         fadeOut.play();
     }
 
-    /**
-     * Checkout "classico", raggiunto dalla pagina Carrello: mostra tutti i
-     * prodotti attualmente presenti nel carrello.
-     *
-     * IMPORTANTE: non tocca il previousRoot. Deve restare quello impostato
-     * quando si è entrati nel Carrello (tipicamente la pagina prodotto),
-     * altrimenti "esci dal carrello" riporterebbe erroneamente al Carrello
-     * stesso (che è la scena attiva in questo preciso momento).
-     */
+
+    // Mostra tutti i prodotti attualmente presenti nel carrello.
     public static void apriCheckout(Node nodo) {
         CheckoutSession.getIstanza().impostaCheckoutNormale();
         navigaVersoCheckoutSenzaSalvarePrecedente(nodo);
     }
 
-    /**
-     * Checkout "Acquista ora": il prodotto viene prima aggiunto normalmente
-     * al Carrello (così se l'utente annulla lo ritrova lì), poi la sessione
-     * di Checkout viene isolata sul solo prodotto scelto, in modo che il
-     * resto del carrello non venga toccato né mostrato in questa schermata.
-     * L'animazione di transizione è identica a quella del checkout normale.
-     *
-     * Qui, a differenza del checkout classico, il previousRoot VA impostato:
-     * si parte direttamente dalla pagina prodotto, che deve diventare il
-     * riferimento per un successivo "esci dal carrello".
-     */
+
+
+
+    /*
+      Apre il checkout rapido "Acquista ora", isolando il prodotto selezionato
+      senza modificare gli altri elementi presenti nel carrello.
+    */
     public static void apriCheckout(Node nodo, ElementoCarrello prodotto) {
         Carrello.getIstanza().aggiungiProdotto(prodotto);
         CheckoutSession.getIstanza().impostaCheckoutRapido(prodotto);
@@ -133,6 +118,9 @@ public class NavigationManager {
         fadeOut.play();
     }
 
+
+
+    // Apertura del fxml dove l'acquisto viene confermato
     public static void apriConferma(Node nodo) {
 
         Scene scene = nodo.getScene();

@@ -21,7 +21,7 @@ import java.util.Objects;
 public class MacProductController {
 
     // =========================
-    // 📦 VARIABILI iMac
+    // VARIABILI iMac
     // =========================
     private String coloreiMac = "Argento";
     private String memoriaiMac = "256 GB";
@@ -29,7 +29,7 @@ public class MacProductController {
     private Image immagineiMac = loadImage("/it/uid/unitech/Images/imac_argento.png");
 
     // =========================
-    // 📦 VARIABILI Mac Studio
+    // VARIABILI Mac Studio
     // =========================
     private String coloreMacStudio = "Argento";
     private String memoriaMacStudio = "512 GB";
@@ -37,7 +37,7 @@ public class MacProductController {
     private Image immagineMacStudio = loadImage("/it/uid/unitech/Images/mac_studio.png");
 
     // =========================
-    // 📦 VARIABILI Mac Mini
+    // VARIABILI Mac Mini
     // =========================
     private String coloreMacMini = "Argento";
     private String memoriaMacMini = "256 GB";
@@ -46,7 +46,7 @@ public class MacProductController {
 
 
     // =========================
-    // 🛒 AGGIUNTA AL CARRELLO
+    // Aggiunta dell'iMAc nel carrello
     // =========================
     @FXML
     private void aggiungiiMac(MouseEvent event) {
@@ -89,7 +89,7 @@ public class MacProductController {
 
 
     // =========================
-    // ⚡ ACQUISTA ORA (checkout rapido su singolo prodotto)
+    // Acqusito diretto di un iMac
     // =========================
     @FXML
     private void acquistaOraiMac(MouseEvent event) {
@@ -129,7 +129,7 @@ public class MacProductController {
 
 
     // =========================
-    // 🛒 APERTURA CARRELLO
+    // Apertura del carrello
     // =========================
     @FXML
     private void apriCarrello(MouseEvent event) {
@@ -161,7 +161,9 @@ public class MacProductController {
     @FXML
     private FontIcon BagMac;
 
-        // Navigazione (sezione iMac)
+
+
+    // Navigazione (sezione iMac)
     @FXML private SplitMenuButton iPhoneHomeiMac;
     @FXML private SplitMenuButton iPadHomeiMac;
     @FXML private SplitMenuButton MacHomeiMac;
@@ -189,6 +191,7 @@ public class MacProductController {
     @FXML private MenuItem AirPods4HomeiMac;
 
 
+
     //DATI MacStudio
     @FXML
     private ImageView immagineProdottoMS;
@@ -211,7 +214,9 @@ public class MacProductController {
     @FXML
     private FontIcon BagStudio;
 
-        // Navigazione (sezione Mac Studio)
+
+
+    // Navigazione (sezione Mac Studio)
     @FXML private SplitMenuButton iPhoneHomeMacStudio;
     @FXML private SplitMenuButton iPadHomeMacStudio;
     @FXML private SplitMenuButton MacHomeMacStudio;
@@ -239,6 +244,7 @@ public class MacProductController {
     @FXML private MenuItem AirPods4HomeMacStudio;
 
 
+
     //DATI Mac Mini
     @FXML
     private ImageView immagineProdottoMini;
@@ -261,7 +267,9 @@ public class MacProductController {
     @FXML
     private FontIcon BagMini;
 
-        // Navigazione (sezione Mac Mini)
+
+
+    // Navigazione (sezione Mac Mini)
     @FXML private SplitMenuButton iPhoneHomeMacMini;
     @FXML private SplitMenuButton iPadHomeMacMini;
     @FXML private SplitMenuButton MacHomeMacMini;
